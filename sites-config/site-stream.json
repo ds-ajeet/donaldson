@@ -1,0 +1,31 @@
+{
+  "$id": "site-entity",
+  "filter": {
+    "entityIds": ["globleData"]
+  },
+  "source": "knowledgeGraph",
+  "fields": [
+    "name",
+    "c_mgmTimberLogo",
+    "c_headerLinks",
+    "c_headerFirst",
+    "c_footerDescription",
+    "c_socialIcons",
+    "c_customer_Services",
+    "c_aboutMgm",
+    "headline",
+    "c_termAndConditioon",
+    "c_privacyPolicy",
+    "c_cookiePolicy",
+    "c_jdGroups",
+    "c_payment",
+    "c_countact",
+    "c_newsletter",
+    "c_newsletterHeading"
+
+  ],
+  "localization": {
+    "locales": ["en_GB"],
+    "primary": false
+  }
+}

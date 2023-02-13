@@ -1,0 +1,285 @@
+{
+	"__": {
+		"entityPageSet": {
+			"plugin": {}
+		},
+		"name": "locator",
+		"streamId": "Locator",
+		"templateType": "JS"
+	},
+	"_site": {
+		"c_aboutMgm": {
+			"headerLinkHeading": "About MGM",
+			"headingLink": [
+				{
+					"label": "About Us",
+					"link": "https://www.mgmtimber.co.uk/about-us",
+					"linkType": "URL"
+				},
+				{
+					"label": "Credit Account",
+					"link": "https://www.mgmtimber.co.uk/media/CreditAppV4.pdf",
+					"linkType": "URL"
+				},
+				{
+					"label": "Environmental",
+					"link": "https://www.mgmtimber.co.uk/environmental",
+					"linkType": "URL"
+				},
+				{
+					"label": "Modern Slavery Statement",
+					"link": "https://www.mgmtimber.co.uk/media/pdf/modern-slavery-statement-2020.pdf",
+					"linkType": "URL"
+				},
+				{
+					"label": "News",
+					"link": "https://www.mgmtimber.co.uk/news",
+					"linkType": "URL"
+				}
+			]
+		},
+		"c_cookiePolicy": {
+			"label": "Cookie Policy"
+		},
+		"c_countact": [
+			{
+				"label": "Contact Us",
+				"link": "+441738472036",
+				"linkType": "PHONE"
+			},
+			{
+				"label": "Get a Quote",
+				"link": "https://www.mgmtimber.co.uk/get-a-quote",
+				"linkType": "URL"
+			},
+			{
+				"label": "Find a Branch",
+				"link": "https://www.mgmtimber.co.uk/branch-locator",
+				"linkType": "URL"
+			}
+		],
+		"c_customer_Services": {
+			"headerLinkHeading": "Customer Services",
+			"headingLink": [
+				{
+					"label": "Contact Us",
+					"link": "https://www.mgmtimber.co.uk/contact-us",
+					"linkType": "URL"
+				},
+				{
+					"label": "Find a Branch",
+					"link": "https://www.mgmtimber.co.uk/branch-locator",
+					"linkType": "URL"
+				},
+				{
+					"label": "Get a Quote",
+					"link": "https://www.mgmtimber.co.uk/get-a-quote",
+					"linkType": "URL"
+				},
+				{
+					"label": "Delivery Information",
+					"link": "https://www.mgmtimber.co.uk/delivery-information",
+					"linkType": "URL"
+				},
+				{
+					"label": "Click \u0026 Collect",
+					"link": "https://www.mgmtimber.co.uk/click-collect",
+					"linkType": "URL"
+				},
+				{
+					"label": "Returns \u0026 Refunds",
+					"link": "https://www.mgmtimber.co.uk/returns-policy",
+					"linkType": "URL"
+				},
+				{
+					"label": "FAQs",
+					"link": "https://www.mgmtimber.co.uk/faqs",
+					"linkType": "URL"
+				}
+			]
+		},
+		"c_footerDescription": "MGM Timber\\-Copyright © 2023. All Rights Reserved, all 3rd party trademarks acknowledged.",
+		"c_headerFirst": [
+			{
+				"label": "Job List",
+				"link": "https://www.mgmtimber.co.uk/customer/account/login/referer/aHR0cHM6Ly93d3cubWdtdGltYmVyLmNvLnVrL213aXNobGlzdC93aXNobGlzdC9pbmRleC8%2C/",
+				"linkType": "URL"
+			},
+			{
+				"label": "Branch Locator",
+				"link": "https://www.mgmtimber.co.uk/branch-locator",
+				"linkType": "URL"
+			},
+			{
+				"label": "My Account",
+				"link": "https://www.mgmtimber.co.uk/customer/account/login/",
+				"linkType": "URL"
+			},
+			{
+				"label": "My Basket",
+				"linkType": "URL"
+			}
+		],
+		"c_headerLinks": [
+			{
+				"label": "Timber",
+				"link": "https://www.mgmtimber.co.uk/timber",
+				"linkType": "URL"
+			},
+			{
+				"label": "Landscaping",
+				"link": "https://www.mgmtimber.co.uk/landscaping",
+				"linkType": "URL"
+			},
+			{
+				"label": "Sheet Material",
+				"link": "https://www.mgmtimber.co.uk/sheet-materials",
+				"linkType": "URL"
+			},
+			{
+				"label": "Kitchens Bathrooms",
+				"link": "https://www.mgmtimber.co.uk/kitchens-bathrooms",
+				"linkType": "URL"
+			},
+			{
+				"label": "Doors Windows Joinery",
+				"link": "https://www.mgmtimber.co.uk/doors-windows-joinery",
+				"linkType": "URL"
+			},
+			{
+				"label": "Flooring",
+				"link": "https://www.mgmtimber.co.uk/flooring",
+				"linkType": "URL"
+			},
+			{
+				"label": "Insulation Membranes",
+				"link": "https://www.mgmtimber.co.uk/insulation-membranes",
+				"linkType": "URL"
+			},
+			{
+				"label": "Dry Lining",
+				"link": "https://www.mgmtimber.co.uk/dry-lining",
+				"linkType": "URL"
+			},
+			{
+				"label": "Tools Fixings Ironmongery",
+				"link": "https://www.mgmtimber.co.uk/tools-fixings-ironmongery",
+				"linkType": "URL"
+			}
+		],
+		"c_jdGroups": {
+			"height": 36,
+			"url": "https://a.mktgcdn.com/p-sandbox/nogfz58irpjgqky543uFAOpl4gbkPObut-DwB5KIAt8/480x36.png",
+			"width": 480
+		},
+		"c_mgmTimberLogo": {
+			"height": 108,
+			"url": "https://a.mktgcdn.com/p-sandbox/J2k9DLD7jOMVwkA2oOBliEyTVSfD4bqEBZ_5f1iutSw/214x108.jpg",
+			"width": 214
+		},
+		"c_newsletter": [
+			"Get all the latest information on Events, Sales and Offers.\nSign up for our newsletter today."
+		],
+		"c_newsletterHeading": "Newsletter Subscription",
+		"c_payment": {
+			"height": 74,
+			"url": "https://a.mktgcdn.com/p-sandbox/TsQ-AmbjbRDYPGbX6IsoJUYrlnHiVdFdigj6F7fH_xw/790x74.png",
+			"width": 790
+		},
+		"c_privacyPolicy": {
+			"label": "Privacy Policy"
+		},
+		"c_socialIcons": [
+			{
+				"cTA": {
+					"label": "Facebook"
+				},
+				"icon": {
+					"height": 512,
+					"url": "https://a.mktgcdn.com/p-sandbox/wbHWvdY8PNUEA6eSQzTY7DE6scYqGlmdle_UO38jpJ4/512x512.png",
+					"width": 512
+				}
+			},
+			{
+				"cTA": {
+					"label": "Twitter"
+				},
+				"icon": {
+					"height": 1600,
+					"url": "https://a.mktgcdn.com/p-sandbox/n7LYqCC-saSTZrZAaOQyPq25NZ3gMueas8XR4PnhaW8/1600x1600.png",
+					"width": 1600
+				}
+			},
+			{
+				"cTA": {
+					"label": "Linkdin"
+				},
+				"icon": {
+					"height": 512,
+					"url": "https://a.mktgcdn.com/p-sandbox/jXQ_D8HmptTAx-YRS5HoTTQj5naKdgKVV6vZVZ3s34s/512x512.png",
+					"width": 512
+				}
+			},
+			{
+				"cTA": {
+					"label": "Youtube"
+				},
+				"icon": {
+					"height": 631,
+					"url": "https://a.mktgcdn.com/p-sandbox/Z_2AcaUOPqFIdMw2N1RL3VYceZgJmRff-HYCEtSF2sA/840x631.jpg",
+					"width": 840
+				}
+			},
+			{
+				"cTA": {
+					"label": "Instagram"
+				},
+				"icon": {
+					"height": 1600,
+					"url": "https://a.mktgcdn.com/p-sandbox/EIlrNrodMptW7gCUJB8DvGo2OMd3YooBfp1aGt82TTU/1600x1600.png",
+					"width": 1600
+				}
+			},
+			{
+				"cTA": {
+					"label": "Pinterest"
+				},
+				"icon": {
+					"height": 728,
+					"url": "https://a.mktgcdn.com/p-sandbox/CvXkvlKaLXGmyUgvW3zFVtXCc3n1_TbZsVoUNYRGuHo/980x728.jpg",
+					"width": 980
+				}
+			}
+		],
+		"c_termAndConditioon": {
+			"label": "Terms \u0026 Conditions"
+		},
+		"headline": "Follow Us",
+		"id": "globleData",
+		"meta": {
+			"entityType": {
+				"id": "ce_headerfooter",
+				"uid": 108220
+			},
+			"locale": "en-GB"
+		},
+		"name": "Globle Data",
+		"uid": 32278947
+	},
+	"businessId": 3191782,
+	"id": "globleData",
+	"key": "0:locator:knowledgeGraph:32278947:en-GB",
+	"locale": "en-GB",
+	"meta": {
+		"entityType": {
+			"id": "ce_headerfooter",
+			"uid": 108220
+		},
+		"locale": "en-GB"
+	},
+	"name": "Globle Data",
+	"siteDomain": "",
+	"siteId": 0,
+	"siteInternalHostName": "",
+	"uid": 32278947
+}
