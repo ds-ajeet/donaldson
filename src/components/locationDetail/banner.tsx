@@ -1,6 +1,6 @@
 import * as React from "react";
 import OpenClose from "../commons/openClose";
-import Defaultimage from "../../images/luxurystore.jpg"
+import Defaultimage from "../../images/MGM_About_Us_Image.webp"
 
 export type Address = {
   line1: string;
@@ -41,7 +41,7 @@ const Banner = (props: Banner) => {
     <>
       <div className="hero-section">
         <img className="hero-image"
-          src={c_bannerImage?c_bannerImage:Defaultimage} alt="banner" width="1" height="1"/>
+          src={c_bannerImage?c_bannerImage:Defaultimage} alt="banner" width="1" height="1" />
         <div className="hero-content">
           <div className="container">
             <div className={`banner-text  ${props.hours && props.timezone ? 'banner-dark-bg': ''}`}>

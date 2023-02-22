@@ -4,7 +4,7 @@ import * as React from "react";
 import { CompositionMethod, useComposedCssClasses } from '../../hooks/useComposedCssClasses';
 
 interface ResultsCountCssClasses {
-  container?: string,
+   container?: string,
   text?: string,
   number?: string
 }
@@ -51,7 +51,7 @@ export function ResultsCountDisplay({
 
   const messageArray = [
     'Showing ',
-    offset + 1,
+     1,
     ' to ',
     offset + resultsLength,
     ' of ',

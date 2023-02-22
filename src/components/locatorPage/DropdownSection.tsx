@@ -115,6 +115,5 @@ export default function DropdownSection({
         {options.map((option, index) => renderOption(option, index))}
       </div>
     </div>
-    
   );
 };

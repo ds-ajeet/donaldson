@@ -3,7 +3,7 @@
 @tailwind components;
 @tailwind utilities;
 
-@font-face {
+/* @font-face {
   font-family: 'futura_ptdemi';
   src: url('./fonts/ftn65-webfont.woff2') format('woff2'),
        url('./fonts/ftn65-webfont.woff') format('woff');
@@ -19,7 +19,7 @@
   font-weight: normal;
   font-style: normal;
   font-display: swap;
-}
+} */
 
 
 @media (min-width: 768px) {
@@ -73,7 +73,7 @@ nav .active{ @apply bg-light-red}
 .site-header .main-nav ul li:nth-child(2){@apply ml-0 lg:ml-2.5 }
 .site-header .main-nav ul li:nth-child(12) a{  @apply text-red}
 .site-header .main-nav ul li a{  @apply inline-block w-full   px-6 xl:px-8 align-top relative lg:border-t-2 border-transparent hover:border-red}
-.logo{@apply w-full text-center }
+/* .logo{@apply w-full text-center } */
 .logo-inner{@apply max-w-[9.375rem] mx-auto lg:mx-0  lg:max-w-[14.375rem] }
 .logo svg{@apply  mx-auto lg:mx-0  }
 
@@ -106,7 +106,7 @@ body.menu-opened{ @apply overflow-hidden lg:overflow-auto;}
 .map-section{@apply w-full md:w-[calc(100%_-_30rem)] lg:w-[calc(100%_-_33.6875rem)]  md:pl-8 float-right}
 .locator-map-block{  @apply w-full  h-[80vh] md:h-screen top-0 order-1 lg:order-none z-[99];}
 .hero-section .hero-content .banner-text.banner-dark-bg{ @apply  border-l-0 inline-block flex flex-col items-center p-4      rounded-lg backdrop-blur-sm bg-Dark-red mx-auto w-[340px] sm:w-[500px] px-2.5 text-center}
-.hero-section .hero-content .banner-text.banner-dark-bg h1{  @apply text-2xl md:text-[1.75rem] mb-1.5 font-normal text-black}
+.hero-section .hero-content .banner-text.banner-dark-bg h1{  @apply text-2xl md:text-[1.75rem] mb-1.5 font-normal}
 .hero-section .hero-content .banner-text.banner-dark-bg h3{  @apply text-xl md:text-2xl font-normal}
 .timer .box{  @apply text-base md:text-xl}
 .for-allow{  @apply inline-block w-full mb-2.5 text-red}
@@ -123,12 +123,12 @@ body:not(.mapView) .mobile-btns .btn.listBtn{  @apply text-Dark-red border-t-0 b
 body.mapView .mobile-btns .btn.mapBtn{  @apply text-Dark-red border-t-0 border-l-0 border-r-0 !border-b-2 !border-red  text-lg font-second-main-font !capitalize hover:bg-transparent  }
 
 /* left listing */
-.search-bx{@apply  mb-0  z-20 px-4 md:px-0  pt-0 pb-6 text-gray-dark float-left w-full md:w-[30rem] lg:w-[33.6875rem] border-b border-[#d8d8d8] }
+.search-bx{@apply  mb-0  z-20 px-4 md:px-0  pt-0 pb-6 text-gray-dark float-left w-full md:w-[30rem] lg:w-[33.6875rem] border-b border-[red] }
 .search-bx button{ @apply float-left mr-0 relative text-white text-xs sm:text-sm }
 .search-bx button.useMyLocation {@apply text-dark-gray flex items-center font-second-main-font text-lg}
-.search-bx button.useMyLocation .icon{@apply mr-1.5}
+.search-bx button.useMyLocation .icon{@apply mr-1.5 bg-dark-gray}
 .search-field{@apply flex relative  }
-.search-bx .search-btn{@apply absolute top-0 rounded-none right-0  text-white p-2 w-12 h-12 text-center bg-red hover:bg-hover-btn}  
+.search-bx .search-btn{@apply absolute top-0 rounded-none right-0  text-white p-2 w-36 h-12 text-center bg-red hover:bg-hover-btn}  
 .search-bx .search-btn svg{ @apply mx-auto}
 .search-field input{@apply  w-full bg-white h-12 text-dark-gray placeholder:text-dark-gray  py-2 pr-20 sm:py-4 sm:pr-40 pl-4 leading-7  text-[1.0625rem] font-main-font  border border-[#8c8c8c] rounded-none }
 .location p{ @apply mr-2 absolute rounded-lg -left-4 top-[0px] sm:top-[2px] xl:top-1}
@@ -149,12 +149,12 @@ body.mapView .mobile-btns .btn.mapBtn{  @apply text-Dark-red border-t-0 border-l
 .map-count{ @apply absolute text-white left-1/2 -translate-x-1/2 top-2 md:top-1 2xl:top-1 font-second-main-font text-xs }
 #result-1 .result-inner{ @apply pt-0 md:pt-4}
 #result-1 .result-inner .availablity-content{@apply mt-2}
-.location-phn{ @apply underline hover:!no-underline text-lg m-2 }
+.location-phn{ @apply underline hover:!no-underline text-lg }
 .fliter-sec{ @apply mt-2 flex items-start sm:items-center justify-start sm:justify-between  flex-col sm:flex-row}
 .location .result-inner .green-dot, .location .result-inner .red-dot{ @apply  flex justify-center items-center flex-row-reverse  }
 .location .result-inner .green-dot svg, .location .result-inner .red-dot svg{ @apply  ml-1 mt-1 }
-.location-with-filter{ @apply mb-6 flex items-center justify-between text-sm leading-5}
-.location-with-filter h1{@apply text-lg font-normal text-dark-gray my-0 font-second-main-font text-[1.75rem]}
+.location-with-filter{ @apply mb-2 flex items-center justify-between text-sm leading-5}
+.location-with-filter h1{@apply text-lg font-bold ml-4 text-dark-gray my-0 font-second-main-font text-[1.5rem]}
 .list-count{ @apply border-b border-gray-light mb-4 p-2 flex  flex-row items-center}
 .result-inner{@apply p-4 }
 .button-bx{@apply flex flex-col sm:flex-row mt-2.5 justify-around  ml-6}
@@ -167,7 +167,7 @@ body.mapView .mobile-btns .btn.mapBtn{  @apply text-Dark-red border-t-0 border-l
 .scrollbar-container.ps--active-y{ @apply pr-6}
 body .ps:hover .ps__rail-y{@apply opacity-100}
 body .ps__rail-y{ @apply opacity-100 mt-4 !bg-gray-light w-4}
-body .ps__thumb-y{ @apply bg-gray-dark opacity-100 right-1 w-2}
+body .ps__thumb-y{ @apply bg-Dark-red opacity-100 right-1 w-2}
 body .ps__rail-y:hover .ps__thumb-y{ @apply w-2 bg-gray-dark}
 table.day-hrs{  @apply border-none w-full mb-4}
 table.day-hrs td{ @apply   text-right  }
@@ -195,7 +195,7 @@ table.day-hrs .dayName span{ @apply block text-nav-link font-normal}
 table.day-hrs .time-b{  @apply text-lg md:text-lg  w-auto leading-[1.875rem] rounded-sm inline-block align-bottom text-center my-0.5}
 .hours-sec .hours-div{  @apply relative}
 .hours-sec .hours-div .holy-hrs{  @apply absolute -bottom-4 left-0   font-second-main-font  text-gray flex flex-row items-center}
-.hours-sec .hours-div .holy-hrs a{ @apply underline hover:no-underline  text-lg }
+.hours-sec .hours-div .holy-hrs a{ @apply underline hover:no-underline  text-lg}
 .hours-sec .hours-div .holy-hrs span{ @apply mr-2 }
 .ReactModal__Body--open{
   @apply overflow-hidden
@@ -263,7 +263,7 @@ table.day-hrs .time-b{  @apply text-lg md:text-lg  w-auto leading-[1.875rem] rou
 
 .gm-style-iw{ @apply  !px-0 max-w-full md:!max-w-[24.312rem] lg:!max-w-full}
 .gm-style .gm-style-iw-c{@apply !rounded-none }
-.gm-style-iw-d .button-bx{@apply !justify-start flex-row }
+.gm-style-iw-d .button-bx{@apply !justify-center flex-row rounded-full}
 .gm-style-iw-d .button-bx .getdirection{@apply !bg-transparent !text-gray underline }
 .gm-style-iw-d .button-bx .getdirection1{@apply !bg-transparent  !text-gray underline }
 
@@ -338,10 +338,10 @@ nav[aria-label="Pagination"] button:disabled{@apply cursor-not-allowed text-opac
 
 /* address sec */
 .location-information{  @apply flex flex-wrap w-full justify-between xl:justify-start max-w-[87.5rem] mx-auto md:px-5 xl:px-4 2xl:px-0 pb-7 pt-1 md:py-11}
-.address-main-sec{@apply px-4 md:px-6 py-4 md:py-6 w-full md:w-[48%]  lg:w-[35.8125rem] relative z-[0] md:mr-4 order-2 md:order-none mt-4 md:mt-4 lg:mt-0; } 
+.address-main-sec{@apply bg-address-bg px-4 md:px-6 py-4 md:py-6 w-full md:w-[48%]  lg:w-[24.8125rem] relative z-[0] md:mr-4 order-2 md:order-none mt-4 md:mt-4 lg:mt-0; } 
 .address-main-sec .address-text{ @apply text-lg md:text-lg}
 .address-main-sec .map-sec{ @apply block h-72 -ml-4 w-[100vw] md:hidden}
-.box-title{@apply font-second-main-font font-bold text-[1.3125rem] md:text-[1.375rem]  mb-4}
+.box-title{@apply font-second-main-font text-[1.3125rem] md:text-[1.375rem] mb-4}
 .title-with-link{@apply flex justify-between items-center mb-4}
 .title-with-link .box-title{ @apply mb-0}
 .title-with-link-1{@apply flex justify-between items-center mb-4}
@@ -359,7 +359,7 @@ nav[aria-label="Pagination"] button:disabled{@apply cursor-not-allowed text-opac
 .opennow-sec{@apply w-3/5 even:w-2/5 flex flex-row items-center text-lg sm:text-lg mb-2.5}
 .opennow-sec .icons{@apply min-w-[0.75rem] sm:min-w-[1.25rem] mr-1 sm:mr-1}
 .opennow-sec .icons img{@apply w-5 sm:w-5}
-.direction-button{@apply mt-6}
+.direction-button{@apply mt-6 }
 .direction-button a{@apply  !bg-Dark-red !text-white  !border-button-light hover:!border-transparent !border-2 }
 .direction-button .btn:hover svg{@apply !fill-red }
 .opennow-sec.deactive-feci{@apply opacity-70 text-red }
@@ -387,7 +387,7 @@ nav[aria-label="Pagination"] button:disabled{@apply cursor-not-allowed text-opac
 .about-inner-sec .splide__track{  @apply lg:h-full}
 .about-inner-sec .splide__slide img{ @apply lg:h-full lg:object-cover transition-all duration-300}
 .about-inner-sec .splide__slide img:hover{@apply transform scale-105}
-.splide__slide img{  @apply w-full}
+.splide__slide img{  @apply w-full h-full object-cover}
 .splide{  @apply w-full}
 .offerBanner{  @apply w-full pb-7 md:pb-10}
 .offerBanner img{  @apply w-full shadow-2xl}
@@ -483,16 +483,16 @@ nav[aria-label="Pagination"] button:disabled{@apply cursor-not-allowed text-opac
 .copyright-bx .social-media-bx{ @apply justify-center lg:justify-start}
 .store-locator .store-inner{@apply relative w-1/2 lg:w-auto text-base lg:text-xl mb-4 after:content-[''] after:absolute font-medium justify-center flex items-center flex-col after:border-r lg:after:h-auto lg:after:border-b after:border-black after:-top-2 lg:after:top-auto after:-bottom-2 after:right-0 lg:after:right-auto left-auto lg:after:left-1/4  after:w-1/2  after:last:hidden }
 .store-locator .store-inner a{@apply mt-2 hover:underline font-semibold}
-.company-logo{ @apply  mt-7 lg:mt-10 }
+.company-logo{ @apply  mt-2 lg:mt-0 }
 .social-media-bx{@apply flex-row flex w-full my-5 }
 .social-media-bx li{@apply mx-3}
 .social-media-bx li a{@apply transform transition-all duration-300 scale-100 hover:scale-105 inline-block}
 .company-logo svg{ @apply mr-0  mt-5 w-[166px] h-[70px] }
-.locator-main .result{ @apply border-l-4 border-l-white}
+.locator-main .result{ @apply border-l-4}
 
 .locator-main .result.active{@apply border-l-4 border-l-hover-border}
-.locator-main .result.fixed-hover.active{@apply border-l-4 border-l-red}
-.locator-main .result.fixed-hover{@apply border-l-4 border-l-red}
+.locator-main .result.fixed-hover.active{@apply border-l-4}
+.locator-main .result.fixed-hover{@apply border-l-4}
 .footer-block{  @apply border-b border-border-light py-3 lg:py-0 lg:border-none px-5}
 .footer-block-title{  @apply text-lg lg:text-[1.28571rem] font-semibold leading-6 pb-1 lg:pb-2}
 .footer-block ul li a{  @apply text-base leading-6 py-1 inline-block align-top hover:underline}
@@ -637,52 +637,7 @@ nav[aria-label="Pagination"] button:disabled{@apply cursor-not-allowed text-opac
   .storelocation-openCloseTime .day-hrs td.dayName{@apply pl-6}
   .storelocation-openCloseTime table.day-hrs .currentDay .dayName .checked{@apply left-1}
 }
-.hello{
-  width: 540px;
-}
-.hello h3{
-  font-weight: bold;
-  color:#1e293e;
-  font-size: 1.6rem;
-  margin-top: 25px;
-}
-.hello a {
-  font-size: 1.3rem;
-  line-height: 2.4rem;
-  color: #0067c8;
-  /* display: inline-block; */
-  text-decoration: none;
-}
-.hours{
-  margin-top: 20px;
-  background-color: #fff;
-}
-.DirectionButton{
-  background: #02a6db;
-  width: 50%;
-  height: 50px;
-  border-radius: 5px;
-  color: #fff;
-  font-weight: bold;
-  margin-top: 10%;
-  margin-left: -30px;
-}
-/* .row{
 
-    margin-left: -10px;
-    margin-right: -10px;
-    display: flex;
-    position: relative;
-    
-}
-.row h5{
-  color:#1e293e;
-  height: 20px;
-  
-}
-.row p{
-  margin-left: -40px;
-} */
 .policy a{
   margin-right: 10px;
   font-size: 12px;
@@ -710,10 +665,10 @@ nav[aria-label="Pagination"] button:disabled{@apply cursor-not-allowed text-opac
 
 .subscribe{
   height: 20%;
-  width: 160%;
+  width: 100%;
 }
 .inputfrom{
-  width: 60%;
+  width: 50%;
   padding: 6px;
   line-height: 30px;
   border-radius: 4px;
@@ -725,10 +680,9 @@ nav[aria-label="Pagination"] button:disabled{@apply cursor-not-allowed text-opac
   padding: 6px;
   line-height: 30px;
   border-radius: 4px;
-  width: 35%;
-  margin-left: 5%;
+  width: 30%;
+  margin-left: 3%;
   
-
 }
 .termcondition{
   padding-top: 25px;
@@ -770,3 +724,218 @@ nav[aria-label="Pagination"] button:disabled{@apply cursor-not-allowed text-opac
 .countact a:hover{
   color: #66aef1;
 }
+.visually-hidden {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+.searchBar{
+  width: 30%;
+  line-height: 30px;
+  border-radius: 4px;
+  /* border-color: #63aaec; */
+  margin-left: 30%;
+}
+.column {
+  color: whitesmoke;
+}
+.column ul li a:hover{
+  /* color: #eb0000; */
+}
+.socialmedia a{
+  border-radius: 10%;
+  background: #fff;
+}
+.moreinfo{
+  justify-content: center;
+
+}
+.visitButton{
+  background:  rgb(2 166 219 / var(--tw-bg-opacity));
+  padding-top:  0.25rem;
+  width:  9.75rem;;
+  text-align: center;
+  height: 30px;
+  font-size:large;
+  color: #fff;
+  border-radius: 1px;
+}
+.containerr{
+  max-width: 1280px;
+}
+.containerr img{
+  display: block;
+  padding-top: 25px;
+}
+.py-10{
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+--tw-bg-opacity: .02;
+}
+/* .store-faci {
+  width: 100%;
+  text-align: center;
+}
+.store-faci .boxes-row {
+  margin-bottom: 2.5rem;
+  display: flex;
+  justify-content: center;
+} */
+
+.nearby-card img{
+  height: 300px;
+}
+.serviceLable{
+  padding-top: 7px;
+  background-color: #02a6db;
+  
+}
+.serviceLable h2{
+  color: #fff;
+  font-weight: bold;
+  height: 40px;
+
+}
+.serviceLable:hover{
+  background-color: rgb(1 113 149 / var(--tw-bg-opacity));
+  
+}
+.headerLink{
+  margin-left: 15px;
+  /* padding-top: 10px; */
+}
+.headerLink a {
+  color: inherit;
+  text-decoration: inherit;
+  height: 70px;
+  width: auto;
+  padding-top: 25px;
+}
+
+.headerLink a:hover{
+  background-color: #000;
+  color: #fff;
+}
+.visitButton:hover{
+  background-color: rgb(1 113 149 / var(--tw-bg-opacity));
+}
+.navbar-item:hover{
+  color: #63aaec;
+}
+.location-with-filter{
+  height: 50px;
+  background-color: #02a6db;
+}
+.location-with-filter h1{
+  color: #fff;
+}
+.active.daylist{ @apply  !block pl-[50px]}
+.OpenCloseStatus .daylist{@apply hidden}
+
+
+.slider{
+  height:400px;
+  
+  }
+#banner.slider .slide-content {
+  width: 36%;
+  max-width: 120rem;
+  padding-bottom: 99px;
+  text-align: center;
+  position: absolute;
+  bottom: -40px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+#banner.slider h2, #banner.slider p {
+  text-shadow: 0 0 10px rgb(6 6 6);
+}
+@media (min-width: 782px)
+{#banner.slider h2 {
+  font-size: 2.7rem;
+  margin-bottom: 40px;
+  font-family: inherit;
+  color: #02a6db;
+}}
+@media (min-width: 782px)
+{#banner.slider p {
+  font-size: .9rem;
+}}
+#banner.slider p {
+    font-family: "Metropolis-Medium", sans-serif;
+    color: #fff;
+    width: 90%;
+    max-width: 80rem;
+    margin: .9rem auto 0 auto;
+    margin-bottom: 26px;
+    font-size: 16px;
+}
+@media (min-width: 1024px)
+{#banner.slider .slide, #banner.slider .wrap {
+    height: calc(100vh - 138px);
+}}
+#banner.slider .btn {
+  color: #fff;
+  border: 1px solid;
+  font-size: 20px;
+  padding: 2px 8px 2px 8px;
+  border-radius: 4px;
+}
+#banner.slider .btn:hover{
+  color: #000;
+  background-color: #02a6db;
+}
+
+
+/* faq section */
+
+.faq-sec{
+  @apply pt-5 lg:pt-[10px] pb-10
+}
+.faq-sec .container{
+  @apply max-w-[1240px]
+}
+.faq-blocks{
+  @apply px-4 lg:px-[200px] py-2 lg:py-[10px] flex flex-wrap items-start max-w-[1200px] mx-auto rounded-[1px] lg:rounded-[30px] justify-between mt-6 lg:mt-11
+}
+.faq-blocks .faq-block h4:hover{
+  color: #02a6db;
+}
+.faq-blocks .faq-block{
+  @apply w-full border-b  border-opacity-10;
+}
+.faq-blocks .faq-block:last-child{
+  @apply border-b-0
+}
+.faq-blocks .faq-block h4{
+  @apply text-base lg:text-xl  mt-0  font-medium lg:font-semibold py-4 pr-10 relative leading-6 lg:leading-7 cursor-pointer select-none
+}
+.faq-blocks .faq-block h4 .faq-icon{
+  @apply absolute top-4 right-0 border lg:border-2  w-5 lg:w-7 h-5 lg:h-7 rounded-full z-10;
+}
+.faq-blocks .faq-block h4 .faq-icon:before{
+  @apply content-[''] absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-2 lg:w-3 h-[1px] lg:h-0.5 bg-dark-gray
+}
+.faq-blocks .faq-block h4 .faq-icon:after{
+  @apply content-[''] absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 h-2 lg:h-3 w-[1px] lg:w-0.5 bg-dark-gray
+}
+.faq-blocks .faq-block.opened h4 .faq-icon:after{
+  @apply opacity-0
+}
+.faq-blocks .faq-block .faq-content{
+  @apply max-h-0 overflow-hidden;
+}
+.faq-blocks .faq-block.opened .faq-content{
+  @apply pb-5 max-h-96;
+}
+/* .faq-blocks .faq-block .faq-content a{
+  @apply text-red
+} */
+.sec_heading{
+  color: #02a6db;
+}
+/* faqs end */

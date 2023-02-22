@@ -54,7 +54,6 @@
 
      //var baseURL = params.baseURL + (params.baseURL.includes('?') ? '&' : '?');
     var baseURL = "https://liveapi-sandbox.yext.com/v2/accounts/me/entities?";
-    // var api_key = "105f07d362323bad1c2fcae6671e6ec3";
     var api_key = "105f07d362323bad1c2fcae6671e6ec3";
     var vparam = "20181017";
     var limit = 5;
@@ -80,8 +79,7 @@
 
         // var baseURL = params.baseURL + (params.baseURL.includes('?') ? '&' : '?');
        var baseURL = "https://liveapi-sandbox.yext.com/v2/accounts/me/entities/geosearch?radius=2500";
-      //  var api_key = "105f07d362323bad1c2fcae6671e6ec3";
-       var api_key = "6956f7fbd94335e6e56d02e4e44f1f9a";
+       var api_key = "105f07d362323bad1c2fcae6671e6ec3";
        var vparam = "20181017";
        var location=params.location;
        var limit = params.limit;

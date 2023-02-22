@@ -1,0 +1,2153 @@
+<!DOCTYPE html>
+<!-- saved from url=(0036)https://www.mgmtimber.co.uk/about-us -->
+<html lang="en-gb" class=" js no-touch cssanimations csstransitions"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <script type="text/javascript" async="" src="./About Us_files/recaptcha__en.js.download" crossorigin="anonymous" integrity="sha384-f5rsghIKIoFDd0xw6HJj4oKQoSzVdRiYK+15dpe5h8V1H0AARXFAnn2XapdIDGt1"></script><script type="text/javascript" async="" src="./About Us_files/js"></script><script async="" src="./About Us_files/analytics.js.download"></script><script async="" src="./About Us_files/tp.min.js.download" type="text/javascript"></script><script src="./About Us_files/750137355693409" async=""></script><script async="" src="./About Us_files/fbevents.js.download"></script><script>
+    var LOCALE = 'en\u002DGB';
+    var BASE_URL = 'https\u003A\u002F\u002Fwww.mgmtimber.co.uk\u002F';
+    var require = {
+        'baseUrl': 'https\u003A\u002F\u002Fwww.mgmtimber.co.uk\u002Fstatic\u002Fversion1675071904\u002Ffrontend\u002Fmgmtimber\u002Fdefault\u002Fen_GB'
+    };</script>        
+<meta name="title" content="About Us">
+<meta name="robots" content="INDEX,FOLLOW">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="format-detection" content="telephone=no">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-config" content="images/favicon/browserconfig.xml">
+<meta name="theme-color" content="#ffffff">
+<meta name="" content="IE=Edge">
+<title>About Us</title>
+<link rel="stylesheet" type="text/css" media="all" href="./About Us_files/778a9e1423d80683c538492943b8226e.min.css">
+
+<link rel="shortcut icon" href="https://www.mgmtimber.co.uk/static/version1675071904/frontend/mgmtimber/default/en_GB/images/favicon/favicon.ico">
+<script type="text/javascript" src="./About Us_files/require.js.download"></script>
+<script type="text/javascript" src="./About Us_files/mixins.js.download"></script>
+<script type="text/javascript" src="./About Us_files/requirejs-config.js.download"></script>
+<script type="text/javascript" src="./About Us_files/custom-cms.js.download"></script>
+<script type="text/javascript" src="./About Us_files/js(1)"></script>
+<link rel="apple-touch-icon" sizes="180x180" href="https://www.mgmtimber.co.uk/static/version1675071904/frontend/mgmtimber/default/en_GB/images/favicon/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://www.mgmtimber.co.uk/static/version1675071904/frontend/mgmtimber/default/en_GB/images/favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="https://www.mgmtimber.co.uk/static/version1675071904/frontend/mgmtimber/default/en_GB/images/favicon/favicon-16x16.png">
+<link rel="manifest" href="https://www.mgmtimber.co.uk/static/version1675071904/frontend/mgmtimber/default/en_GB/images/favicon/site.webmanifest">
+<link rel="stylesheet" href="./About Us_files/style-cf.css">
+<link rel="preconnect" href="https://maps.googleapis.com/">
+<link rel="preconnect" href="https://www.facebook.com/">
+<link rel="preconnect" href="https://d1azc1qln24ryf.cloudfront.net/">
+<link rel="preconnect" href="https://fonts.gstatic.com/">
+<link rel="preconnect" href="https://invitejs.trustpilot.com/">
+<link rel="preconnect" href="https://connect.facebook.net/">
+<link rel="preconnect" href="http://widget.trustpilot.com/">
+<link as="style" rel="stylesheet preload prefetch" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&amp;display=swap">
+<link as="style" rel="stylesheet preload prefetch" href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&amp;display=swap">
+<link as="style" rel="stylesheet preload prefetch" href="https://d1azc1qln24ryf.cloudfront.net/31037/MGMTimber/style-cf.css?ekov0t">
+<link rel="icon" type="image/x-icon" href="https://www.mgmtimber.co.uk/media/favicon/stores/1/favicon.ico">
+<link rel="shortcut icon" type="image/x-icon" href="https://www.mgmtimber.co.uk/media/favicon/stores/1/favicon.ico">
+<link rel="canonical" href="https://www.mgmtimber.co.uk/about-us">
+<!-- Facebook Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window,document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '750137355693409');
+fbq('track', 'PageView');
+</script>
+<noscript>
+<img height="1" width="1"
+src="https://www.facebook.com/tr?id=750137355693409&ev=PageView
+&noscript=1"/>
+</noscript>
+<!-- End Facebook Pixel Code -->
+<meta name="facebook-domain-verification" content="y1h8acounwfhsvs9flj2vm3hc4amsd">
+<style>
+@media only screen and (max-width: 600px) {
+.feature-links {height:42px;}
+.feature-links > ul { display:none; }
+.feature-links > ul.slick-initialized { display: flex; }
+}
+.customer-account-login .trade-account-box-signin-wrapper .trade-account-box-signin .trade-account-box-signin-buttons a:nth-last-child(1) {
+    display: block !important; 
+}
+.required-captcha.checkbox, .tradeAccountActivate {display:none}
+</style>        <!-- BEGIN GOOGLE ANALYTICS CODE -->
+
+<!-- END GOOGLE ANALYTICS CODE -->
+
+    <!-- BEGIN GOOGLE ANALYTICS 4 CODE -->
+    
+    <!-- END GOOGLE ANALYTICS 4 CODE -->
+    
+
+<script type="text/javascript" src="./About Us_files/98a454a08b68c225ca9f5b33f.js.download" defer="defer">
+</script><link rel="stylesheet" type="text/css" media="all" href="./About Us_files/font-awesome.min.css">
+
+<meta property="og:type" content="product.group">
+<meta property="og:title" content="About Us">
+<meta property="og:description" content="MGM Timber (Scotland) Ltd was established in 1991 and has grown to become Scotland&#39;s local independent timber merchant of choice for both trade and retail customers.
+With decades of experience in timber and building products, highly knowledgeable staff and 14 branches across Scotland, it’s easy to see why MGM is Scotland’s top independent timber merchant. Our experience and geographical spread enables us to provide unrivalled service to all of our customers, large or small. We offer only the highest quality products and excellent value for money, with a personal, local service which is second to none.
+Since 2005 we have been part of the James Donaldson Group of companies, we pride ourselves on our values&amp;nbsp;of always putting&amp;nbsp;customers&amp;nbsp;at the core of everything we do, our&amp;nbsp;people, our&amp;nbsp;integrity, delivering&amp;nbsp;sustainable&amp;nbsp;financial and environmental performance and we embrace the future through our proud&amp;nbsp;family&amp;nbsp;heritage of over 150 years trading. We are a wholly owned subsidiary of the group, along with our sister companies: Donaldson Timber Engineering, James Donaldson Timber, James Donaldson Insulation, Nu-Style, Timbercut4u, Rowan Manufacturing and Smith and Frater.
+We have demonstrated to the market that we can drive the business forward in all trading conditions, whilst ensuring that the customer always comes first. Our ability to out-perform all independent competitors in Scotland helps us continue as Scotland’s largest independent timber merchant.">
+<meta property="og:url" content="https://www.mgmtimber.co.uk/about-us">
+<meta property="og:site_name" content="MGM Timber">
+<meta property="og:image" content="https://www.mgmtimber.co.uk/media/catalog/category/MGM_About_Us_Image.JPEG.png">
+<meta property="og:image:width" content="1920">
+<meta property="og:image:height" content="905">
+<script type="application/ld+json">{"@context":"http:\/\/schema.org","@type":"WebSite","url":"https:\/\/www.mgmtimber.co.uk\/","name":"MGM Timber","about":"MGM Timber (Scotland) Ltd was established in 1991 and has grown to become Scotland's local merchant of choice for both trade and retail customers."}</script><script type="application/ld+json">{"@context":"http:\/\/schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","item":{"@id":"https:\/\/www.mgmtimber.co.uk\/about-us","name":"About Us"},"position":1}]}</script>    
+<script type="application/ld+json">{"@context":"http:\/\/schema.org\/","@type":"WebPage","url":"https:\/\/www.mgmtimber.co.uk\/about-us","mainEntity":{"@context":"http:\/\/schema.org","@type":"OfferCatalog","name":"About Us","url":"https:\/\/www.mgmtimber.co.uk\/about-us","numberOfItems":0,"itemListElement":[]},"speakable":{"@type":"SpeakableSpecification","cssSelector":[".category-description"],"xpath":["\/html\/head\/title"]}}</script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="jquery" src="./About Us_files/jquery.js.download"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="mage/common" src="./About Us_files/common.js.download"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="mage/dataPost" src="./About Us_files/dataPost.js.download"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="mage/bootstrap" src="./About Us_files/bootstrap.js.download"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/core/app" src="./About Us_files/app.js.download"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_PageCache/js/form-key-provider" src="./About Us_files/form-key-provider.js.download"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Translation/js/mage-translation-dictionary" src="./About Us_files/mage-translation-dictionary.js.download"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="js/main" src="./About Us_files/main.js.download"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Theme/js/theme" src="./About Us_files/theme.js.download"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Mirasvit_SearchAutocomplete/js/autocomplete" src="./About Us_files/autocomplete.js.download"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Mirasvit_SearchAutocomplete/js/typeahead" src="./About Us_files/typeahead.js.download"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="jquery/jquery-migrate" src="./About Us_files/jquery-migrate.js.download"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="mage/apply/main" src="./About Us_files/main.js(1).download"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/lib/knockout/bootstrap" src="./About Us_files/bootstrap.js(1).download"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_ReCaptchaWebapiUi/js/jquery-mixin" src="./About Us_files/jquery-mixin.js.download"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="domReady" src="./About Us_files/domReady.js.download"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="mage/template" src="./About Us_files/template.js.download"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/modal/confirm" src="./About Us_files/confirm.js.download"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="jquery/ui-modules/widget" src="./About Us_files/widget.js.download"></script><script type="text/javascript" src="./About Us_files/tp.widget.bootstrap.min.js.download" async=""></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magefan_Blog/js/lib/mfblogunveil" src="./About Us_files/mfblogunveil.js.download"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/core/renderer/types" src="./About Us_files/types.js.download"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="text" src="./About Us_files/text.js.download"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="mage/smart-keyboard-handler" src="./About Us_files/smart-keyboard-handler.js.download"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="mage/mage" src="./About Us_files/mage.js.download"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="mage/ie-class-fixer" src="./About Us_files/ie-class-fixer.js.download"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="knockoutjs/knockout" src="./About Us_files/knockout.js.download"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="underscore" src="./About Us_files/underscore.js.download"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="mage/translate" src="./About Us_files/translate.js.download"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Catalog/js/price-utils" src="./About Us_files/price-utils.js.download"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Mirasvit_Search/js/highlight" src="./About Us_files/highlight.js.download"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/core/renderer/layout" src="./About Us_files/layout.js.download"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_PageBuilder/js/resource/slick/slick" src="./About Us_files/slick.js.download"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="modernizr" src="./About Us_files/modernizr.js.download"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Customer/js/customer-data" src="./About Us_files/customer-data.js.download"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Persistent/js/view/customer-data-mixin" src="./About Us_files/customer-data-mixin.js.download"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Catalog/js/catalog-add-to-cart" src="./About Us_files/catalog-add-to-cart.js.download"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_ConfigurableProduct/js/catalog-add-to-cart-mixin" src="./About Us_files/catalog-add-to-cart-mixin.js.download"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Catalog/js/catalog-add-to-cart-mixin" src="./About Us_files/catalog-add-to-cart-mixin.js(1).download"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="knockoutjs/knockout-es5" src="./About Us_files/knockout-es5.js.download"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="mage/utils/wrapper" src="./About Us_files/wrapper.js.download"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/modal/modal" src="./About Us_files/modal.js.download"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="mage/utils/main" src="./About Us_files/main.js(2).download"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/lib/knockout/template/engine" src="./About Us_files/engine.js.download"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/lib/knockout/bindings/bootstrap" src="./About Us_files/bootstrap.js(2).download"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/lib/knockout/extender/observable_array" src="./About Us_files/observable_array.js.download"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/lib/knockout/extender/bound-nodes" src="./About Us_files/bound-nodes.js.download"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/lib/registry/registry" src="./About Us_files/registry.js.download"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Catalog/js/product/view/product-ids-resolver" src="./About Us_files/product-ids-resolver.js.download"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Catalog/js/product/view/product-info-resolver" src="./About Us_files/product-info-resolver.js.download"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="mage/apply/scripts" src="./About Us_files/scripts.js.download"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_ConfigurableProduct/js/product/view/product-info-resolver" src="./About Us_files/product-info-resolver.js(1).download"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="jquery/ui-modules/version" src="./About Us_files/version.js.download"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="jquery/compat" src="./About Us_files/compat.js.download"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="dlmenu" src="./About Us_files/dlmenu.js.download"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Customer/js/section-config" src="./About Us_files/section-config.js.download"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="mage/url" src="./About Us_files/url.js.download"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="mage/storage" src="./About Us_files/storage.js.download"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="jquery/jquery-storageapi" src="./About Us_files/storage-wrapper.js.download"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/lib/logger/console-logger" src="./About Us_files/console-logger.js.download"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/lib/key-codes" src="./About Us_files/key-codes.js.download"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="jquery/ui-modules/core" src="./About Us_files/core.js.download"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="jquery/z-index" src="./About Us_files/z-index.js.download"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="js-storage/js.storage" src="./About Us_files/js.storage.js.download"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Amasty_LazyLoad/js/jquery.lazy" src="./About Us_files/jquery.lazy.js.download"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="knockoutjs/knockout-repeat" src="./About Us_files/knockout-repeat.js.download"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="knockoutjs/knockout-fast-foreach" src="./About Us_files/knockout-fast-foreach.js.download"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/lib/core/events" src="./About Us_files/events.js.download"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Catalog/js/product/view/product-ids" src="./About Us_files/product-ids.js.download"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Catalog/js/product/view/product-info" src="./About Us_files/product-info.js.download"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="jquery/ui-modules/widgets/accordion" src="./About Us_files/accordion.js.download"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="jquery/ui-modules/widgets/autocomplete" src="./About Us_files/autocomplete.js(1).download"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="jquery/ui-modules/widgets/button" src="./About Us_files/button.js.download"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="jquery/ui-modules/widgets/datepicker" src="./About Us_files/datepicker.js.download"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="jquery/ui-modules/widgets/dialog" src="./About Us_files/dialog.js.download"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="jquery/ui-modules/widgets/draggable" src="./About Us_files/draggable.js.download"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="jquery/ui-modules/widgets/droppable" src="./About Us_files/droppable.js.download"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="jquery/ui-modules/effects/effect-blind" src="./About Us_files/effect-blind.js.download"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="jquery/ui-modules/effects/effect-bounce" src="./About Us_files/effect-bounce.js.download"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="jquery/ui-modules/effects/effect-clip" src="./About Us_files/effect-clip.js.download"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="jquery/ui-modules/effects/effect-drop" src="./About Us_files/effect-drop.js.download"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="jquery/ui-modules/effects/effect-explode" src="./About Us_files/effect-explode.js.download"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="jquery/ui-modules/effects/effect-fade" src="./About Us_files/effect-fade.js.download"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="jquery/ui-modules/effects/effect-fold" src="./About Us_files/effect-fold.js.download"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="jquery/ui-modules/effects/effect-highlight" src="./About Us_files/effect-highlight.js.download"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="jquery/ui-modules/effects/effect-scale" src="./About Us_files/effect-scale.js.download"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="jquery/ui-modules/effects/effect-pulsate" src="./About Us_files/effect-pulsate.js.download"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="jquery/ui-modules/effects/effect-shake" src="./About Us_files/effect-shake.js.download"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="jquery/ui-modules/effects/effect-slide" src="./About Us_files/effect-slide.js.download"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="jquery/ui-modules/effects/effect-transfer" src="./About Us_files/effect-transfer.js.download"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="jquery/ui-modules/effect" src="./About Us_files/effect.js.download"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="jquery/ui-modules/widgets/menu" src="./About Us_files/menu.js.download"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="jquery/ui-modules/widgets/mouse" src="./About Us_files/mouse.js.download"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="jquery/ui-modules/position" src="./About Us_files/position.js.download"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="jquery/ui-modules/widgets/progressbar" src="./About Us_files/progressbar.js.download"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="jquery/ui-modules/widgets/resizable" src="./About Us_files/resizable.js.download"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="jquery/ui-modules/widgets/selectable" src="./About Us_files/selectable.js.download"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="jquery/ui-modules/widgets/selectmenu" src="./About Us_files/selectmenu.js.download"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="jquery/ui-modules/widgets/sortable" src="./About Us_files/sortable.js.download"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="jquery/ui-modules/widgets/spinner" src="./About Us_files/spinner.js.download"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="jquery/ui-modules/widgets/tabs" src="./About Us_files/tabs.js.download"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="jquery/timepicker" src="./About Us_files/timepicker.js.download"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="jquery/ui-modules/widgets/tooltip" src="./About Us_files/tooltip.js.download"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="mage/utils/arrays" src="./About Us_files/arrays.js.download"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="mage/utils/compare" src="./About Us_files/compare.js.download"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="mage/utils/misc" src="./About Us_files/misc.js.download"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="mage/utils/objects" src="./About Us_files/objects.js.download"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="mage/utils/strings" src="./About Us_files/strings.js.download"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="mage/utils/template" src="./About Us_files/template.js(1).download"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/lib/core/storage/local" src="./About Us_files/local.js.download"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/lib/knockout/template/observable_source" src="./About Us_files/observable_source.js.download"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/lib/knockout/template/renderer" src="./About Us_files/renderer.js.download"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/lib/knockout/bindings/resizable" src="./About Us_files/resizable.js(1).download"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/lib/knockout/bindings/i18n" src="./About Us_files/i18n.js.download"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/lib/knockout/bindings/scope" src="./About Us_files/scope.js.download"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/lib/knockout/bindings/range" src="./About Us_files/range.js.download"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/lib/knockout/bindings/mage-init" src="./About Us_files/mage-init.js.download"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/lib/knockout/bindings/keyboard" src="./About Us_files/keyboard.js.download"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/lib/knockout/bindings/optgroup" src="./About Us_files/optgroup.js.download"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/lib/knockout/bindings/after-render" src="./About Us_files/after-render.js.download"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/lib/knockout/bindings/autoselect" src="./About Us_files/autoselect.js.download"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/lib/knockout/bindings/datepicker" src="./About Us_files/datepicker.js(1).download"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/lib/knockout/bindings/outer_click" src="./About Us_files/outer_click.js.download"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/lib/knockout/bindings/fadeVisible" src="./About Us_files/fadeVisible.js.download"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/lib/knockout/bindings/collapsible" src="./About Us_files/collapsible.js.download"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/lib/knockout/bindings/staticChecked" src="./About Us_files/staticChecked.js.download"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/lib/knockout/bindings/simple-checked" src="./About Us_files/simple-checked.js.download"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/lib/knockout/bindings/bind-html" src="./About Us_files/bind-html.js.download"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/lib/knockout/bindings/tooltip" src="./About Us_files/tooltip.js(1).download"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/lib/knockout/bindings/color-picker" src="./About Us_files/color-picker.js.download"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/lib/logger/logger" src="./About Us_files/logger.js.download"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/lib/logger/entry-factory" src="./About Us_files/entry-factory.js.download"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/lib/logger/console-output-handler" src="./About Us_files/console-output-handler.js.download"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/lib/logger/formatter" src="./About Us_files/formatter.js.download"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/lib/logger/message-pool" src="./About Us_files/message-pool.js.download"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/lib/logger/levels-pool" src="./About Us_files/levels-pool.js.download"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/lib/logger/logger-utils" src="./About Us_files/logger-utils.js.download"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="js-cookie/cookie-wrapper" src="./About Us_files/cookie-wrapper.js.download"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="jquery/ui-modules/disable-selection" src="./About Us_files/disable-selection.js.download"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="jquery/ui-modules/plugin" src="./About Us_files/plugin.js.download"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="jquery/ui-modules/keycode" src="./About Us_files/keycode.js.download"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="jquery/ui-modules/unique-id" src="./About Us_files/unique-id.js.download"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="jquery/ui-modules/form-reset-mixin" src="./About Us_files/form-reset-mixin.js.download"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="jquery/ui-modules/labels" src="./About Us_files/labels.js.download"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="jquery/ui-modules/data" src="./About Us_files/data.js.download"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="jquery/ui-modules/ie" src="./About Us_files/ie.js.download"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/lib/core/class" src="./About Us_files/class.js.download"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="jquery/ui-modules/scroll-parent" src="./About Us_files/scroll-parent.js.download"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/lib/view/utils/async" src="./About Us_files/async.js.download"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="jquery/ui-modules/safe-active-element" src="./About Us_files/safe-active-element.js.download"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="spectrum" src="./About Us_files/spectrum.js.download"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="tinycolor" src="./About Us_files/tinycolor.js.download"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="jquery/ui-modules/focusable" src="./About Us_files/focusable.js.download"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="jquery/ui-modules/form" src="./About Us_files/form.js.download"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="jquery/ui-modules/jquery-patch" src="./About Us_files/jquery-patch.js.download"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="jquery/ui-modules/safe-blur" src="./About Us_files/safe-blur.js.download"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="jquery/ui-modules/tabbable" src="./About Us_files/tabbable.js.download"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="jquery/ui-modules/widgets/controlgroup" src="./About Us_files/controlgroup.js.download"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="jquery/ui-modules/widgets/checkboxradio" src="./About Us_files/checkboxradio.js.download"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="jquery/ui-modules/effects/effect-size" src="./About Us_files/effect-size.js.download"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="jquery/ui-modules/jquery-var-for-color" src="./About Us_files/jquery-var-for-color.js.download"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="jquery/ui-modules/vendor/jquery-color/jquery.color" src="./About Us_files/jquery.color.js.download"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="moment" src="./About Us_files/moment.js.download"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/lib/knockout/template/loader" src="./About Us_files/loader.js.download"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/lib/logger/entry" src="./About Us_files/entry.js.download"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="js-cookie/js.cookie" src="./About Us_files/js.cookie.js.download"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/lib/view/utils/dom-observer" src="./About Us_files/dom-observer.js.download"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/lib/view/utils/bindings" src="./About Us_files/bindings.js.download"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="mage/loader" src="./About Us_files/loader.js(1).download"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_PageCache/js/page-cache" src="./About Us_files/page-cache.js.download"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Cookie/js/require-cookie" src="./About Us_files/require-cookie.js.download"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Amasty_MWishlist/js/multiple-wishlist" src="./About Us_files/multiple-wishlist.js.download"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Cookie/js/notices" src="./About Us_files/notices.js.download"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Kick_BookAppointment/js/bookAppointment" src="./About Us_files/bookAppointment.js.download"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Mageside_MultipleCustomForms/js/custom-form" src="./About Us_files/custom-form.js.download"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Mageside_MultipleCustomForms/js/form/field-recaptcha" src="./About Us_files/field-recaptcha.js.download"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Kick_GalleryImages/js/galleryImages" src="./About Us_files/galleryImages.js.download"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Ebizmarts_MailChimp/js/campaigncatcher" src="./About Us_files/campaigncatcher.js.download"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_GoogleAnalytics/js/google-analytics" src="./About Us_files/google-analytics.js.download"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_GoogleGtag/js/google-analytics" src="./About Us_files/google-analytics.js(1).download"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_PageBuilder/js/widget-initializer" src="./About Us_files/widget-initializer.js.download"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Theme/js/cookie-status" src="./About Us_files/cookie-status.js.download"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="mage/cookies" src="./About Us_files/cookies.js.download"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/block-loader" src="./About Us_files/block-loader.js.download"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Customer/js/invalidation-processor" src="./About Us_files/invalidation-processor.js.download"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Search/js/form-mini" src="./About Us_files/form-mini.js.download"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Mirasvit_SearchAutocomplete/js/form-mini" src="./About Us_files/form-mini.js(1).download"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="mage/dropdown" src="./About Us_files/dropdown.js.download"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Checkout/js/dropdown-mixin" src="./About Us_files/dropdown-mixin.js.download"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Amasty_MWishlist/js/components/popup/popup" src="./About Us_files/popup.js.download"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Amasty_MWishlist/js/components/popup/wishlist" src="./About Us_files/wishlist.js.download"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Checkout/js/view/minicart" src="./About Us_files/minicart.js.download"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/lib/core/collection" src="./About Us_files/collection.js.download"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Tax/js/view/checkout/minicart/subtotal/totals" src="./About Us_files/totals.js.download"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Msrp/js/view/checkout/minicart/subtotal/totals" src="./About Us_files/totals.js(1).download"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Checkout/js/view/cart-item-renderer" src="./About Us_files/cart-item-renderer.js.download"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Catalog/js/view/image" src="./About Us_files/image.js.download"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Customer/js/view/customer" src="./About Us_files/customer.js.download"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Theme/js/view/messages" src="./About Us_files/messages.js.download"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Catalog/js/storage-manager" src="./About Us_files/storage-manager.js.download"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/modal/alert" src="./About Us_files/alert.js.download"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Amasty_MWishlist/js/action/reload-blocks" src="./About Us_files/reload-blocks.js.download"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Amasty_MWishlist/js/action/reload-components" src="./About Us_files/reload-components.js.download"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="mage/requirejs/resolver" src="./About Us_files/resolver.js.download"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="mage/validation" src="./About Us_files/validation.js.download"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Mageside_MultipleCustomForms/js/form/agreements" src="./About Us_files/agreements.js.download"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Mageside_MultipleCustomForms/js/form/field-upload-files" src="./About Us_files/field-upload-files.js.download"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="recaptcha" src="./About Us_files/api.js.download"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/lib/core/element/element" src="./About Us_files/element.js.download"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Amasty_MWishlist/js/action/list-name" src="./About Us_files/list-name.js.download"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="matchMedia" src="./About Us_files/matchMedia.js.download"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Checkout/js/sidebar" src="./About Us_files/sidebar.js.download"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Security/js/escaper" src="./About Us_files/escaper.js.download"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Catalog/js/product/storage/storage-service" src="./About Us_files/storage-service.js.download"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="jquery/validate" src="./About Us_files/jquery.validate.js.download"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/lib/core/element/links" src="./About Us_files/links.js.download"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Customer/js/model/authentication-popup" src="./About Us_files/authentication-popup.js.download"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="mage/decorate" src="./About Us_files/decorate.js.download"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Catalog/js/product/storage/ids-storage" src="./About Us_files/ids-storage.js.download"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Catalog/js/product/storage/data-storage" src="./About Us_files/data-storage.js.download"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Catalog/js/product/storage/ids-storage-compare" src="./About Us_files/ids-storage-compare.js.download"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="mage/collapsible" src="./About Us_files/collapsible.js(1).download"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="js/collapsible-mixin" src="./About Us_files/collapsible-mixin.js.download"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="jquery/jquery.metadata" src="./About Us_files/jquery.metadata.js.download"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Catalog/js/product/query-builder" src="./About Us_files/query-builder.js.download"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Customer/js/invalidation-rules/website-rule" src="./About Us_files/website-rule.js.download"></script><script type="text/javascript" charset="UTF-8" src="./About Us_files/common.js(1).download"></script><script type="text/javascript" charset="UTF-8" src="./About Us_files/util.js.download"></script></head>
+    <body data-container="body" id="html-body" class="page-layout-2columns-left page-with-filter category-level-1 page-products categorypath-about-us category-about-us guest-customer catalog-category-view page-layout-about">
+        
+
+
+<div class="cookie-status-message" id="cookie-status" style="display: none;">
+    The store will not work correctly in the case when cookies are disabled.</div>
+<script type="text/javascript">document.querySelector("#cookie-status").style.display = "none";</script>
+
+
+
+    <noscript>
+        <div class="message global noscript">
+            <div class="content">
+                <p>
+                    <strong>JavaScript seems to be disabled in your browser.</strong>
+                    <span>
+                        For the best experience on our site, be sure to turn on Javascript in your browser.                    </span>
+                </p>
+            </div>
+        </div>
+    </noscript>
+  <div role="alertdialog" tabindex="-1" class="message global cookie" id="notice-cookie-block" style="display: none;"><div role="document" class="content" tabindex="0"><p><strong>We use cookies to make your experience better.</strong> <span>To comply with the new e-Privacy directive, we need to ask for your consent to set the cookies.</span> <a href="https://www.mgmtimber.co.uk/privacy-policy-cookie-restriction-mode/">Learn more about cookie policy</a>.</p><div class="actions"><button id="btn-cookie-allow" class="action allow primary"><span>Allow Cookies</span></button><button id="btn-cookie-decline" class="action decline primary"><span>Decline Cookies</span></button></div></div></div><script type="text/javascript">var elemxuvxSacB = document.querySelector('div#notice-cookie-block');
+if (elemxuvxSacB) {
+elemxuvxSacB.style.display = 'none';
+}</script> 
+<script>
+    window.cookiesConfig = window.cookiesConfig || {};
+    window.cookiesConfig.secure = true;
+</script><script>    require.config({
+        map: {
+            '*': {
+                wysiwygAdapter: 'mage/adminhtml/wysiwyg/tiny_mce/tinymce5Adapter'
+            }
+        }
+    });</script><script>
+    require.config({
+        paths: {
+            googleMaps: 'https\u003A\u002F\u002Fmaps.googleapis.com\u002Fmaps\u002Fapi\u002Fjs\u003Fv\u003D3\u0026key\u003D'
+        },
+        config: {
+            'Magento_PageBuilder/js/utils/map': {
+                style: ''
+            },
+            'Magento_PageBuilder/js/content-type/map/preview': {
+                apiKey: '',
+                apiKeyErrorMessage: 'You\u0020must\u0020provide\u0020a\u0020valid\u0020\u003Ca\u0020href\u003D\u0027https\u003A\u002F\u002Fwww.mgmtimber.co.uk\u002Fadminhtml\u002Fsystem_config\u002Fedit\u002Fsection\u002Fcms\u002F\u0023cms_pagebuilder\u0027\u0020target\u003D\u0027_blank\u0027\u003EGoogle\u0020Maps\u0020API\u0020key\u003C\u002Fa\u003E\u0020to\u0020use\u0020a\u0020map.'
+            },
+            'Magento_PageBuilder/js/form/element/map': {
+                apiKey: '',
+                apiKeyErrorMessage: 'You\u0020must\u0020provide\u0020a\u0020valid\u0020\u003Ca\u0020href\u003D\u0027https\u003A\u002F\u002Fwww.mgmtimber.co.uk\u002Fadminhtml\u002Fsystem_config\u002Fedit\u002Fsection\u002Fcms\u002F\u0023cms_pagebuilder\u0027\u0020target\u003D\u0027_blank\u0027\u003EGoogle\u0020Maps\u0020API\u0020key\u003C\u002Fa\u003E\u0020to\u0020use\u0020a\u0020map.'
+            },
+        }
+    });
+</script>
+
+<script>
+    require.config({
+        shim: {
+            'Magento_PageBuilder/js/utils/map': {
+                deps: ['googleMaps']
+            }
+        }
+    });
+</script>
+    <script>
+        require([
+                'jquery',
+                'Mirasvit_SearchAutocomplete/js/autocomplete',
+                'Mirasvit_SearchAutocomplete/js/typeahead',
+            ], function ($, autocomplete, typeahead) {
+                var selector = 'input#search, input#mobile_search, .minisearch input[type="text"]';
+
+                $(document).ready(function () {
+                    $('#search_mini_form').prop("minSearchLength", 10000);
+
+                    const $input = $(selector);
+
+                    $input.each(function (index, searchInput) {
+                                                new autocomplete($(searchInput)).init({"query":"","priceFormat":{"pattern":"\u00a3%s","precision":2,"requiredPrecision":2,"decimalSymbol":".","groupSymbol":",","groupLength":3,"integerRequired":false},"minSearchLength":3,"url":"https:\/\/www.mgmtimber.co.uk\/searchautocomplete\/ajax\/suggest\/","storeId":"1","delay":300,"isAjaxCartButton":false,"layout":"1column","popularTitle":"Popular Suggestions","popularSearches":["Timber","Decking","Skirting","50mm","Doors"],"isTypeaheadEnabled":false,"typeaheadUrl":"https:\/\/www.mgmtimber.co.uk\/searchautocomplete\/ajax\/typeahead\/","minSuggestLength":2,"currency":"GBP","limit":36});
+                    });
+                });
+            }
+        );
+    </script>
+
+    <script id="searchAutocompletePlaceholder" type="text/x-custom-template">
+  <div class="mst-searchautocomplete__autocomplete">
+        <div class="mst-searchautocomplete__spinner">
+            <div class="spinner-item spinner-item-1"></div>
+            <div class="spinner-item spinner-item-2"></div>
+            <div class="spinner-item spinner-item-3"></div>
+            <div class="spinner-item spinner-item-4"></div>
+            <div class="spinner-item spinner-item-5"></div>
+            <div class="spinner-item spinner-item-6"></div>
+            <div class="spinner-item spinner-item-7"></div>
+            <div class="spinner-item spinner-item-8"></div>
+        </div>
+
+        <div class="mst-searchautocomplete__close">&times;</div>
+    </div>
+</script>
+
+<script id="searchAutocompleteWrapper" type="text/x-custom-template">
+  <div class="mst-searchautocomplete__wrapper">
+        <div data-bind="visible: result().noResults == false">
+            <div data-bind="foreach: { data: result().indexes, as: 'index' }">
+                <div data-bind="visible: index.totalItems, attr: {class: 'mst-searchautocomplete__index ' + index.identifier}">
+                    <div class="mst-searchautocomplete__index-title">
+                        <span data-bind="text: index.title"></span>
+                        <span data-bind="visible: index.isShowTotals">
+                            (<span data-bind="text: index.totalItems"></span>)
+                        </span>
+                    </div>
+
+                    <ul data-bind="foreach: { data: index.items, as: 'item' }">
+                        <li data-bind="
+                            template: { name:index.identifier, data: item },
+                            attr: {class: 'mst-searchautocomplete__item ' + index.identifier},
+                            event: { mouseover: $parents[1].onMouseOver, mouseout: $parents[1].onMouseOut, mousedown: $parents[1].onClick },
+                            css: {_active: $data.isActive}">
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="mst-searchautocomplete__show-all" data-bind="visible: result().urlAll && result().totalItems > 0">
+                <a data-bind="attr: { href: result().urlAll }">
+                    <span data-bind="text: result().textAll"></span>
+                </a>
+            </div>
+        </div>
+
+        <div class="mst-searchautocomplete__empty-result" data-bind="visible: result().noResults == true && !loading()">
+            <span data-bind="text: result().textEmpty"></span>
+        </div>
+    </div>
+</script>
+
+<script id="popular" type="text/x-custom-template">
+  <a class="title" data-bind="text: query"></a>
+</script>
+
+<script id="magento_search_query" type="text/x-custom-template">
+  <a class="title" data-bind="text: query_text, attr: {href: url}, highlight"></a> <span class="num_results" data-bind="text: num_results"></span>
+</script>
+
+<script id="magento_catalog_product" type="text/x-custom-template">
+  <!-- ko if: image -->
+  <a class="mst-product-image-wrapper" rel="noreferrer" data-bind="attr: {href: url}">
+    <div class="mst-product-image"><img data-bind="attr: {src: image}" /></div>
+  </a>
+  <!-- /ko -->
+
+  <div class="meta-wrapper">
+    <div class="meta">
+      <div class="title">
+        <a rel="noreferrer" data-bind="html: name, attr: {href: url}, highlight"></a>
+
+        <!-- ko if: sku -->
+        <span class="sku" data-bind="text: sku, highlight"></span>
+        <!-- /ko -->
+      </div>
+
+      <!-- ko if: description -->
+      <div class="description" data-bind="text: description, highlight"></div>
+      <!-- /ko -->
+
+      <!-- ko if: rating -->
+      <div data-bind="html: rating"></div>
+      <!-- /ko -->
+
+      <!-- ko if: stock_status -->
+      <span class="stock_status" data-bind="text: stock_status, processStockStatus"></span>
+      <!-- /ko -->
+
+      <div class="to-cart" data-bind="visible: cart.visible">
+        <a class="action primary mst__add_to_cart" data-bind="attr: { _href: cart.url }">
+          <span data-bind="html: cart.label"></span>
+        </a>
+      </div>
+    </div>
+  </div>
+
+</script>
+
+<script id="magento_catalog_categoryproduct" type="text/x-custom-template">
+  <a class="title" data-bind="text: name, attr: {href: url}, highlight"></a>
+</script>
+
+<script id="magento_catalog_category" type="text/x-custom-template">
+  <a class="title" data-bind="text: name, attr: {href: url}, highlight"></a>
+</script>
+
+<script id="magento_cms_page" type="text/x-custom-template">
+  <a class="title" data-bind="text: name, attr: {href: url}, highlight"></a>
+</script>
+
+<script id="magento_catalog_attribute" type="text/x-custom-template">
+  <a class="title" data-bind="text: name, attr: {href: url}, highlight"></a>
+</script>
+
+<script id="magento_catalog_attribute_2" type="text/x-custom-template">
+  <a class="title" data-bind="text: name, attr: {href: url}, highlight"></a>
+</script>
+
+<script id="magento_catalog_attribute_3" type="text/x-custom-template">
+  <a class="title" data-bind="text: name, attr: {href: url}, highlight"></a>
+</script>
+
+<script id="magento_catalog_attribute_4" type="text/x-custom-template">
+  <a class="title" data-bind="text: name, attr: {href: url}, highlight"></a>
+</script>
+
+<script id="magento_catalog_attribute_5" type="text/x-custom-template">
+  <a class="title" data-bind="text: name, attr: {href: url}, highlight"></a>
+</script>
+
+<script id="mirasvit_kb_article" type="text/x-custom-template">
+  <a class="title" data-bind="text: name, attr: {href: url}, highlight"></a>
+</script>
+
+<script id="external_wordpress_post" type="text/x-custom-template">
+  <a class="title" data-bind="text: name, attr: {href: url}, highlight"></a>
+</script>
+
+<script id="amasty_blog_post" type="text/x-custom-template">
+  <a class="title" data-bind="text: name, attr: {href: url}, highlight"></a>
+</script>
+
+<script id="amasty_faq_question" type="text/x-custom-template">
+  <a class="title" data-bind="text: name, attr: {href: url}, highlight"></a>
+</script>
+
+<script id="magefan_blog_post" type="text/x-custom-template">
+  <a class="title" data-bind="text: name, attr: {href: url}, highlight"></a>
+</script>
+
+<script id="mageplaza_blog_post" type="text/x-custom-template">
+  <a class="title" data-bind="text: name, attr: {href: url}, highlight"></a>
+</script>
+
+<script id="aheadworks_blog_post" type="text/x-custom-template">
+  <a class="title" data-bind="text: name, attr: {href: url}, highlight"></a>
+</script>
+
+<script id="mirasvit_blog_post" type="text/x-custom-template">
+  <a class="title" data-bind="text: name, attr: {href: url}, highlight"></a>
+</script>
+
+<script id="mirasvit_gry_registry" type="text/x-custom-template">
+  <a class="title" data-bind="text: title, attr: {href: url}, highlight"></a>
+    <p data-bind="text: name, highlight"></p>
+</script>
+
+<script id="ves_blog_post" type="text/x-custom-template">
+  <a class="title" data-bind="text: name, attr: {href: url}, highlight"></a>
+</script>
+
+<script id="fishpig_glossary_word" type="text/x-custom-template">
+  <a class="title" data-bind="text: name, attr: {href: url}, highlight"></a>
+</script>
+
+<script id="blackbird_contentmanager_content" type="text/x-custom-template">
+  <a class="title" data-bind="text: name, attr: {href: url}, highlight"></a>
+</script>
+
+<script id="mirasvit_brand_page" type="text/x-custom-template">
+  <a class="title" data-bind="text: name, attr: {href: url}, highlight"></a>
+</script>
+<div class="page-wrapper"><header class="page-header" style="padding-top: 126px;"><div class="stickWrapper sticky">
+  <div class="header">
+    <div class="inner">
+      <div id="menu-icon" class="menu-icon menu-icon-spin" tabindex="0">
+        <div class="menu-icon-box">
+          <div class="menu-icon-inner"></div>
+        </div>
+      </div>
+      <a href="https://www.mgmtimber.co.uk/" class="logo" style="background-image:url(&#39;https://www.mgmtimber.co.uk/static/version1675071904/frontend/mgmtimber/default/en_GB/images/mgmlogo.png&#39;);" title="MGM Timber"></a>
+      <div class="headerContent">
+        <div class="checkoutNotice">
+          Have a question? Contact us on <a href="tel:01738 472036">01738 472036</a>
+        </div>
+        <div class="top-nav">
+                    <div id="switch" class="switch-wrapper">
+            <div class="trustpilot-widget" data-locale="en-GB" data-template-id="5419b732fbfb950b10de65e5" data-businessunit-id="5843003c0000ff0005988644" data-style-height="24px" data-style-width="100%" data-theme="light" style="position: relative;"><iframe title="Customer reviews powered by Trustpilot" loading="auto" src="./About Us_files/index.html" style="position: relative; height: 24px; width: 100%; border-style: none; display: block; overflow: hidden;"></iframe></div>
+            <span>VAT:</span>
+            <span class="price-including-tax vat">Inc</span>
+            <label class="switch">
+              <input type="checkbox">
+              <div class="slider"></div>
+            </label>
+            <span class="price-excluding-tax vat">Ex</span>
+          </div>
+        </div>
+        <div class="headerWrapper">
+          <div class="block block-search">
+    <div class="block block-content">
+        <form class="form minisearch" id="search_mini_form" action="https://www.mgmtimber.co.uk/catalogsearch/result/" method="get">
+            <div class="field search">
+              <label class="label" for="search" data-role="minisearch-label">
+                  <span>Search</span>
+              </label>
+              <div class="control">
+                <input id="search" type="text" name="q" value="" placeholder="Search entire store here..." class="input-text" maxlength="128" aria-haspopup="false" aria-autocomplete="both" autocomplete="off">
+  <div class="mst-searchautocomplete__autocomplete">
+        <div class="mst-searchautocomplete__spinner">
+            <div class="spinner-item spinner-item-1"></div>
+            <div class="spinner-item spinner-item-2"></div>
+            <div class="spinner-item spinner-item-3"></div>
+            <div class="spinner-item spinner-item-4"></div>
+            <div class="spinner-item spinner-item-5"></div>
+            <div class="spinner-item spinner-item-6"></div>
+            <div class="spinner-item spinner-item-7"></div>
+            <div class="spinner-item spinner-item-8"></div>
+        </div>
+
+        <div class="mst-searchautocomplete__close">×</div>
+    </div>
+
+                <div id="search_autocomplete" class="search-autocomplete"></div>
+                <div class="nested">
+    <a class="action advanced" href="https://www.mgmtimber.co.uk/catalogsearch/advanced/" data-action="advanced-search">
+        Advanced Search    </a>
+</div>
+              </div>
+              <button type="submit" title="Search" class="btn-search" aria-label="Search" disabled="">
+              </button>                
+            </div>
+
+        </form>
+    </div>
+</div>
+          <div class="nav-links">
+            <a href="https://www.mgmtimber.co.uk/wishlist/" class="label link locator" title="Job List">
+              <i class="icon-wishlist ki ki-wishlist"></i>
+              <span class="label  link-label">Job List</span>
+            </a>
+            <a href="https://www.mgmtimber.co.uk/branch-locator/" class="label link locator" title="Branch Locator">
+              <i class="icon-location"></i>
+              <span class="label  link-label">Branch Locator</span>
+            </a>
+            <a href="https://www.mgmtimber.co.uk/customer/account/login/" class="link account" title="My Account" data-bind="scope: &#39;customer&#39;">
+              <i class="icon-account"></i>
+              <span class="label link-label">My Account</span>
+              <!-- ko if: customer().firstname  --><!-- /ko -->
+              <!-- ko ifnot: customer().firstname  -->
+              <span class="sub-label  link-label">Sign In/Register</span>
+              <!-- /ko -->
+            </a>
+                        
+<div data-block="minicart" class="link cart minicart-wrapper">
+    <a class="action showcart" href="https://www.mgmtimber.co.uk/checkout/cart/" data-bind="scope: &#39;minicart_content&#39;">
+        <div class="emptycart" data-bind="css: { emptycart: !!getCartParam(&#39;summary_count&#39;) == false }">
+            <i class="icon-cart"></i>
+            <span class="text label  link-label">My Basket</span>
+            <span class="sub-label price-wrapper price-including-tax" data-bind="html:getCartParam(&#39;subtotal_incl_tax&#39;)"></span>
+            <span class="sub-label price-wrapper price-excluding-tax" data-bind="html:getCartParam(&#39;subtotal_excl_tax&#39;)"></span>
+            <span class="counter qty empty" data-bind="css: { empty: !!getCartParam(&#39;summary_count&#39;) == false }, blockLoader: isLoading">
+                <span class="counter-number sub-label">
+                  <!-- ko text: getCartParam('summary_count') --><!-- /ko -->
+                </span>
+            </span>
+        </div>
+    </a>
+
+            
+        <script>
+        window.checkout = {"shoppingCartUrl":"https:\/\/www.mgmtimber.co.uk\/checkout\/cart\/","checkoutUrl":"https:\/\/www.mgmtimber.co.uk\/checkout\/","updateItemQtyUrl":"https:\/\/www.mgmtimber.co.uk\/checkout\/sidebar\/updateItemQty\/","removeItemUrl":"https:\/\/www.mgmtimber.co.uk\/checkout\/sidebar\/removeItem\/","imageTemplate":"Magento_Catalog\/product\/image_with_borders","baseUrl":"https:\/\/www.mgmtimber.co.uk\/","minicartMaxItemsVisible":5,"websiteId":"1","maxItemsToDisplay":10,"storeId":"1","storeGroupId":"1","customerLoginUrl":"https:\/\/www.mgmtimber.co.uk\/customer\/account\/login\/referer\/aHR0cHM6Ly93d3cubWdtdGltYmVyLmNvLnVrL2Fib3V0LXVz\/","isRedirectRequired":false,"autocomplete":"off","captcha":{"user_login":{"isCaseSensitive":false,"imageHeight":50,"imageSrc":"","refreshUrl":"https:\/\/www.mgmtimber.co.uk\/captcha\/refresh\/","isRequired":false,"timestamp":1675322708}}};
+    </script>
+    
+<div tabindex="-1" role="dialog" class="ui-dialog ui-corner-all ui-widget ui-widget-content ui-front mage-dropdown-dialog" aria-describedby="ui-id-1" style="display: none;"><div class="block block-minicart ui-dialog-content ui-widget-content" data-role="dropdownDialog" id="ui-id-1">
+            <div id="minicart-content-wrapper" data-bind="scope: &#39;minicart_content&#39;">
+                <!-- ko template: getTemplate() --><div class="block-content">
+    <button type="button" id="btn-minicart-close" class="action close" data-action="close" data-bind="
+                attr: {
+                    title: $t(&#39;Close&#39;)
+                },
+                click: closeMinicart()
+            " title="Close">
+            ×
+    </button>
+
+    <!-- ko if: getCartParam('summary_count') --><!-- /ko -->
+
+    <!-- ko ifnot: getCartParam('summary_count') -->
+        <strong class="subtitle empty" data-bind="i18n: &#39;You have no items in your shopping cart.&#39;">You have no items in your shopping cart.</strong>
+        <!-- ko if: getCartParam('cart_empty_message') --><!-- /ko -->
+    <!-- /ko -->
+
+    <!-- ko if: getCartParam('summary_count') --><!-- /ko -->
+
+    <!-- ko if: regionHasElements('promotion') --><div id="minicart-widgets" class="minicart-widgets">
+        <!-- ko foreach: getRegion('promotion') --><!-- ko template: getTemplate() -->
+<!-- ko foreach: {data: elems, as: 'element'} --><!-- /ko -->
+<!-- /ko --><!-- /ko -->
+    </div><!-- /ko -->
+</div>
+<!-- ko foreach: getRegion('sign-in-popup') --><!-- /ko -->
+<!-- /ko -->
+            </div>
+                    </div></div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="main-nav-wrapper">
+    <div class="main-nav">
+      
+<nav id="nav" class="nav-wrapper">
+  <ul class="nav">
+                <li class="level0 nav-1 has-items">
+          <a href="https://www.mgmtimber.co.uk/timber" class="main">Timber</a>
+          <div class="nav-dropdown">
+            <div class="nav-inner">
+              <div class="row">
+                                  <ul class="level1 col-count-4">
+                                            <li class="level1-1">
+                          <a href="https://www.mgmtimber.co.uk/timber" class="parent title-level2">Timber</a>
+                                                      <ul class="level2">
+                                                                <li class="level2-1 count-1">
+                                    <a class="title-level3" href="https://www.mgmtimber.co.uk/timber/sawn-timber">Sawn Timber</a>
+                                  </li>
+                                
+                                                                                                <li class="level2-1 count-2">
+                                    <a class="title-level3" href="https://www.mgmtimber.co.uk/timber/finished-timber">Finished Timber</a>
+                                  </li>
+                                
+                                                                                                <li class="level2-1 count-3">
+                                    <a class="title-level3" href="https://www.mgmtimber.co.uk/timber/carcassing-timber">Carcassing Timber</a>
+                                  </li>
+                                
+                                                                                                <li class="level2-1 count-4">
+                                    <a class="title-level3" href="https://www.mgmtimber.co.uk/timber/cls-timber">CLS Timber</a>
+                                  </li>
+                                
+                                                                                                <li class="level2-1 count-5">
+                                    <a class="title-level3" href="https://www.mgmtimber.co.uk/timber/cladding-and-sarking">Cladding &amp; Sarking</a>
+                                  </li>
+                                
+                                                                                          </ul>
+                                                  </li>
+                                                                  <li class="level1-1">
+                          <a href="https://www.mgmtimber.co.uk/landscaping" class="parent title-level2">Landscaping</a>
+                                                      <ul class="level2">
+                                                                <li class="level2-1 count-1">
+                                    <a class="title-level3" href="https://www.mgmtimber.co.uk/landscaping/fencing">Fencing</a>
+                                  </li>
+                                
+                                                                                                <li class="level2-1 count-2">
+                                    <a class="title-level3" href="https://www.mgmtimber.co.uk/landscaping/decking">Decking</a>
+                                  </li>
+                                
+                                                                                                <li class="level2-1 count-3">
+                                    <a class="title-level3" href="https://www.mgmtimber.co.uk/landscaping/sleepers">Sleepers</a>
+                                  </li>
+                                
+                                                                                          </ul>
+                                                  </li>
+                                                                  <li class="level1-1">
+                          <a href="https://www.mgmtimber.co.uk/doors-windows-joinery/skirtings" class="parent title-level2">Skirtings</a>
+                                                      <ul class="level2">
+                                                                <li class="level2-1 count-1">
+                                    <a class="title-level3" href="https://www.mgmtimber.co.uk/doors-windows-joinery/skirtings/primed-mdf-mouldings">Primed MDF Mouldings</a>
+                                  </li>
+                                
+                                                                                                <li class="level2-1 count-2">
+                                    <a class="title-level3" href="https://www.mgmtimber.co.uk/doors-windows-joinery/skirtings/oak-mouldings">Oak Mouldings</a>
+                                  </li>
+                                
+                                                                                                <li class="level2-1 count-3">
+                                    <a class="title-level3" href="https://www.mgmtimber.co.uk/doors-windows-joinery/skirtings/meranti-mouldings">Meranti Mouldings</a>
+                                  </li>
+                                
+                                                                                          </ul>
+                                                  </li>
+                                                                  <li class="level1-1">
+                          <a href="https://www.mgmtimber.co.uk/timber/timber-engineering" class="parent title-level2">Timber Engineering</a>
+                                                      <ul class="level2">
+                                                                <li class="level2-1 count-1">
+                                    <a class="title-level3" href="https://www.mgmtimber.co.uk/timber/timber-engineering/roof-trusses">Roof Trusses</a>
+                                  </li>
+                                
+                                                                                                <li class="level2-1 count-2">
+                                    <a class="title-level3" href="https://www.mgmtimber.co.uk/timber/timber-engineering/i-joists">I-Joists</a>
+                                  </li>
+                                
+                                                                                                <li class="level2-1 count-3">
+                                    <a class="title-level3" href="https://www.mgmtimber.co.uk/timber/timber-engineering/open-web-joist">Open Web Joist</a>
+                                  </li>
+                                
+                                                                                          </ul>
+                                                  </li>
+                                                            </ul>
+                  <div class="nav-image">
+                                      </div>
+                              </div>
+            </div>
+          </div>
+        </li>
+                          <li class="level0 nav-2 has-items">
+          <a href="https://www.mgmtimber.co.uk/landscaping" class="main">Landscaping</a>
+          <div class="nav-dropdown">
+            <div class="nav-inner">
+              <div class="row">
+                                  <ul class="level1 col-count-4">
+                                            <li class="level1-1">
+                          <a href="https://www.mgmtimber.co.uk/landscaping/fencing" class="parent title-level2">Fencing</a>
+                                                      <ul class="level2">
+                                                                <li class="level2-1 count-1">
+                                    <a class="title-level3" href="https://www.mgmtimber.co.uk/landscaping/fencing/fence-rails">Fence Rails</a>
+                                  </li>
+                                
+                                                                                                <li class="level2-1 count-2">
+                                    <a class="title-level3" href="https://www.mgmtimber.co.uk/landscaping/fencing/fence-slats">Fence Slats</a>
+                                  </li>
+                                
+                                                                                                <li class="level2-1 count-3">
+                                    <a class="title-level3" href="https://www.mgmtimber.co.uk/landscaping/fencing/fence-posts">Fence Posts</a>
+                                  </li>
+                                
+                                                                                                <li class="level2-1 count-4">
+                                    <a class="title-level3" href="https://www.mgmtimber.co.uk/landscaping/fencing/fence-accessories">Fence Accessories</a>
+                                  </li>
+                                
+                                                                                          </ul>
+                                                  </li>
+                                                                  <li class="level1-1">
+                          <a href="https://www.mgmtimber.co.uk/landscaping/decking" class="parent title-level2">Decking</a>
+                                                      <ul class="level2">
+                                                                <li class="level2-1 count-1">
+                                    <a class="title-level3" href="https://www.mgmtimber.co.uk/landscaping/decking/timber-decking">Timber Decking</a>
+                                  </li>
+                                
+                                                                                                <li class="level2-1 count-2">
+                                    <a class="title-level3" href="https://www.mgmtimber.co.uk/landscaping/decking/perform-decking">Perform Decking</a>
+                                  </li>
+                                
+                                                                                                <li class="level2-1 count-3">
+                                    <a class="title-level3" href="https://www.mgmtimber.co.uk/landscaping/decking/composite-decking">Composite Decking</a>
+                                  </li>
+                                
+                                                                                                <li class="level2-1 count-4">
+                                    <a class="title-level3" href="https://www.mgmtimber.co.uk/landscaping/decking/deck-accessories">Deck Accessories</a>
+                                  </li>
+                                
+                                                                                          </ul>
+                                                  </li>
+                                                                  <li class="level1-1">
+                          <a href="https://www.mgmtimber.co.uk/landscaping/sleepers" class="parent title-level2">Sleepers</a>
+                                                  </li>
+                                                            </ul>
+                  <div class="nav-image">
+                                      </div>
+                              </div>
+            </div>
+          </div>
+        </li>
+                          <li class="level0 nav-3 has-items">
+          <a href="https://www.mgmtimber.co.uk/sheet-materials" class="main">Sheet Materials</a>
+          <div class="nav-dropdown">
+            <div class="nav-inner">
+              <div class="row">
+                                  <ul class="level1 col-count-4">
+                                            <li class="level1-1">
+                          <a href="https://www.mgmtimber.co.uk/sheet-materials/plywood" class="parent title-level2">Plywood</a>
+                                                      <ul class="level2">
+                                                                <li class="level2-1 count-1">
+                                    <a class="title-level3" href="https://www.mgmtimber.co.uk/sheet-materials/plywood/softwood">Softwood</a>
+                                  </li>
+                                
+                                                                                                <li class="level2-1 count-2">
+                                    <a class="title-level3" href="https://www.mgmtimber.co.uk/sheet-materials/plywood/hardwood">Hardwood</a>
+                                  </li>
+                                
+                                                                                                <li class="level2-1 count-3">
+                                    <a class="title-level3" href="https://www.mgmtimber.co.uk/sheet-materials/plywood/performance-plywood">Performance Plywood</a>
+                                  </li>
+                                
+                                                                                                <li class="level2-1 count-4">
+                                    <a class="title-level3" href="https://www.mgmtimber.co.uk/sheet-materials/plywood/marine">Marine Plywood</a>
+                                  </li>
+                                
+                                                                                          </ul>
+                                                  </li>
+                                                                  <li class="level1-1">
+                          <a href="https://www.mgmtimber.co.uk/sheet-materials/chipboard" class="parent title-level2">Chipboard</a>
+                                                      <ul class="level2">
+                                                                <li class="level2-1 count-1">
+                                    <a class="title-level3" href="https://www.mgmtimber.co.uk/sheet-materials/chipboard/flooring">Flooring</a>
+                                  </li>
+                                
+                                                                                                <li class="level2-1 count-2">
+                                    <a class="title-level3" href="https://www.mgmtimber.co.uk/sheet-materials/chipboard/floor-fixings">Floor Fixings</a>
+                                  </li>
+                                
+                                                                                          </ul>
+                                                  </li>
+                                                                  <li class="level1-1">
+                          <a href="https://www.mgmtimber.co.uk/sheet-materials/mdf" class="parent title-level2">MDF</a>
+                                                      <ul class="level2">
+                                                                <li class="level2-1 count-1">
+                                    <a class="title-level3" href="https://www.mgmtimber.co.uk/sheet-materials/mdf/standard-grade">Standard Grade MDF</a>
+                                  </li>
+                                
+                                                                                                <li class="level2-1 count-2">
+                                    <a class="title-level3" href="https://www.mgmtimber.co.uk/sheet-materials/mdf/moisture-resistant">Moisture Resistant MDF</a>
+                                  </li>
+                                
+                                                                                          </ul>
+                                                  </li>
+                                                                  <li class="level1-1">
+                          <a href="https://www.mgmtimber.co.uk/sheet-materials/osb" class="parent title-level2">OSB</a>
+                                                      <ul class="level2">
+                                                                <li class="level2-1 count-1">
+                                    <a class="title-level3" href="https://www.mgmtimber.co.uk/sheet-materials/osb/osb3">OSB3</a>
+                                  </li>
+                                
+                                                                                          </ul>
+                                                  </li>
+                                                                  <li class="level1-1">
+                          <a href="https://www.mgmtimber.co.uk/dry-lining/plasterboard" class="parent title-level2">Plasterboard</a>
+                                                      <ul class="level2">
+                                                                <li class="level2-1 count-1">
+                                    <a class="title-level3" href="https://www.mgmtimber.co.uk/dry-lining/plasterboard">Plasterboard</a>
+                                  </li>
+                                
+                                                                                                <li class="level2-1 count-2">
+                                    <a class="title-level3" href="https://www.mgmtimber.co.uk/dry-lining/accessories">Plasterboard Accessories</a>
+                                  </li>
+                                
+                                                                                                <li class="level2-1 count-3">
+                                    <a class="title-level3" href="https://www.mgmtimber.co.uk/dry-lining/thermal-liner-board">Thermal Liner Board</a>
+                                  </li>
+                                
+                                                                                          </ul>
+                                                  </li>
+                                                                  <li class="level1-1">
+                          <a href="https://www.mgmtimber.co.uk/kitchens-bathrooms/wet-panel-products" class="parent title-level2">Wet Panel Products</a>
+                                                      <ul class="level2">
+                                                                <li class="level2-1 count-1">
+                                    <a class="title-level3" href="https://www.mgmtimber.co.uk/kitchens-bathrooms/wet-panel-products/square-edged">Perform Panel</a>
+                                  </li>
+                                
+                                                                                                <li class="level2-1 count-2">
+                                    <a class="title-level3" href="https://www.mgmtimber.co.uk/kitchens-bathrooms/wet-panel-products/tongue-and-grooved">Fibo</a>
+                                  </li>
+                                
+                                                                                                <li class="level2-1 count-3">
+                                    <a class="title-level3" href="https://www.mgmtimber.co.uk/kitchens-bathrooms/wet-panel-products/wet-panel-accessories">Wet Panel Accessories</a>
+                                  </li>
+                                
+                                                                                          </ul>
+                                                  </li>
+                                                            </ul>
+                  <div class="nav-image">
+                                      </div>
+                              </div>
+            </div>
+          </div>
+        </li>
+                          <li class="level0 nav-4 has-items">
+          <a href="https://www.mgmtimber.co.uk/kitchens-bathrooms" class="main">Kitchens &amp; Bathrooms</a>
+          <div class="nav-dropdown">
+            <div class="nav-inner">
+              <div class="row">
+                                  <ul class="level1 col-count-4">
+                                            <li class="level1-1">
+                          <a href="https://www.mgmtimber.co.uk/kitchens-bathrooms/kitchens" class="parent title-level2">Kitchens</a>
+                                                      <ul class="level2">
+                                                                <li class="level2-1 count-1">
+                                    <a class="title-level3" href="https://www.mgmtimber.co.uk/kitchens-bathrooms/kitchens/bauformat">Bauformat</a>
+                                  </li>
+                                
+                                                                                                <li class="level2-1 count-2">
+                                    <a class="title-level3" href="https://www.mgmtimber.co.uk/kitchens-bathrooms/kitchens/burger">Burger</a>
+                                  </li>
+                                
+                                                                                                <li class="level2-1 count-3">
+                                    <a class="title-level3" href="https://www.mgmtimber.co.uk/kitchens-bathrooms/kitchens/worktops">Worktops</a>
+                                  </li>
+                                
+                                                                                                <li class="level2-1 count-4">
+                                    <a class="title-level3" href="https://www.mgmtimber.co.uk/kitchens-bathrooms/kitchens/appliances">Appliances</a>
+                                  </li>
+                                
+                                                                                          </ul>
+                                                  </li>
+                                                                  <li class="level1-1">
+                          <a href="https://www.mgmtimber.co.uk/kitchens-bathrooms/wet-panel-products" class="parent title-level2">Wet Panel Products</a>
+                                                      <ul class="level2">
+                                                                <li class="level2-1 count-1">
+                                    <a class="title-level3" href="https://www.mgmtimber.co.uk/kitchens-bathrooms/wet-panel-products/square-edged">Perform Panel</a>
+                                  </li>
+                                
+                                                                                                <li class="level2-1 count-2">
+                                    <a class="title-level3" href="https://www.mgmtimber.co.uk/kitchens-bathrooms/wet-panel-products/tongue-and-grooved">Fibo</a>
+                                  </li>
+                                
+                                                                                                <li class="level2-1 count-3">
+                                    <a class="title-level3" href="https://www.mgmtimber.co.uk/kitchens-bathrooms/wet-panel-products/wet-panel-accessories">Wet Panel Accessories</a>
+                                  </li>
+                                
+                                                                                          </ul>
+                                                  </li>
+                                                            </ul>
+                  <div class="nav-image">
+                                      </div>
+                              </div>
+            </div>
+          </div>
+        </li>
+                          <li class="level0 nav-5 has-items">
+          <a href="https://www.mgmtimber.co.uk/doors-windows-joinery" class="main">Doors, Windows &amp; Joinery</a>
+          <div class="nav-dropdown">
+            <div class="nav-inner">
+              <div class="row">
+                                  <ul class="level1 col-count-4">
+                                            <li class="level1-1">
+                          <a href="https://www.mgmtimber.co.uk/doors-windows-joinery/doors" class="parent title-level2">Doors</a>
+                                                      <ul class="level2">
+                                                                <li class="level2-1 count-1">
+                                    <a class="title-level3" href="https://www.mgmtimber.co.uk/doors-windows-joinery/doors/internal-doors">Internal Doors</a>
+                                  </li>
+                                
+                                                                                                <li class="level2-1 count-2">
+                                    <a class="title-level3" href="https://www.mgmtimber.co.uk/doors-windows-joinery/doors/external-doors">External Doors</a>
+                                  </li>
+                                
+                                                                                                <li class="level2-1 count-3">
+                                    <a class="title-level3" href="https://www.mgmtimber.co.uk/doors-windows-joinery/doors/wardrobe-doors">Wardrobe Doors</a>
+                                  </li>
+                                
+                                                                                                <li class="level2-1 count-4">
+                                    <a class="title-level3" href="https://www.mgmtimber.co.uk/doors-windows-joinery/doors/patio-doors">Patio Doors</a>
+                                  </li>
+                                
+                                                                                                <li class="level2-1 count-5">
+                                    <a class="title-level3" href="https://www.mgmtimber.co.uk/doors-windows-joinery/doors/handles-and-locks">Handles &amp; Locks</a>
+                                  </li>
+                                
+                                                                                          </ul>
+                                                  </li>
+                                                                  <li class="level1-1">
+                          <a href="https://www.mgmtimber.co.uk/doors-windows-joinery/stairs" class="parent title-level2">Stairs</a>
+                                                      <ul class="level2">
+                                                                <li class="level2-1 count-1">
+                                    <a class="title-level3" href="https://www.mgmtimber.co.uk/doors-windows-joinery/stairs/staircases">Staircases</a>
+                                  </li>
+                                
+                                                                                                <li class="level2-1 count-2">
+                                    <a class="title-level3" href="https://www.mgmtimber.co.uk/doors-windows-joinery/stairs/loft-ladders">Loft Ladders</a>
+                                  </li>
+                                
+                                                                                                <li class="level2-1 count-3">
+                                    <a class="title-level3" href="https://www.mgmtimber.co.uk/doors-windows-joinery/stairs/loft-access-hatches">Loft Access Hatches</a>
+                                  </li>
+                                
+                                                                                          </ul>
+                                                  </li>
+                                                                  <li class="level1-1">
+                          <a href="https://www.mgmtimber.co.uk/doors-windows-joinery/skirtings" class="parent title-level2">Skirtings</a>
+                                                      <ul class="level2">
+                                                                <li class="level2-1 count-1">
+                                    <a class="title-level3" href="https://www.mgmtimber.co.uk/doors-windows-joinery/skirtings/primed-mdf-mouldings">Primed MDF Mouldings</a>
+                                  </li>
+                                
+                                                                                                <li class="level2-1 count-2">
+                                    <a class="title-level3" href="https://www.mgmtimber.co.uk/doors-windows-joinery/skirtings/oak-mouldings">Oak Mouldings</a>
+                                  </li>
+                                
+                                                                                                <li class="level2-1 count-3">
+                                    <a class="title-level3" href="https://www.mgmtimber.co.uk/doors-windows-joinery/skirtings/meranti-mouldings">Meranti Mouldings</a>
+                                  </li>
+                                
+                                                                                          </ul>
+                                                  </li>
+                                                            </ul>
+                  <div class="nav-image">
+                                      </div>
+                              </div>
+            </div>
+          </div>
+        </li>
+                          <li class="level0 nav-6 has-items">
+          <a href="https://www.mgmtimber.co.uk/flooring" class="main">Flooring</a>
+          <div class="nav-dropdown">
+            <div class="nav-inner">
+              <div class="row">
+                                  <ul class="level1 col-count-4">
+                                            <li class="level1-1">
+                          <a href="https://www.mgmtimber.co.uk/flooring/solid" class="parent title-level2">Solid Wood Flooring</a>
+                                                      <ul class="level2">
+                                                                <li class="level2-1 count-1">
+                                    <a class="title-level3" href="https://www.mgmtimber.co.uk/flooring/solid/woodpecker">Woodpecker Solid Wood Flooring</a>
+                                  </li>
+                                
+                                                                                                <li class="level2-1 count-2">
+                                    <a class="title-level3" href="https://www.mgmtimber.co.uk/flooring/solid/atkinson-and-kirby">Atkinson &amp; Kirby Solid Wood Flooring</a>
+                                  </li>
+                                
+                                                                                                <li class="level2-1 count-3">
+                                    <a class="title-level3" href="https://www.mgmtimber.co.uk/flooring/solid/elka">Elka Solid Wood Flooring</a>
+                                  </li>
+                                
+                                                                                          </ul>
+                                                  </li>
+                                                                  <li class="level1-1">
+                          <a href="https://www.mgmtimber.co.uk/flooring/engineered" class="parent title-level2">Real Wood Engineered Flooring</a>
+                                                      <ul class="level2">
+                                                                <li class="level2-1 count-1">
+                                    <a class="title-level3" href="https://www.mgmtimber.co.uk/flooring/engineered/woodpecker">Woodpecker Real Wood Engineered Flooring</a>
+                                  </li>
+                                
+                                                                                                <li class="level2-1 count-2">
+                                    <a class="title-level3" href="https://www.mgmtimber.co.uk/flooring/engineered/atkinson-and-kirby">Atkinson &amp; Kirby Real Wood Engineered Flooring</a>
+                                  </li>
+                                
+                                                                                                <li class="level2-1 count-3">
+                                    <a class="title-level3" href="https://www.mgmtimber.co.uk/flooring/engineered/elka">Elka Real Wood Engineered Flooring</a>
+                                  </li>
+                                
+                                                                                          </ul>
+                                                  </li>
+                                                                  <li class="level1-1">
+                          <a href="https://www.mgmtimber.co.uk/flooring/laminate" class="parent title-level2">Laminate Flooring</a>
+                                                      <ul class="level2">
+                                                                <li class="level2-1 count-1">
+                                    <a class="title-level3" href="https://www.mgmtimber.co.uk/flooring/laminate/quickstep">Quick-Step Laminate</a>
+                                  </li>
+                                
+                                                                                                <li class="level2-1 count-2">
+                                    <a class="title-level3" href="https://www.mgmtimber.co.uk/flooring/laminate/elka-laminate">Elka Laminate</a>
+                                  </li>
+                                
+                                                                                          </ul>
+                                                  </li>
+                                                                  <li class="level1-1">
+                          <a href="https://www.mgmtimber.co.uk/flooring/luxury-vinyl" class="parent title-level2">Vinyl Flooring</a>
+                                                      <ul class="level2">
+                                                                <li class="level2-1 count-1">
+                                    <a class="title-level3" href="https://www.mgmtimber.co.uk/flooring/luxury-vinyl/quickstep-vinyl">Quick-Step Vinyl</a>
+                                  </li>
+                                
+                                                                                                <li class="level2-1 count-2">
+                                    <a class="title-level3" href="https://www.mgmtimber.co.uk/flooring/luxury-vinyl/woodpecker-stratex">Woodpecker Stratex</a>
+                                  </li>
+                                
+                                                                                                <li class="level2-1 count-3">
+                                    <a class="title-level3" href="https://www.mgmtimber.co.uk/flooring/luxury-vinyl/elka-vinyl">Elka Vinyl</a>
+                                  </li>
+                                
+                                                                                          </ul>
+                                                  </li>
+                                                                  <li class="level1-1">
+                          <a href="https://www.mgmtimber.co.uk/flooring/underlay" class="parent title-level2">Underlay</a>
+                                                  </li>
+                                                                  <li class="level1-1">
+                          <a href="https://www.mgmtimber.co.uk/flooring/flooring-accessories" class="parent title-level2">Flooring Accessories</a>
+                                                  </li>
+                                                            </ul>
+                  <div class="nav-image">
+                                      </div>
+                              </div>
+            </div>
+          </div>
+        </li>
+                          <li class="level0 nav-7 has-items">
+          <a href="https://www.mgmtimber.co.uk/insulation-membranes" class="main">Insulation &amp; Membranes</a>
+          <div class="nav-dropdown">
+            <div class="nav-inner">
+              <div class="row">
+                                  <ul class="level1 col-count-4">
+                                            <li class="level1-1">
+                          <a href="https://www.mgmtimber.co.uk/insulation-membranes/insulation" class="parent title-level2">Insulation</a>
+                                                      <ul class="level2">
+                                                                <li class="level2-1 count-1">
+                                    <a class="title-level3" href="https://www.mgmtimber.co.uk/insulation-membranes/insulation/mineral-wool">Mineral Wool</a>
+                                  </li>
+                                
+                                                                                                <li class="level2-1 count-2">
+                                    <a class="title-level3" href="https://www.mgmtimber.co.uk/insulation-membranes/insulation/insulation-boards">Insulation Boards</a>
+                                  </li>
+                                
+                                                                                                <li class="level2-1 count-3">
+                                    <a class="title-level3" href="https://www.mgmtimber.co.uk/insulation-membranes/insulation/foil-insulation">Foil Insulation</a>
+                                  </li>
+                                
+                                                                                                <li class="level2-1 count-4">
+                                    <a class="title-level3" href="https://www.mgmtimber.co.uk/insulation-membranes/insulation/insulation-tapes">Insulation Tapes</a>
+                                  </li>
+                                
+                                                                                                <li class="level2-1 count-5">
+                                    <a class="title-level3" href="https://www.mgmtimber.co.uk/insulation-membranes/insulation/siga-tapes">Siga Tapes</a>
+                                  </li>
+                                
+                                                                                                <li class="level2-1 count-6">
+                                    <a class="title-level3" href="https://www.mgmtimber.co.uk/insulation-membranes/insulation/natural-insulation">Natural Insulation</a>
+                                  </li>
+                                
+                                                                                          </ul>
+                                                  </li>
+                                                                  <li class="level1-1">
+                          <a href="https://www.mgmtimber.co.uk/insulation-membranes/membranes" class="parent title-level2">Membranes</a>
+                                                      <ul class="level2">
+                                                                <li class="level2-1 count-1">
+                                    <a class="title-level3" href="https://www.mgmtimber.co.uk/insulation-membranes/membranes/roofing-membranes">Roofing Membranes</a>
+                                  </li>
+                                
+                                                                                                <li class="level2-1 count-2">
+                                    <a class="title-level3" href="https://www.mgmtimber.co.uk/insulation-membranes/membranes/construction-membranes">Construction Membranes</a>
+                                  </li>
+                                
+                                                                                          </ul>
+                                                  </li>
+                                                            </ul>
+                  <div class="nav-image">
+                                      </div>
+                              </div>
+            </div>
+          </div>
+        </li>
+                          <li class="level0 nav-8 has-items">
+          <a href="https://www.mgmtimber.co.uk/dry-lining" class="main">Dry Lining</a>
+          <div class="nav-dropdown">
+            <div class="nav-inner">
+              <div class="row">
+                                  <ul class="level1 col-count-4">
+                                            <li class="level1-1">
+                          <a href="https://www.mgmtimber.co.uk/dry-lining/plasterboard" class="parent title-level2">Plasterboard</a>
+                                                  </li>
+                                                                  <li class="level1-1">
+                          <a href="https://www.mgmtimber.co.uk/dry-lining/accessories" class="parent title-level2">Plasterboard Accessories</a>
+                                                  </li>
+                                                                  <li class="level1-1">
+                          <a href="https://www.mgmtimber.co.uk/dry-lining/thermal-liner-board" class="parent title-level2">Thermal Liner Board</a>
+                                                  </li>
+                                                            </ul>
+                  <div class="nav-image">
+                                      </div>
+                              </div>
+            </div>
+          </div>
+        </li>
+                          <li class="level0 nav-9 has-items">
+          <a href="https://www.mgmtimber.co.uk/tools-fixings-ironmongery" class="main">Tools, Fixings &amp; Ironmongery</a>
+          <div class="nav-dropdown">
+            <div class="nav-inner">
+              <div class="row">
+                                  <ul class="level1 col-count-4">
+                                            <li class="level1-1">
+                          <a href="https://www.mgmtimber.co.uk/tools-fixings-ironmongery/screws-nails-fixings" class="parent title-level2">Screws, Nails &amp; Fixings</a>
+                                                  </li>
+                                                                  <li class="level1-1">
+                          <a href="https://www.mgmtimber.co.uk/tools-fixings-ironmongery/hand-tools" class="parent title-level2">Hand Tools</a>
+                                                  </li>
+                                                                  <li class="level1-1">
+                          <a href="https://www.mgmtimber.co.uk/tools-fixings-ironmongery/sealants-tapes-adhesives" class="parent title-level2">Sealants, Tapes &amp; Adhesives</a>
+                                                  </li>
+                                                                  <li class="level1-1">
+                          <a href="https://www.mgmtimber.co.uk/tools-fixings-ironmongery/miscellaneous" class="parent title-level2">Miscellaneous</a>
+                                                  </li>
+                                                            </ul>
+                  <div class="nav-image">
+                                      </div>
+                              </div>
+            </div>
+          </div>
+        </li>
+                    </ul>
+
+
+
+</nav>
+
+<div class="nav-search-wrapper">
+  <form action="https://www.mgmtimber.co.uk/catalogsearch/result/" class="search">
+    <input id="search-mobile" type="text" name="q" placeholder="What are you looking for...">
+    <button class="btn-search" aria-label="Product Search"></button>
+  </form>
+</div>
+
+<div class="nav-mobile">
+  <div id="dl-menu" class="dl-menuwrapper clearfix">
+    <ul class="dl-menu">
+                      <li>
+            <a href="https://www.mgmtimber.co.uk/timber" class="main">
+              Timber            </a>
+                          <ul class="dl-submenu" data-parent="Timber">
+                <li class="dl-back"><a href="https://www.mgmtimber.co.uk/about-us#">Timber</a></li>
+                                                    <li>
+                      <a href="https://www.mgmtimber.co.uk/timber">
+                        Timber                      </a>
+                                              <ul class="dl-submenu child" data-child="Timber">
+                          <li class="dl-back"><a href="https://www.mgmtimber.co.uk/about-us#">Timber</a></li>
+                          <li><a href="https://www.mgmtimber.co.uk/timber/timber" class="parent">Timber</a></li>
+                                                        <li>
+                                <a href="https://www.mgmtimber.co.uk/timber/sawn-timber">Sawn Timber</a>
+                              </li>
+                                                                                    <li>
+                                <a href="https://www.mgmtimber.co.uk/timber/finished-timber">Finished Timber</a>
+                              </li>
+                                                                                    <li>
+                                <a href="https://www.mgmtimber.co.uk/timber/carcassing-timber">Carcassing Timber</a>
+                              </li>
+                                                                                    <li>
+                                <a href="https://www.mgmtimber.co.uk/timber/cls-timber">CLS Timber</a>
+                              </li>
+                                                                                    <li>
+                                <a href="https://www.mgmtimber.co.uk/timber/cladding-and-sarking">Cladding &amp; Sarking</a>
+                              </li>
+                                                                              </ul>
+                                          </li>
+                                                      <li>
+                      <a href="https://www.mgmtimber.co.uk/landscaping">
+                        Landscaping                      </a>
+                                              <ul class="dl-submenu child" data-child="Landscaping">
+                          <li class="dl-back"><a href="https://www.mgmtimber.co.uk/about-us#">Landscaping</a></li>
+                          <li><a href="https://www.mgmtimber.co.uk/timber/timber-landscaping" class="parent">Landscaping</a></li>
+                                                        <li>
+                                <a href="https://www.mgmtimber.co.uk/landscaping/fencing">Fencing</a>
+                              </li>
+                                                                                    <li>
+                                <a href="https://www.mgmtimber.co.uk/landscaping/decking">Decking</a>
+                              </li>
+                                                                                    <li>
+                                <a href="https://www.mgmtimber.co.uk/landscaping/sleepers">Sleepers</a>
+                              </li>
+                                                                              </ul>
+                                          </li>
+                                                      <li>
+                      <a href="https://www.mgmtimber.co.uk/doors-windows-joinery/skirtings">
+                        Skirtings                      </a>
+                                              <ul class="dl-submenu child" data-child="Skirtings">
+                          <li class="dl-back"><a href="https://www.mgmtimber.co.uk/about-us#">Skirtings</a></li>
+                          <li><a href="https://www.mgmtimber.co.uk/timber/skirtings" class="parent">Skirtings</a></li>
+                                                        <li>
+                                <a href="https://www.mgmtimber.co.uk/doors-windows-joinery/skirtings/primed-mdf-mouldings">Primed MDF Mouldings</a>
+                              </li>
+                                                                                    <li>
+                                <a href="https://www.mgmtimber.co.uk/doors-windows-joinery/skirtings/oak-mouldings">Oak Mouldings</a>
+                              </li>
+                                                                                    <li>
+                                <a href="https://www.mgmtimber.co.uk/doors-windows-joinery/skirtings/meranti-mouldings">Meranti Mouldings</a>
+                              </li>
+                                                                              </ul>
+                                          </li>
+                                                      <li>
+                      <a href="https://www.mgmtimber.co.uk/timber/timber-engineering">
+                        Timber Engineering                      </a>
+                                              <ul class="dl-submenu child" data-child="Timber Engineering">
+                          <li class="dl-back"><a href="https://www.mgmtimber.co.uk/about-us#">Timber Engineering</a></li>
+                          <li><a href="https://www.mgmtimber.co.uk/timber/timber-engineering" class="parent">Timber Engineering</a></li>
+                                                        <li>
+                                <a href="https://www.mgmtimber.co.uk/timber/timber-engineering/roof-trusses">Roof Trusses</a>
+                              </li>
+                                                                                    <li>
+                                <a href="https://www.mgmtimber.co.uk/timber/timber-engineering/i-joists">I-Joists</a>
+                              </li>
+                                                                                    <li>
+                                <a href="https://www.mgmtimber.co.uk/timber/timber-engineering/open-web-joist">Open Web Joist</a>
+                              </li>
+                                                                              </ul>
+                                          </li>
+                                                </ul>
+                      </li>
+                                <li>
+            <a href="https://www.mgmtimber.co.uk/landscaping" class="main">
+              Landscaping            </a>
+                          <ul class="dl-submenu" data-parent="Landscaping">
+                <li class="dl-back"><a href="https://www.mgmtimber.co.uk/about-us#">Landscaping</a></li>
+                                  <li><a href="https://www.mgmtimber.co.uk/landscaping" class="main">Landscaping</a></li>
+                                                    <li>
+                      <a href="https://www.mgmtimber.co.uk/landscaping/fencing">
+                        Fencing                      </a>
+                                              <ul class="dl-submenu child" data-child="Fencing">
+                          <li class="dl-back"><a href="https://www.mgmtimber.co.uk/about-us#">Fencing</a></li>
+                          <li><a href="https://www.mgmtimber.co.uk/landscaping/fencing" class="parent">Fencing</a></li>
+                                                        <li>
+                                <a href="https://www.mgmtimber.co.uk/landscaping/fencing/fence-rails">Fence Rails</a>
+                              </li>
+                                                                                    <li>
+                                <a href="https://www.mgmtimber.co.uk/landscaping/fencing/fence-slats">Fence Slats</a>
+                              </li>
+                                                                                    <li>
+                                <a href="https://www.mgmtimber.co.uk/landscaping/fencing/fence-posts">Fence Posts</a>
+                              </li>
+                                                                                    <li>
+                                <a href="https://www.mgmtimber.co.uk/landscaping/fencing/fence-accessories">Fence Accessories</a>
+                              </li>
+                                                                              </ul>
+                                          </li>
+                                                      <li>
+                      <a href="https://www.mgmtimber.co.uk/landscaping/decking">
+                        Decking                      </a>
+                                              <ul class="dl-submenu child" data-child="Decking">
+                          <li class="dl-back"><a href="https://www.mgmtimber.co.uk/about-us#">Decking</a></li>
+                          <li><a href="https://www.mgmtimber.co.uk/landscaping/decking" class="parent">Decking</a></li>
+                                                        <li>
+                                <a href="https://www.mgmtimber.co.uk/landscaping/decking/timber-decking">Timber Decking</a>
+                              </li>
+                                                                                    <li>
+                                <a href="https://www.mgmtimber.co.uk/landscaping/decking/perform-decking">Perform Decking</a>
+                              </li>
+                                                                                    <li>
+                                <a href="https://www.mgmtimber.co.uk/landscaping/decking/composite-decking">Composite Decking</a>
+                              </li>
+                                                                                    <li>
+                                <a href="https://www.mgmtimber.co.uk/landscaping/decking/deck-accessories">Deck Accessories</a>
+                              </li>
+                                                                              </ul>
+                                          </li>
+                                                      <li>
+                      <a href="https://www.mgmtimber.co.uk/landscaping/sleepers">
+                        Sleepers                      </a>
+                                          </li>
+                                                </ul>
+                      </li>
+                                <li>
+            <a href="https://www.mgmtimber.co.uk/sheet-materials" class="main">
+              Sheet Materials            </a>
+                          <ul class="dl-submenu" data-parent="Sheet Materials">
+                <li class="dl-back"><a href="https://www.mgmtimber.co.uk/about-us#">Sheet Materials</a></li>
+                                  <li><a href="https://www.mgmtimber.co.uk/sheet-materials" class="main">Sheet Materials</a></li>
+                                                    <li>
+                      <a href="https://www.mgmtimber.co.uk/sheet-materials/plywood">
+                        Plywood                      </a>
+                                              <ul class="dl-submenu child" data-child="Plywood">
+                          <li class="dl-back"><a href="https://www.mgmtimber.co.uk/about-us#">Plywood</a></li>
+                          <li><a href="https://www.mgmtimber.co.uk/sheet-materials/plywood" class="parent">Plywood</a></li>
+                                                        <li>
+                                <a href="https://www.mgmtimber.co.uk/sheet-materials/plywood/softwood">Softwood</a>
+                              </li>
+                                                                                    <li>
+                                <a href="https://www.mgmtimber.co.uk/sheet-materials/plywood/hardwood">Hardwood</a>
+                              </li>
+                                                                                    <li>
+                                <a href="https://www.mgmtimber.co.uk/sheet-materials/plywood/performance-plywood">Performance Plywood</a>
+                              </li>
+                                                                                    <li>
+                                <a href="https://www.mgmtimber.co.uk/sheet-materials/plywood/marine">Marine Plywood</a>
+                              </li>
+                                                                              </ul>
+                                          </li>
+                                                      <li>
+                      <a href="https://www.mgmtimber.co.uk/sheet-materials/chipboard">
+                        Chipboard                      </a>
+                                              <ul class="dl-submenu child" data-child="Chipboard">
+                          <li class="dl-back"><a href="https://www.mgmtimber.co.uk/about-us#">Chipboard</a></li>
+                          <li><a href="https://www.mgmtimber.co.uk/sheet-materials/chipboard" class="parent">Chipboard</a></li>
+                                                        <li>
+                                <a href="https://www.mgmtimber.co.uk/sheet-materials/chipboard/flooring">Flooring</a>
+                              </li>
+                                                                                    <li>
+                                <a href="https://www.mgmtimber.co.uk/sheet-materials/chipboard/floor-fixings">Floor Fixings</a>
+                              </li>
+                                                                              </ul>
+                                          </li>
+                                                      <li>
+                      <a href="https://www.mgmtimber.co.uk/sheet-materials/mdf">
+                        MDF                      </a>
+                                              <ul class="dl-submenu child" data-child="MDF">
+                          <li class="dl-back"><a href="https://www.mgmtimber.co.uk/about-us#">MDF</a></li>
+                          <li><a href="https://www.mgmtimber.co.uk/sheet-materials/mdf" class="parent">MDF</a></li>
+                                                        <li>
+                                <a href="https://www.mgmtimber.co.uk/sheet-materials/mdf/standard-grade">Standard Grade MDF</a>
+                              </li>
+                                                                                    <li>
+                                <a href="https://www.mgmtimber.co.uk/sheet-materials/mdf/moisture-resistant">Moisture Resistant MDF</a>
+                              </li>
+                                                                              </ul>
+                                          </li>
+                                                      <li>
+                      <a href="https://www.mgmtimber.co.uk/sheet-materials/osb">
+                        OSB                      </a>
+                                              <ul class="dl-submenu child" data-child="OSB">
+                          <li class="dl-back"><a href="https://www.mgmtimber.co.uk/about-us#">OSB</a></li>
+                          <li><a href="https://www.mgmtimber.co.uk/sheet-materials/osb" class="parent">OSB</a></li>
+                                                        <li>
+                                <a href="https://www.mgmtimber.co.uk/sheet-materials/osb/osb3">OSB3</a>
+                              </li>
+                                                                              </ul>
+                                          </li>
+                                                      <li>
+                      <a href="https://www.mgmtimber.co.uk/dry-lining/plasterboard">
+                        Plasterboard                      </a>
+                                              <ul class="dl-submenu child" data-child="Plasterboard">
+                          <li class="dl-back"><a href="https://www.mgmtimber.co.uk/about-us#">Plasterboard</a></li>
+                          <li><a href="https://www.mgmtimber.co.uk/sheet-materials/plasterboard" class="parent">Plasterboard</a></li>
+                                                        <li>
+                                <a href="https://www.mgmtimber.co.uk/dry-lining/plasterboard">Plasterboard</a>
+                              </li>
+                                                                                    <li>
+                                <a href="https://www.mgmtimber.co.uk/dry-lining/accessories">Plasterboard Accessories</a>
+                              </li>
+                                                                                    <li>
+                                <a href="https://www.mgmtimber.co.uk/dry-lining/thermal-liner-board">Thermal Liner Board</a>
+                              </li>
+                                                                              </ul>
+                                          </li>
+                                                      <li>
+                      <a href="https://www.mgmtimber.co.uk/kitchens-bathrooms/wet-panel-products">
+                        Wet Panel Products                      </a>
+                                              <ul class="dl-submenu child" data-child="Wet Panel Products">
+                          <li class="dl-back"><a href="https://www.mgmtimber.co.uk/about-us#">Wet Panel Products</a></li>
+                          <li><a href="https://www.mgmtimber.co.uk/sheet-materials/wet-panel-products" class="parent">Wet Panel Products</a></li>
+                                                        <li>
+                                <a href="https://www.mgmtimber.co.uk/kitchens-bathrooms/wet-panel-products/square-edged">Perform Panel</a>
+                              </li>
+                                                                                    <li>
+                                <a href="https://www.mgmtimber.co.uk/kitchens-bathrooms/wet-panel-products/tongue-and-grooved">Fibo</a>
+                              </li>
+                                                                                    <li>
+                                <a href="https://www.mgmtimber.co.uk/kitchens-bathrooms/wet-panel-products/wet-panel-accessories">Wet Panel Accessories</a>
+                              </li>
+                                                                              </ul>
+                                          </li>
+                                                </ul>
+                      </li>
+                                <li>
+            <a href="https://www.mgmtimber.co.uk/kitchens-bathrooms" class="main">
+              Kitchens &amp; Bathrooms            </a>
+                          <ul class="dl-submenu" data-parent="Kitchens &amp; Bathrooms">
+                <li class="dl-back"><a href="https://www.mgmtimber.co.uk/about-us#">Kitchens &amp; Bathrooms</a></li>
+                                  <li><a href="https://www.mgmtimber.co.uk/kitchens-bathrooms" class="main">Kitchens &amp; Bathrooms</a></li>
+                                                    <li>
+                      <a href="https://www.mgmtimber.co.uk/kitchens-bathrooms/kitchens">
+                        Kitchens                      </a>
+                                              <ul class="dl-submenu child" data-child="Kitchens">
+                          <li class="dl-back"><a href="https://www.mgmtimber.co.uk/about-us#">Kitchens</a></li>
+                          <li><a href="https://www.mgmtimber.co.uk/kitchens-bathrooms/kitchens" class="parent">Kitchens</a></li>
+                                                        <li>
+                                <a href="https://www.mgmtimber.co.uk/kitchens-bathrooms/kitchens/bauformat">Bauformat</a>
+                              </li>
+                                                                                    <li>
+                                <a href="https://www.mgmtimber.co.uk/kitchens-bathrooms/kitchens/burger">Burger</a>
+                              </li>
+                                                                                    <li>
+                                <a href="https://www.mgmtimber.co.uk/kitchens-bathrooms/kitchens/worktops">Worktops</a>
+                              </li>
+                                                                                    <li>
+                                <a href="https://www.mgmtimber.co.uk/kitchens-bathrooms/kitchens/appliances">Appliances</a>
+                              </li>
+                                                                              </ul>
+                                          </li>
+                                                      <li>
+                      <a href="https://www.mgmtimber.co.uk/kitchens-bathrooms/wet-panel-products">
+                        Wet Panel Products                      </a>
+                                              <ul class="dl-submenu child" data-child="Wet Panel Products">
+                          <li class="dl-back"><a href="https://www.mgmtimber.co.uk/about-us#">Wet Panel Products</a></li>
+                          <li><a href="https://www.mgmtimber.co.uk/kitchens-bathrooms/wet-panel-products" class="parent">Wet Panel Products</a></li>
+                                                        <li>
+                                <a href="https://www.mgmtimber.co.uk/kitchens-bathrooms/wet-panel-products/square-edged">Perform Panel</a>
+                              </li>
+                                                                                    <li>
+                                <a href="https://www.mgmtimber.co.uk/kitchens-bathrooms/wet-panel-products/tongue-and-grooved">Fibo</a>
+                              </li>
+                                                                                    <li>
+                                <a href="https://www.mgmtimber.co.uk/kitchens-bathrooms/wet-panel-products/wet-panel-accessories">Wet Panel Accessories</a>
+                              </li>
+                                                                              </ul>
+                                          </li>
+                                                </ul>
+                      </li>
+                                <li>
+            <a href="https://www.mgmtimber.co.uk/doors-windows-joinery" class="main">
+              Doors, Windows &amp; Joinery            </a>
+                          <ul class="dl-submenu" data-parent="Doors, Windows &amp; Joinery">
+                <li class="dl-back"><a href="https://www.mgmtimber.co.uk/about-us#">Doors, Windows &amp; Joinery</a></li>
+                                  <li><a href="https://www.mgmtimber.co.uk/doors-windows-joinery" class="main">Doors, Windows &amp; Joinery</a></li>
+                                                    <li>
+                      <a href="https://www.mgmtimber.co.uk/doors-windows-joinery/doors">
+                        Doors                      </a>
+                                              <ul class="dl-submenu child" data-child="Doors">
+                          <li class="dl-back"><a href="https://www.mgmtimber.co.uk/about-us#">Doors</a></li>
+                          <li><a href="https://www.mgmtimber.co.uk/doors-windows-joinery/doors" class="parent">Doors</a></li>
+                                                        <li>
+                                <a href="https://www.mgmtimber.co.uk/doors-windows-joinery/doors/internal-doors">Internal Doors</a>
+                              </li>
+                                                                                    <li>
+                                <a href="https://www.mgmtimber.co.uk/doors-windows-joinery/doors/external-doors">External Doors</a>
+                              </li>
+                                                                                    <li>
+                                <a href="https://www.mgmtimber.co.uk/doors-windows-joinery/doors/wardrobe-doors">Wardrobe Doors</a>
+                              </li>
+                                                                                    <li>
+                                <a href="https://www.mgmtimber.co.uk/doors-windows-joinery/doors/patio-doors">Patio Doors</a>
+                              </li>
+                                                                                    <li>
+                                <a href="https://www.mgmtimber.co.uk/doors-windows-joinery/doors/handles-and-locks">Handles &amp; Locks</a>
+                              </li>
+                                                                              </ul>
+                                          </li>
+                                                      <li>
+                      <a href="https://www.mgmtimber.co.uk/doors-windows-joinery/stairs">
+                        Stairs                      </a>
+                                              <ul class="dl-submenu child" data-child="Stairs">
+                          <li class="dl-back"><a href="https://www.mgmtimber.co.uk/about-us#">Stairs</a></li>
+                          <li><a href="https://www.mgmtimber.co.uk/doors-windows-joinery/stairs" class="parent">Stairs</a></li>
+                                                        <li>
+                                <a href="https://www.mgmtimber.co.uk/doors-windows-joinery/stairs/staircases">Staircases</a>
+                              </li>
+                                                                                    <li>
+                                <a href="https://www.mgmtimber.co.uk/doors-windows-joinery/stairs/loft-ladders">Loft Ladders</a>
+                              </li>
+                                                                                    <li>
+                                <a href="https://www.mgmtimber.co.uk/doors-windows-joinery/stairs/loft-access-hatches">Loft Access Hatches</a>
+                              </li>
+                                                                              </ul>
+                                          </li>
+                                                      <li>
+                      <a href="https://www.mgmtimber.co.uk/doors-windows-joinery/skirtings">
+                        Skirtings                      </a>
+                                              <ul class="dl-submenu child" data-child="Skirtings">
+                          <li class="dl-back"><a href="https://www.mgmtimber.co.uk/about-us#">Skirtings</a></li>
+                          <li><a href="https://www.mgmtimber.co.uk/doors-windows-joinery/skirtings" class="parent">Skirtings</a></li>
+                                                        <li>
+                                <a href="https://www.mgmtimber.co.uk/doors-windows-joinery/skirtings/primed-mdf-mouldings">Primed MDF Mouldings</a>
+                              </li>
+                                                                                    <li>
+                                <a href="https://www.mgmtimber.co.uk/doors-windows-joinery/skirtings/oak-mouldings">Oak Mouldings</a>
+                              </li>
+                                                                                    <li>
+                                <a href="https://www.mgmtimber.co.uk/doors-windows-joinery/skirtings/meranti-mouldings">Meranti Mouldings</a>
+                              </li>
+                                                                              </ul>
+                                          </li>
+                                                </ul>
+                      </li>
+                                <li>
+            <a href="https://www.mgmtimber.co.uk/flooring" class="main">
+              Flooring            </a>
+                          <ul class="dl-submenu" data-parent="Flooring">
+                <li class="dl-back"><a href="https://www.mgmtimber.co.uk/about-us#">Flooring</a></li>
+                                  <li><a href="https://www.mgmtimber.co.uk/flooring" class="main">Flooring</a></li>
+                                                    <li>
+                      <a href="https://www.mgmtimber.co.uk/flooring/solid">
+                        Solid Wood Flooring                      </a>
+                                              <ul class="dl-submenu child" data-child="Solid Wood Flooring">
+                          <li class="dl-back"><a href="https://www.mgmtimber.co.uk/about-us#">Solid Wood Flooring</a></li>
+                          <li><a href="https://www.mgmtimber.co.uk/flooring/solid" class="parent">Solid Wood Flooring</a></li>
+                                                        <li>
+                                <a href="https://www.mgmtimber.co.uk/flooring/solid/woodpecker">Woodpecker Solid Wood Flooring</a>
+                              </li>
+                                                                                    <li>
+                                <a href="https://www.mgmtimber.co.uk/flooring/solid/atkinson-and-kirby">Atkinson &amp; Kirby Solid Wood Flooring</a>
+                              </li>
+                                                                                    <li>
+                                <a href="https://www.mgmtimber.co.uk/flooring/solid/elka">Elka Solid Wood Flooring</a>
+                              </li>
+                                                                              </ul>
+                                          </li>
+                                                      <li>
+                      <a href="https://www.mgmtimber.co.uk/flooring/engineered">
+                        Real Wood Engineered Flooring                      </a>
+                                              <ul class="dl-submenu child" data-child="Real Wood Engineered Flooring">
+                          <li class="dl-back"><a href="https://www.mgmtimber.co.uk/about-us#">Real Wood Engineered Flooring</a></li>
+                          <li><a href="https://www.mgmtimber.co.uk/flooring/engineered" class="parent">Real Wood Engineered Flooring</a></li>
+                                                        <li>
+                                <a href="https://www.mgmtimber.co.uk/flooring/engineered/woodpecker">Woodpecker Real Wood Engineered Flooring</a>
+                              </li>
+                                                                                    <li>
+                                <a href="https://www.mgmtimber.co.uk/flooring/engineered/atkinson-and-kirby">Atkinson &amp; Kirby Real Wood Engineered Flooring</a>
+                              </li>
+                                                                                    <li>
+                                <a href="https://www.mgmtimber.co.uk/flooring/engineered/elka">Elka Real Wood Engineered Flooring</a>
+                              </li>
+                                                                              </ul>
+                                          </li>
+                                                      <li>
+                      <a href="https://www.mgmtimber.co.uk/flooring/laminate">
+                        Laminate Flooring                      </a>
+                                              <ul class="dl-submenu child" data-child="Laminate Flooring">
+                          <li class="dl-back"><a href="https://www.mgmtimber.co.uk/about-us#">Laminate Flooring</a></li>
+                          <li><a href="https://www.mgmtimber.co.uk/flooring/laminate" class="parent">Laminate Flooring</a></li>
+                                                        <li>
+                                <a href="https://www.mgmtimber.co.uk/flooring/laminate/quickstep">Quick-Step Laminate</a>
+                              </li>
+                                                                                    <li>
+                                <a href="https://www.mgmtimber.co.uk/flooring/laminate/elka-laminate">Elka Laminate</a>
+                              </li>
+                                                                              </ul>
+                                          </li>
+                                                      <li>
+                      <a href="https://www.mgmtimber.co.uk/flooring/luxury-vinyl">
+                        Vinyl Flooring                      </a>
+                                              <ul class="dl-submenu child" data-child="Vinyl Flooring">
+                          <li class="dl-back"><a href="https://www.mgmtimber.co.uk/about-us#">Vinyl Flooring</a></li>
+                          <li><a href="https://www.mgmtimber.co.uk/flooring/luxury-vinyl" class="parent">Vinyl Flooring</a></li>
+                                                        <li>
+                                <a href="https://www.mgmtimber.co.uk/flooring/luxury-vinyl/quickstep-vinyl">Quick-Step Vinyl</a>
+                              </li>
+                                                                                    <li>
+                                <a href="https://www.mgmtimber.co.uk/flooring/luxury-vinyl/woodpecker-stratex">Woodpecker Stratex</a>
+                              </li>
+                                                                                    <li>
+                                <a href="https://www.mgmtimber.co.uk/flooring/luxury-vinyl/elka-vinyl">Elka Vinyl</a>
+                              </li>
+                                                                              </ul>
+                                          </li>
+                                                      <li>
+                      <a href="https://www.mgmtimber.co.uk/flooring/underlay">
+                        Underlay                      </a>
+                                          </li>
+                                                      <li>
+                      <a href="https://www.mgmtimber.co.uk/flooring/flooring-accessories">
+                        Flooring Accessories                      </a>
+                                          </li>
+                                                </ul>
+                      </li>
+                                <li>
+            <a href="https://www.mgmtimber.co.uk/insulation-membranes" class="main">
+              Insulation &amp; Membranes            </a>
+                          <ul class="dl-submenu" data-parent="Insulation &amp; Membranes">
+                <li class="dl-back"><a href="https://www.mgmtimber.co.uk/about-us#">Insulation &amp; Membranes</a></li>
+                                  <li><a href="https://www.mgmtimber.co.uk/insulation-membranes" class="main">Insulation &amp; Membranes</a></li>
+                                                    <li>
+                      <a href="https://www.mgmtimber.co.uk/insulation-membranes/insulation">
+                        Insulation                      </a>
+                                              <ul class="dl-submenu child" data-child="Insulation">
+                          <li class="dl-back"><a href="https://www.mgmtimber.co.uk/about-us#">Insulation</a></li>
+                          <li><a href="https://www.mgmtimber.co.uk/insulation-membranes/insulation" class="parent">Insulation</a></li>
+                                                        <li>
+                                <a href="https://www.mgmtimber.co.uk/insulation-membranes/insulation/mineral-wool">Mineral Wool</a>
+                              </li>
+                                                                                    <li>
+                                <a href="https://www.mgmtimber.co.uk/insulation-membranes/insulation/insulation-boards">Insulation Boards</a>
+                              </li>
+                                                                                    <li>
+                                <a href="https://www.mgmtimber.co.uk/insulation-membranes/insulation/foil-insulation">Foil Insulation</a>
+                              </li>
+                                                                                    <li>
+                                <a href="https://www.mgmtimber.co.uk/insulation-membranes/insulation/insulation-tapes">Insulation Tapes</a>
+                              </li>
+                                                                                    <li>
+                                <a href="https://www.mgmtimber.co.uk/insulation-membranes/insulation/siga-tapes">Siga Tapes</a>
+                              </li>
+                                                                                    <li>
+                                <a href="https://www.mgmtimber.co.uk/insulation-membranes/insulation/natural-insulation">Natural Insulation</a>
+                              </li>
+                                                                              </ul>
+                                          </li>
+                                                      <li>
+                      <a href="https://www.mgmtimber.co.uk/insulation-membranes/membranes">
+                        Membranes                      </a>
+                                              <ul class="dl-submenu child" data-child="Membranes">
+                          <li class="dl-back"><a href="https://www.mgmtimber.co.uk/about-us#">Membranes</a></li>
+                          <li><a href="https://www.mgmtimber.co.uk/insulation-membranes/membranes" class="parent">Membranes</a></li>
+                                                        <li>
+                                <a href="https://www.mgmtimber.co.uk/insulation-membranes/membranes/roofing-membranes">Roofing Membranes</a>
+                              </li>
+                                                                                    <li>
+                                <a href="https://www.mgmtimber.co.uk/insulation-membranes/membranes/construction-membranes">Construction Membranes</a>
+                              </li>
+                                                                              </ul>
+                                          </li>
+                                                </ul>
+                      </li>
+                                <li>
+            <a href="https://www.mgmtimber.co.uk/dry-lining" class="main">
+              Dry Lining            </a>
+                          <ul class="dl-submenu" data-parent="Dry Lining">
+                <li class="dl-back"><a href="https://www.mgmtimber.co.uk/about-us#">Dry Lining</a></li>
+                                  <li><a href="https://www.mgmtimber.co.uk/dry-lining" class="main">Dry Lining</a></li>
+                                                    <li>
+                      <a href="https://www.mgmtimber.co.uk/dry-lining/plasterboard">
+                        Plasterboard                      </a>
+                                          </li>
+                                                      <li>
+                      <a href="https://www.mgmtimber.co.uk/dry-lining/accessories">
+                        Plasterboard Accessories                      </a>
+                                          </li>
+                                                      <li>
+                      <a href="https://www.mgmtimber.co.uk/dry-lining/thermal-liner-board">
+                        Thermal Liner Board                      </a>
+                                          </li>
+                                                </ul>
+                      </li>
+                                <li>
+            <a href="https://www.mgmtimber.co.uk/tools-fixings-ironmongery" class="main">
+              Tools, Fixings &amp; Ironmongery            </a>
+                          <ul class="dl-submenu" data-parent="Tools, Fixings &amp; Ironmongery">
+                <li class="dl-back"><a href="https://www.mgmtimber.co.uk/about-us#">Tools, Fixings &amp; Ironmongery</a></li>
+                                  <li><a href="https://www.mgmtimber.co.uk/tools-fixings-ironmongery" class="main">Tools, Fixings &amp; Ironmongery</a></li>
+                                                    <li>
+                      <a href="https://www.mgmtimber.co.uk/tools-fixings-ironmongery/screws-nails-fixings">
+                        Screws, Nails &amp; Fixings                      </a>
+                                          </li>
+                                                      <li>
+                      <a href="https://www.mgmtimber.co.uk/tools-fixings-ironmongery/hand-tools">
+                        Hand Tools                      </a>
+                                          </li>
+                                                      <li>
+                      <a href="https://www.mgmtimber.co.uk/tools-fixings-ironmongery/sealants-tapes-adhesives">
+                        Sealants, Tapes &amp; Adhesives                      </a>
+                                          </li>
+                                                      <li>
+                      <a href="https://www.mgmtimber.co.uk/tools-fixings-ironmongery/miscellaneous">
+                        Miscellaneous                      </a>
+                                          </li>
+                                                </ul>
+                      </li>
+                                </ul>
+  </div><!-- dl-menuwrapper -->
+</div><!-- nav-mobile -->    </div>
+  </div>
+</div>
+
+
+<div id="modal-bookappointment" class="modal-fullscreen-wrapper js-close-modal">
+    <div class="kick-modal js-modal">
+        <div class="modal-header">
+            <span class="close-button js-close-modal"></span>
+        </div>
+        <div class="modal-body">
+            
+      <div class="custom-form-container">
+      <div class="block block-custom-form">
+        <div class="block-messages"></div>
+        <div class="block-content" aria-labelledby="block-custom-form-heading-3">
+          <p></p>
+          <form class="custom-form " id="form_3" method="post" enctype="multipart/form-data" data-hasrequired="* Required Fields" action="https://www.mgmtimber.co.uk/customform/form/post/">
+            <fieldset class="fieldset">
+              <input name="form_key" type="hidden" value="7ZYbc5Ah9Aa8z58z">              <input type="hidden" name="form_id" value="3">
+              
+                                    <fieldset class="fieldset fieldset-no-title no-title-fieldset">
+                                                <div class="field input required">
+    <label class="label" for="field_15">
+        <span>Name</span>
+    </label>
+    <div class="control">
+        <input type="text" name="field_15" id="field_15" placeholder="" data-validate="{&quot;required&quot;:true}" value="" title="Name" class="input-text">
+    </div>
+    </div>
+                                    <div class="field input required">
+    <label class="label" for="field_16">
+        <span>Contact Number</span>
+    </label>
+    <div class="control">
+        <input type="text" name="field_16" id="field_16" placeholder="" data-validate="{&quot;required&quot;:true}" value="" title="Contact Number" class="input-text">
+    </div>
+    </div>
+                                    <div class="field input required">
+    <label class="label" for="field_17">
+        <span>Contact Email</span>
+    </label>
+    <div class="control">
+        <input type="text" name="field_17" id="field_17" placeholder="" data-validate="{&quot;required&quot;:true,&quot;validate-email&quot;:true}" value="" title="Contact Email" class="input-text">
+    </div>
+    </div>
+                                    <div class="field select required">
+    <label class="label" for="field_18">
+        <span>Estimated Budget</span>
+    </label>
+    <div class="control">
+        <select name="field_18" id="field_18" class="" title="Estimated Budget" data-validate="{&quot;required&quot;:true}"><option value="" selected="selected"> </option><option value="42">£5,000 - £8,000</option><option value="43">£8,000 - £12,000</option><option value="44">£12,000 - £15,000</option><option value="45">£15,000 - £20,000</option><option value="46">£20,000 +</option></select>    </div>
+    </div>                                    <div class="field select required">
+    <label class="label" for="field_20">
+        <span>Select your local branch</span>
+    </label>
+    <div class="control">
+        <select name="field_20" id="field_20" class="" title="Select your local branch" data-validate="{&quot;required&quot;:true}"><option value="" selected="selected"> </option><option value="28">MGM Perth</option><option value="29">MGM Grangemouth</option><option value="30">MGM Dundee</option><option value="31">MGM Dunfermline</option><option value="32">MGM Glasgow</option><option value="33">MGM Glenrothes</option><option value="34">MGM Wishaw</option><option value="35">MGM Paisley</option><option value="36">MGM Inverness</option><option value="37">MGM Edinburgh</option><option value="38">MGM Prestwick</option><option value="39">MGM Broxburn</option><option value="40">MGM Hamilton</option><option value="41">MGM Edinburgh (City)</option></select>    </div>
+    </div>                                    <div class="field textarea required">
+  <label class="label" for="field_19">
+    <span>Tell us about your project</span>
+  </label>
+  <div class="control">
+    <textarea name="field_19" cols="5" rows="3" id="19" placeholder="tell us a little about what you are looking to do, or what you would like to talk about..." data-validate="{&quot;required&quot;:true}" title="Tell us about your project" class="input-text"></textarea>
+      </div>
+</div>                            </fieldset>
+            
+              
+<!-- Google reCAPTCHA -->
+<div class="field recaptcha" style="">
+    <div class="control">
+        <div id="g-recaptcha-deKfVW" class="g-recaptcha"><div style="width: 304px; height: 78px;"><div><iframe title="reCAPTCHA" src="./About Us_files/anchor.html" width="304" height="78" role="presentation" name="a-l8y5y0t3e8xv" frameborder="0" scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox allow-storage-access-by-user-activation"></iframe></div><textarea id="g-recaptcha-response" name="g-recaptcha-response" class="g-recaptcha-response" style="width: 250px; height: 40px; border: 1px solid rgb(193, 193, 193); margin: 10px 25px; padding: 0px; resize: none; display: none;"></textarea></div><iframe style="display: none;" src="./About Us_files/saved_resource.html"></iframe></div>
+        <input type="hidden" id="g-recaptcha-response-deKfVW" name="g-recaptcha-response-3" class="required-entry recaptcha-input" data-validate="{&quot;required&quot;:true}">
+    </div>
+</div>
+<script type="text/javascript">
+    require(["jquery"], function($) {
+        window.msOnVerifyCallbackdeKfVW = function (response) {
+            $('body')
+                .trigger(
+                    'msOnVerifyCallbackdeKfVW',
+                    [response]
+                );
+        };
+        window.msOnExpireCallbackdeKfVW = function (response) {
+            $('body')
+                .trigger(
+                    'msOnExpireCallbackdeKfVW',
+                    ['deKfVW']
+                );
+        };
+    });
+</script>
+
+<script type="text/javascript">
+    require(["jquery"], function($) {
+                window.msOnLoadCallback = function () {
+            window.recaptchaLoaded = true;
+            $('body').trigger('msOnLoadCallback');
+        };
+            });
+</script>
+              <div class="actions-toolbar">
+                <div class="primary">
+                  <button type="submit" class="action save primary" data-action="save-form" title="Send">
+                    <span>Send</span>
+                  </button>
+                </div>
+              </div>
+            </fieldset>
+          </form>
+        </div>
+      </div>
+          </div>
+    
+          </div>
+        <div class="modal-footer">
+
+        </div>
+    </div>
+</div>
+
+
+<div id="modal-galleryimages" class="modal-fullscreen-wrapper js-close-modal">
+    <div class="kick-modal modal-galleryimage js-modal">
+        <div class="modal-header">
+            <span class="close-button js-close-modal"></span>
+        </div>
+        <div class="modal-body">
+
+        </div>
+        <div class="modal-footer">
+        </div>
+    </div>
+</div>
+
+</header><main id="maincontent" class="page-main">  <div class="breadcrumbs-wrapper">
+    <div class="breadcrumbs">
+      <ul class="items">
+                  <li class="item home">
+                          <a href="https://www.mgmtimber.co.uk/" title="Go to Home Page">Home</a>
+                      </li>
+                  <li class="item category145">
+                          <span>About Us</span>
+                      </li>
+              </ul>
+    </div>
+  </div>
+<span id="contentarea" tabindex="-1"></span><div class="page messages"><div data-placeholder="messages"></div>
+<div data-bind="scope: &#39;messages&#39;">
+    <!-- ko if: cookieMessages && cookieMessages.length > 0 --><!-- /ko -->
+
+    <!-- ko if: messages().messages && messages().messages.length > 0 --><!-- /ko -->
+</div>
+
+</div><div class="columns"><div class="column">
+<div class="heading-wrapper">
+  <h1 class="heading">About Us</h1>
+</div>
+
+<div class="sections">
+  <div class="section content-block">
+    <div class="inner">
+      <img src="./About Us_files/MGM_About_Us_Image.webp" alt="About Us" title="About Us" class="image">      <div class="content-block-text">
+        <p>MGM Timber (Scotland) Ltd was established in 1991 and has grown to become Scotland's local independent timber merchant of choice for both trade and retail customers.</p>
+<p>With decades of experience in timber and building products, highly knowledgeable staff and 14 branches across Scotland, it’s easy to see why MGM is Scotland’s top independent timber merchant. Our experience and geographical spread enables us to provide unrivalled service to all of our customers, large or small. We offer only the highest quality products and excellent value for money, with a personal, local service which is second to none.</p>
+<p>Since 2005 we have been part of the <a title="James Donaldson Group" href="https://www.jamesdonaldsongroup.co.uk/" target="_blank" rel="noopener">James Donaldson Group</a> of companies, we pride ourselves on our <a title="James Donaldson Group values" href="https://www.jamesdonaldsongroup.co.uk/about-us/our-values/" target="_blank" rel="noopener">values</a>&nbsp;of always putting&nbsp;customers&nbsp;at the core of everything we do, our&nbsp;people, our&nbsp;integrity, delivering&nbsp;sustainable&nbsp;financial and environmental performance and we embrace the future through our proud&nbsp;family&nbsp;heritage of over 150 years trading. We are a wholly owned subsidiary of the group, along with our sister companies: Donaldson Timber Engineering, James Donaldson Timber, James Donaldson Insulation, Nu-Style, Timbercut4u, Rowan Manufacturing and Smith and Frater.</p>
+<p>We have demonstrated to the market that we can drive the business forward in all trading conditions, whilst ensuring that the customer always comes first. Our ability to out-perform all independent competitors in Scotland helps us continue as Scotland’s largest independent timber merchant.</p>      </div>
+    </div>
+  </div>
+    <div class="section section-find-a-branch-near-you">
+    <div class="inner">
+      <div class="text">
+        <h3>Find a branch near you</h3>
+        <p>MGM now have 14 branches spread geographically throughout Scotland where we have the ability to service both your collect or delivered orders quickly and efficiently.</p>
+<p>We pride ourselves in having local people who know and understand their local areas which enable us to offer an unrivalled level of attention and service to our ever expanding customer base</p>
+<p>We are trusted in our local communities and our people are known and respected.</p>
+<p>We have strategically placed our branches in areas that enable our customers to get the most cost effective place of contact.</p>
+<p>We have the ability to use our branch network to source stock, specific products, individual length requirements or service an area that may not be local to the customers own address where we can use the closest branch.&nbsp;</p>
+<p><a class="btn" href="https://www.mgmtimber.co.uk/branch-locator">Find A Branch</a></p>
+        
+      </div>
+              <div class="section-image" style="background-image:url(&#39;https://www.mgmtimber.co.uk/media/catalog/category/Screenshot_2021-02-04_at_11.25.42.png&#39;);" aria-label="Find a branch near you"></div>
+          </div>
+  </div>
+    <div class="section section-join-our-team">
+    <div class="inner">
+      <div class="text">
+        <h3>Join Our Team</h3>
+        <p>Our people are our biggest asset. They are our competitive advantage and what set us apart from our competition. We are constantly on the look out for genuine talent. As part of the James Donaldson Group there are in excess of 900 people empoyed. As a result we can offer a wide range of differing and rewarding careers. Browse our roles on the <a title="Find your perfect role" href="https://www.jamesdonaldsongroup.co.uk/careers/find-your-perfect-role/" target="_blank" rel="noopener">James Donaldson</a> website to see what your ideal job within the Group might be.</p>
+        
+      </div>
+              <div class="section-image" style="background-image:url(&#39;https://www.mgmtimber.co.uk/media/catalog/category/Screenshot_2021-02-04_at_11.25.54.png&#39;);" aria-label="Join Our Team"></div>
+          </div>
+  </div>
+  </div>
+<div class="article-content-wrapper"><div class="articles-recent-wrapper">
+  <div class="heading-wrapper">
+    <h3>Latest News &amp; Blogs</h3>
+  </div>
+  
+  <div class="post-list-wrapper blog-widget-recent">
+    <ul class="post-list clearfix">
+              <li class="post-holder post-holder-31">
+          <div class="inner">
+            <div class="post-content">
+                                                                <a href="https://www.mgmtimber.co.uk/news/how-to-lay-decking" title="How To Lay Decking" class="post-image-wrapper">
+                    <div class="post-ftimg-hld" style="background-image:url(&#39;https://www.mgmtimber.co.uk/media/magefan_blog/img2_440x220.jpeg&#39;)"></div>
+                  </a>
+                              <a href="https://www.mgmtimber.co.uk/news/how-to-lay-decking" title="How To Lay Decking" class="post-description">
+                  <div class="post-text-hld">
+                    <h6>How To Lay Decking</h6>
+                    <p>The cornerstone of many gardens across the nation is a timber deck, and as part of the maintenance, many decks will need boards replaced throughout their lifetime. In today’s article, we’ll cover how to lay decking, including everything you’ll need to know.</p>
+                    <span>Continue reading</span>
+                  </div>
+                </a>
+            </div>
+          </div>         
+        </li>
+              <li class="post-holder post-holder-29">
+          <div class="inner">
+            <div class="post-content">
+                                                                <a href="https://www.mgmtimber.co.uk/news/how-to-lay-loft-insulation" title="How to Lay Loft Insulation" class="post-image-wrapper">
+                    <div class="post-ftimg-hld" style="background-image:url(&#39;https://www.mgmtimber.co.uk/media/magefan_blog/LOFT_INSULATION_AdobeStock_190240578RESIZED_1_.jpg&#39;)"></div>
+                  </a>
+                              <a href="https://www.mgmtimber.co.uk/news/how-to-lay-loft-insulation" title="How to Lay Loft Insulation" class="post-description">
+                  <div class="post-text-hld">
+                    <h6>How to Lay Loft Insulation</h6>
+                    <p>When it comes to odd jobs around the home, some can be accomplished fairly easily with a little bit of technical experience. </p>
+<p>In today's article, we will guide you through the process of laying loft insulation with a step-by-step guide that's detailed, comprehensive, and easy to follow.</p>
+                    <span>Continue reading</span>
+                  </div>
+                </a>
+            </div>
+          </div>         
+        </li>
+              <li class="post-holder post-holder-28">
+          <div class="inner">
+            <div class="post-content">
+                                                                <a href="https://www.mgmtimber.co.uk/news/how-to-change-a-door-lock" title="How to Change a Door Lock" class="post-image-wrapper">
+                    <div class="post-ftimg-hld" style="background-image:url(&#39;https://www.mgmtimber.co.uk/media/magefan_blog/2_1_1_.jpeg&#39;)"></div>
+                  </a>
+                              <a href="https://www.mgmtimber.co.uk/news/how-to-change-a-door-lock" title="How to Change a Door Lock" class="post-description">
+                  <div class="post-text-hld">
+                    <h6>How to Change a Door Lock</h6>
+                    <p>There will come the point in everyone’s lives where they’ll need to consider changing the lock on their home. Needing to change a lock can happen for a range of reasons, but regardless of the why, we’ll cover the how in this article.</p>
+                    <span>Continue reading</span>
+                  </div>
+                </a>
+            </div>
+          </div>         
+        </li>
+          </ul>
+  </div>
+</div></div><div id="full-description" class="category-text-wrapper">
+        <div class="category-content">
+        <div class="category-text">
+            <h1 class="title">About Us</h1>
+            <p>MGM Timber (Scotland) Ltd was established in 1991 and has grown to become Scotland's local independent timber merchant of choice for both trade and retail customers.</p>
+<p>With decades of experience in timber and building products, highly knowledgeable staff and 14 branches across Scotland, it’s easy to see why MGM is Scotland’s top independent timber merchant. Our experience and geographical spread enables us to provide unrivalled service to all of our customers, large or small. We offer only the highest quality products and excellent value for money, with a personal, local service which is second to none.</p>
+<p>Since 2005 we have been part of the <a title="James Donaldson Group" href="https://www.jamesdonaldsongroup.co.uk/" target="_blank" rel="noopener">James Donaldson Group</a> of companies, we pride ourselves on our <a title="James Donaldson Group values" href="https://www.jamesdonaldsongroup.co.uk/about-us/our-values/" target="_blank" rel="noopener">values</a>&nbsp;of always putting&nbsp;customers&nbsp;at the core of everything we do, our&nbsp;people, our&nbsp;integrity, delivering&nbsp;sustainable&nbsp;financial and environmental performance and we embrace the future through our proud&nbsp;family&nbsp;heritage of over 150 years trading. We are a wholly owned subsidiary of the group, along with our sister companies: Donaldson Timber Engineering, James Donaldson Timber, James Donaldson Insulation, Nu-Style, Timbercut4u, Rowan Manufacturing and Smith and Frater.</p>
+<p>We have demonstrated to the market that we can drive the business forward in all trading conditions, whilst ensuring that the customer always comes first. Our ability to out-perform all independent competitors in Scotland helps us continue as Scotland’s largest independent timber merchant.</p>                    </div>
+    </div>
+</div>
+
+<input name="form_key" type="hidden" value="7ZYbc5Ah9Aa8z58z">
+
+
+
+<div id="monkey_campaign" style="display:none;">
+</div>
+    <script>
+        require(['jquery', 'Magefan_Blog/js/lib/mfblogunveil', 'domReady!'], function($){
+            $('.mfblogunveil').mfblogunveil();
+        });
+    </script>
+
+      <div class="message info empty">
+    <div>We can't find products matching the selection.</div>
+  </div>
+
+
+
+<div class="category-description-wrapper">
+    <div class="category-content">
+    <div class="category-text">
+      <!-- <h2 class="title">Find out more about About Us</h2> -->
+      <div class="branchDetails">
+        <p style="font-weight:bold;">Contact your local branch to find out more.</p>
+        <div class="btnWrapper">
+          <a href="https://www.mgmtimber.co.uk/contact-us" class="btn">Contact us</a>
+          <a href="https://www.mgmtimber.co.uk/branch-locator" class="btn">Find local branch</a>
+        </div>
+        <ul class="branchList">
+          <li><a href="https://www.mgmtimber.co.uk/branch-locator/mgm-broxburn">Broxburn</a></li>
+          <li><a href="https://www.mgmtimber.co.uk/branch-locator/mgm-dundee">Dundee</a></li>
+          <li><a href="https://www.mgmtimber.co.uk/branch-locator/mgm-dunfermline">Dunfermline</a></li>
+          <li><a href="https://www.mgmtimber.co.uk/branch-locator/mgm-edinburgh">Edinburgh</a></li>
+          <li><a href="https://www.mgmtimber.co.uk/branch-locator/mgm-edinburgh-city">Edinburgh City</a></li>
+          <li><a href="https://www.mgmtimber.co.uk/branch-locator/mgm-glasgow">Glasgow</a></li>
+          <li><a href="https://www.mgmtimber.co.uk/branch-locator/mgm-glenrothes">Glenrothes</a></li>
+          <li><a href="https://www.mgmtimber.co.uk/branch-locator/mgm-grangemouth">Grangemouth</a></li>
+          <li><a href="https://www.mgmtimber.co.uk/branch-locator/mgm-hamilton">Hamilton</a></li>
+          <li><a href="https://www.mgmtimber.co.uk/branch-locator/mgm-inverness">Inverness</a></li>
+          <li><a href="https://www.mgmtimber.co.uk/branch-locator/mgm-paisley">Paisley</a></li>
+          <li><a href="https://www.mgmtimber.co.uk/branch-locator/mgm-perth">Perth</a></li>
+          <li><a href="https://www.mgmtimber.co.uk/branch-locator/mgm-prestwick">Prestwick</a></li>
+          <li><a href="https://www.mgmtimber.co.uk/branch-locator/mgm-wishaw">Wishaw</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+</div></div>
+
+<div class="nav-image-wrapper">
+  <div class="nav-image"></div>
+</div></main><footer class="page-footer">
+<div class="tagline-info-wrapper">
+  <div class="tagline-info">
+    <div class="tagline">
+          </div>
+  </div>
+</div>
+<div class="footer-info-wrapper">
+  <div class="footer">
+    <div class="footer-links">
+
+      <div class="links">
+        <div class="logo">
+          <a href="https://www.mgmtimber.co.uk/" class="logo">
+              <img loading="lazy" class="logo-img" src="./About Us_files/mgmtimber_logo_footer.svg" alt="MGM Timber" width="110" height="69">
+          </a>
+        </div>
+        <div class="contact-links">
+            <ul>
+<li><img src="./About Us_files/contact.svg" alt="Contact Us"> <a href="https://www.mgmtimber.co.uk/contact-us">Contact Us</a></li>
+<li><img src="./About Us_files/get-quote.svg" alt="Get a Quote"> <a href="https://www.mgmtimber.co.uk/get-a-quote">Get a Quote</a></li>
+<li><img src="./About Us_files/find-a-branch.svg" alt="Find a Branch"> <a title="Branch Locator" href="https://www.mgmtimber.co.uk/branch-locator">Find a Branch</a></li>
+</ul>        </div>
+        <div class="jds-group">
+            <img loading="lazy" src="./About Us_files/jd-group.png" alt="Part of the JDS Group" width="274" height="21">
+        </div>
+      </div>
+
+      <div class="links">
+        <div class="group">
+          <h5>Customer Service</h5>
+<ul>
+<li><a href="https://www.mgmtimber.co.uk/contact-us">Contact Us</a></li>
+<li><a title="Branch Locator" href="https://www.mgmtimber.co.uk/branch-locator">Find a Branch</a></li>
+<li><a href="https://www.mgmtimber.co.uk/get-a-quote">Get a Quote</a></li>
+<li><a href="https://www.mgmtimber.co.uk/delivery-information">Delivery Information*</a></li>
+<li><a href="https://www.mgmtimber.co.uk/click-collect">Click &amp; Collect</a></li>
+<li><a href="https://www.mgmtimber.co.uk/returns-policy">Returns &amp; Refunds</a></li>
+<li><a href="https://www.mgmtimber.co.uk/faqs">FAQs</a></li>
+</ul>        </div>
+      </div>
+      <div class="links">
+        <div class="group">
+          <h5>About MGM</h5>
+<ul>
+<li><a href="https://www.mgmtimber.co.uk/about-us">About Us</a></li>
+<li><a href="https://www.mgmtimber.co.uk/media/CreditAppV4.pdf">Credit Account</a></li>
+<li><a href="https://www.mgmtimber.co.uk/environmental">Environmental</a></li>
+<li><a href="https://www.mgmtimber.co.uk/media/pdf/modern-slavery-statement-2020.pdf" target="_blank" rel="noopener">Modern Slavery Statement</a></li>
+<li><a href="https://www.mgmtimber.co.uk/news">News</a></li>
+</ul>        </div>
+      </div>
+      <div class="links">
+      <div class="footer-newsletter">
+        <form class="form subscribe" novalidate="" action="https://mgmtimber.us15.list-manage.com/subscribe/post?u=385bafbd480f5865266cc45d9&amp;id=afed42f339" method="post" id="mc-embedded-subscribe-form" target="_blank" name="mc-embedded-subscribe-form">
+            <div class="footer-newsleter-wrapper">
+                <div class="newsletter-caption">
+                  <div class="newsletter-icon">
+                      <i class="icon-email"></i>
+                  </div>
+                  <div class="newsletter-message">
+                  <h5>Newsletter Subscription</h5>
+                  <p>Get all the latest information on Events, Sales and Offers.<br> Sign up for our newsletter today.</p>
+                  </div>
+                </div>
+                <div class="newsletter-form">
+                  <input name="EMAIL" type="email" id="newsletter" placeholder="Enter your email address">
+                  <button class="btn" title="Subscribe" type="submit" aria-label="Subscribe">
+                      <span>Subscribe</span>
+                  </button>
+                </div>
+            </div>
+        </form>
+
+
+        </div>
+        <div class="otherLinks">
+        <ul class="socialmedia">
+<li class="facebook"><a class="facebook" title="facebook" href="https://www.facebook.com/mgmtimber" target="_blank" rel="noopener">&nbsp;</a></li>
+<li class="twitter"><a class="twitter" title="Twitter" href="https://twitter.com/mgmtimber" target="_blank" rel="noopener">&nbsp;</a></li>
+<li class="linkedin"><a class="linkedin" title="Linkedin" href="https://www.linkedin.com/company/mgm-timber-scotland-ltd/" target="_blank" rel="noopener">&nbsp;</a></li>
+<li class="youtube"><a class="youtube" title="youtube" href="https://www.youtube.com/channel/UCaL-CN3rxqnQM2Yp1cFLWLA" target="_blank" rel="noopener">&nbsp;</a></li>
+<li class="instagram"><a class="instagram" title="instagram" href="https://www.instagram.com/mgmtimber/" target="_blank" rel="noopener">&nbsp;</a></li>
+<li class="pinterest"><a class="pinterest" title="pinterest" href="https://www.pinterest.co.uk/MGMTimber/" target="_blank" rel="noopener">&nbsp;</a></li>
+</ul>        
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="company-info-wrapper">
+    <div class="company-info">
+        <div class="copyright">
+            <ul>
+<li><a title="Terms &amp; Conditions" href="https://www.mgmtimber.co.uk/terms-conditions-web-use">Terms &amp; Conditions</a></li>
+<li><a title=" Privacy Policy" href="https://www.mgmtimber.co.uk/privacy-policy">Privacy Policy</a></li>
+<li><a title="Cookie Policy" href="https://www.mgmtimber.co.uk/cookie-policy">Cookie Policy</a></li>
+</ul>            <p class="title">MGM Timber - Copyright © 2022. All Rights Reserved, all 3rd party trademarks acknowledged.</p>
+        </div>
+        <div class="payment">
+            <img loading="lazy" src="./About Us_files/payment_logos.png" alt="Payment Methods" width="320" height="30">
+        </div>
+    </div>
+</div>
+
+</footer>
+
+
+
+<aside class="amwishlist-popup-block" data-ampopup-js="popup" data-bind="
+            scope:&#39;ampopup&#39;,
+            mageInit: {
+             &#39;Magento_Ui/js/core/app&#39;: {&quot;components&quot;:{&quot;ampopup&quot;:{&quot;component&quot;:&quot;Amasty_MWishlist\/js\/components\/popup\/popup&quot;,&quot;config&quot;:{&quot;wrapper&quot;:&quot;[data-amwishlist-js=\&quot;popup\&quot;]&quot;,&quot;template&quot;:&quot;Amasty_MWishlist\/components\/popup\/wrapper&quot;},&quot;children&quot;:{&quot;amwishlist&quot;:{&quot;component&quot;:&quot;Amasty_MWishlist\/js\/components\/popup\/wishlist&quot;,&quot;config&quot;:{&quot;template&quot;:&quot;Amasty_QuickOrder\/components\/popup\/wishlist&quot;,&quot;actions&quot;:{&quot;addNewList&quot;:&quot;https:\/\/www.mgmtimber.co.uk\/mwishlist\/wishlist\/create\/&quot;,&quot;validateNewName&quot;:&quot;https:\/\/www.mgmtimber.co.uk\/mwishlist\/wishlist\/validateWishlistName\/custom\/1\/&quot;},&quot;typesMap&quot;:[&quot;Job Lists&quot;,&quot;Requisition Lists&quot;]}}}}}}            }" aria-hidden="true">
+    <!-- ko template: getTemplate() -->
+
+<div data-bind="attr: { class: &#39;-&#39; + type() + &#39; amwishlist-popup&#39; }" class="-undefined amwishlist-popup">
+    <div class="amwishlist-toolbar -header">
+        <button data-bind="attr: {
+                                class: classes + &#39; amwishlist-button -close -clear&#39;
+                           },
+                           visible: closeButton(),
+                           click: hide" class="[object Object] amwishlist-button -close -clear">
+        </button>
+    </div>
+    <div class="amwishlist-title">
+        <h5 class="amwishlist-header" data-bind="visible: header, html: header" style="display: none;"></h5>
+        <p class="amwishlist-desc" data-bind="visible: description, html: description" style="display: none;"></p>
+    </div>
+    <!-- ko if: contentTmpl --><!-- /ko -->
+    <div class="amwishlist-toolbar -footer" data-bind="foreach: buttons, visible: buttons" style="display: none;"></div>
+</div>
+<!-- /ko -->
+</aside>
+<script type="text/javascript" async="">
+    var w = document.createElement("script");
+    w.type = "text/javascript";
+    w.src = "//widget.trustpilot.com/bootstrap/v5/tp.widget.bootstrap.min.js";
+    w.async = true;
+    document.head.appendChild(w);
+</script>
+<script type="text/javascript">
+    (function(w,d,s,r,n){w.TrustpilotObject=n;w[n]=w[n]||function(){(w[n].q=w[n].q||[]).push(arguments)};
+    a=d.createElement(s);a.async=1;a.src=r;a.type='text/java'+s;f=d.getElementsByTagName(s)[0];
+    f.parentNode.insertBefore(a,f)})(window,document,'script', 'https://invitejs.trustpilot.com/tp.min.js', 'tp');
+    tp('register','');
+</script>
+<script type="text/javascript">
+    function inIframe () {
+        try {
+            return window.self !== window.top;
+        } catch (e) {
+            return false;
+        }
+    }
+
+    function tryParseJson(str) {
+        if (typeof str === 'string') {
+            try {
+                return JSON.parse(str);
+            } catch (e) {
+                return false;
+            }
+        }
+        return false;
+    }
+
+    if (inIframe()) {
+        window.addEventListener('message', function(e) {
+            var adminOrign = new URL(window.location).hostname;
+            if (!e.data || e.origin.indexOf(adminOrign) === -1) {
+                return;
+            }
+            if (typeof TrustpilotPreview !== 'undefined') {
+                if (typeof e.data === 'string' && e.data === 'submit') {
+                    TrustpilotPreview.sendTrustboxes();
+                } else {
+                    jsonData = tryParseJson(e.data);
+                    if (jsonData.trustbox) {
+                        TrustpilotPreview.setSettings(jsonData.trustbox);
+                    } else if (jsonData.customised) {
+                        TrustpilotPreview.updateActive(jsonData.customised);
+                    }
+                }
+            } else {
+                var settings = tryParseJson(e.data);
+                if (settings) {
+                    var p = document.createElement("script");
+                    p.type = "text/javascript";
+                    p.onload = function () {
+                        const iFrame = e.source.parent.document.getElementById('configuration_iframe').contentWindow;
+                        TrustpilotPreview.init(['//ecommplugins-scripts.trustpilot.com/v2.1/css/preview.min.css'], settings, iFrame, e.source);
+                    };
+                    p.src = '//ecommplugins-scripts.trustpilot.com/v2.1/js/preview.min.js';
+                    document.head.appendChild(p);
+                }
+            }
+        });
+    }
+</script><script type="text/javascript" async="">
+    const trustpilot_trustbox_settings = {"trustboxes":[]};
+    if (trustpilot_trustbox_settings) {
+        document.addEventListener('DOMContentLoaded', function() {
+            tp('trustBox', trustpilot_trustbox_settings);
+        });
+    }
+</script></div>    <script>window.amlazy = function() {if (typeof window.amlazycallback !== "undefined") {setTimeout(window.amlazycallback, 500);setTimeout(window.amlazycallback, 1500);}}</script><script>
+                window.amlazycallback = function () {
+                    window.jQuery("img[data-amsrc]").lazy({
+                        "bind":"event",
+                        "attribute": "data-amsrc",
+                        "visibleOnly": true
+                    });
+                };
+                require(["jquery"], function (jquery) {
+                    require(["Amasty_LazyLoad/js/jquery.lazy"], function(lazy) {
+                        if (document.readyState === "complete") {
+                            window.jQuery("img[data-amsrc]").lazy({
+                                "bind":"event",
+                                "attribute": "data-amsrc",
+                                "visibleOnly": true
+                            });
+                        } else {
+                            window.jQuery("img[data-amsrc]").lazy({
+                                "attribute": "data-amsrc",
+                                "visibleOnly": true
+                            });
+                        }
+                    })
+                });
+            </script><noscript id="deferred-css"><link  rel="stylesheet" type="text/css"  media="print" href="https://www.mgmtimber.co.uk/static/version1675071904/frontend/mgmtimber/default/en_GB/css/print.min.css" /></noscript><script>var loadDeferredStyles = function() {var addStylesNode = document.getElementById("deferred-css");var replacement = document.createElement("div");replacement.innerHTML = addStylesNode.textContent;document.body.appendChild(replacement);addStylesNode.parentElement.removeChild(addStylesNode);};window.addEventListener('load', loadDeferredStyles);</script>
+
+<form method="post" action="https://www.facebook.com/tr/" target="fb08583398380459686" accept-charset="utf-8" style="display: none;"><iframe src="./About Us_files/saved_resource(1).html" id="fb08583398380459686" name="fb08583398380459686"></iframe><input name="id"><input name="ev"><input name="dl"><input name="rl"><input name="if"><input name="ts"><input name="cd[DataLayer]"><input name="cd[Meta]"><input name="cd[OpenGraph]"><input name="cd[Schema.org]"><input name="cd[JSON-LD]"><input name="sw"><input name="sh"><input name="v"><input name="r"><input name="ec"><input name="o"><input name="fbp"><input name="it"><input name="coo"><input name="es"><input name="tm"><input name="rqm"></form><div style="background-color: rgb(255, 255, 255); border: 1px solid rgb(204, 204, 204); box-shadow: rgba(0, 0, 0, 0.2) 2px 2px 3px; position: absolute; transition: visibility 0s linear 0.3s, opacity 0.3s linear 0s; opacity: 0; visibility: hidden; z-index: 2000000000; left: 0px; top: -10000px;"><div style="width: 100%; height: 100%; position: fixed; top: 0px; left: 0px; z-index: 2000000000; background-color: rgb(255, 255, 255); opacity: 0.05;"></div><div class="g-recaptcha-bubble-arrow" style="border: 11px solid transparent; width: 0px; height: 0px; position: absolute; pointer-events: none; margin-top: -11px; z-index: 2000000000;"></div><div class="g-recaptcha-bubble-arrow" style="border: 10px solid transparent; width: 0px; height: 0px; position: absolute; pointer-events: none; margin-top: -10px; z-index: 2000000000;"></div><div style="z-index: 2000000000; position: relative;"><iframe title="recaptcha challenge expires in two minutes" src="./About Us_files/bframe.html" name="c-l8y5y0t3e8xv" frameborder="0" scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox allow-storage-access-by-user-activation" style="width: 100%; height: 100%;"></iframe></div></div></body></html>

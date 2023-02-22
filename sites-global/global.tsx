@@ -2,7 +2,7 @@ export const stagingBaseurl = "https://main-usually--assistant--coyote-sbx-pgsde
 export const cookieText =
   " We use cookies on our website. Some are essential to enable to site to function, others are analytical and help us monitor site usage, whilst some are used for the personalisation of ads. You are free to manage this via your browser setting at any time. To learn more about how we use these cookies, please see our ";
 export const cookiesUrl = "https://www.matalan.co.uk/corporate/cookies";
-export const baseuRL = "https://liveapi-sandbox.yext.com/v2/accounts/me/entities/geosearch?radius=500"
+export const baseuRL = "https://liveapi-sandbox.yext.com/v2/accounts/me/entities/geosearch?radius=2500"
 export const apikey_for_entity = "6956f7fbd94335e6e56d02e4e44f1f9a"
 export const favicon="https://a.mktgcdn.com/p-sandbox/JPBowt854rpiZHUkXeMpcoAAma6yNy_ph09d3CDaFxY/304x154.png";
 export const apiKey = "f5db9f723a7d2fd5badfb2d57d1ab853";
@@ -31,7 +31,7 @@ export const breadcrumbhome = `<svg xmlns="http://www.w3.org/2000/svg" width="20
 <path d="M877,4760h5a1,1,0,0,0,1-1v-8.59l.293.3a1,1,0,1,0,1.414-1.42l-9-9a1,1,0,0,0-1.414,0l-9,9a1,1,0,0,0,1.414,1.42l.293-.3V4759a1,1,0,0,0,1,1h5a1,1,0,0,0,1-1v-5h2v5A1,1,0,0,0,877,4760Zm4-2h-3v-5a1,1,0,0,0-1-1h-4a1,1,0,0,0-1,1v5h-3v-9.59l6-6,6,6Z" transform="translate(-865 -4739.998)" fill="#02a6db" fill-rule="evenodd"/>
 </svg>`;
 export const UseMylocationsvg = `<svg
-xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" >
+xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 14 14">
 <path
   
   d="M8.5,5.955A2.545,2.545,0,1,0,11.045,8.5,2.545,2.545,0,0,0,8.5,5.955Zm5.689,1.909A5.724,5.724,0,0,0,9.136,2.811V1.5H7.864V2.811A5.724,5.724,0,0,0,2.811,7.864H1.5V9.136H2.811a5.724,5.724,0,0,0,5.053,5.053V15.5H9.136V14.189a5.724,5.724,0,0,0,5.053-5.053H15.5V7.864ZM8.5,12.955A4.455,4.455,0,1,1,12.955,8.5,4.451,4.451,0,0,1,8.5,12.955Z"
@@ -87,7 +87,7 @@ viewBox="0 0 24 24"
 <path d="M0,0H24V24H0Z" fill="none" />
 <path
   d="M22.43,10.59,13.42,1.58a2.051,2.051,0,0,0-2.83,0l-9,9a1.992,1.992,0,0,0,0,2.82l9,9a2,2,0,0,0,2.82,0l8.99-8.99A1.992,1.992,0,0,0,22.43,10.59ZM12.01,20.99l-9-9,9-9,9,9ZM8,11v4h2V12h4v2.5L17.5,11,14,7.5V10H9A1,1,0,0,0,8,11Z"
-  fill=""
+  fill="red"
 />
 </svg>`;
 

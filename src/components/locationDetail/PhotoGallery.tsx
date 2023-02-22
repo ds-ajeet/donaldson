@@ -21,7 +21,7 @@ const PhotoGallery = (props: any) => {
     <>
     
       <div className="space-y-5 container mx-auto">
-     <div className="gallery-bg"> <img className=" " src={gallerybg} width="38" height="35" alt="gallerybg"/></div> 
+     <div className="gallery-bg"> <img className=" " src={gallerybg} width="38" height="400px" alt="gallerybg"/></div> 
         <div className="text-xl font-semibold text-center">
          <h1 className="text-red-eb pt-8"> Photos</h1>
           </div>

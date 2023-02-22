@@ -1,7 +1,6 @@
 import * as React from "react";
 import { GoogleMap, LoadScript, Marker } from "@react-google-maps/api";
 import marker from "../../images/MGMpin.svg";
-import { googleApikey } from "../../../sites-global/global";
 
 const containerStyle = {
   width: "100%",
@@ -29,9 +28,8 @@ function CustomMap(coords: props) {
       lng: coords.prop.longitude,
     };
   });
-  console.log(coords,"customMap");
   return (
-    <LoadScript googleMapsApiKey={googleApikey}>
+    <LoadScript googleMapsApiKey="AIzaSyDZNQlSlEIkFAct5VzUtsP4dSbvOr2bE18">
       {coords.prop.latitude && coords.prop.longitude?<> <GoogleMap
         mapContainerStyle={containerStyle}
         center={{

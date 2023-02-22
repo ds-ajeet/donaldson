@@ -6,187 +6,158 @@
 // import twitter from "../../images/twitter.svg";
 // import youtube from "../../images/youtube.svg";
 // import printest from "../../images/printest.svg";
-// import { cookieText, cookiesUrl } from "../../../sites-global/global";
+// import { cookieText, cookiesUrl } from "../../../sites-global/global"
 // import CookieConsent from "react-cookie-consent";
 // import { StaticData } from "../../../sites-global/staticData";
 // import { useEffect, useState } from "react";
 // import Link from "../commons/Link";
 
 // const Footer = (props: any) => {
-// //   const { footer } = props;
-//   // const [isNavVisible, setNavVisibility] =  useState(false);
-// //   const [isSmallScreen, setIsSmallScreen] = useState(false);
-// //   console.log(footer);
-//   useEffect(() => {
-//     const mediaQuery = window.matchMedia("(max-width: 1024px)");
-//     mediaQuery.addListener(handleMediaQueryChange);
-//     handleMediaQueryChange(mediaQuery);
+// 	const { footer } = props;
+// 	// const [isNavVisible, setNavVisibility] =  useState(false);
+// 	const [isSmallScreen, setIsSmallScreen] = useState(false);
+// 	console.log(footer)
+// 	useEffect(() => {
+// 		const mediaQuery = window.matchMedia("(max-width: 1024px)");
+// 		mediaQuery.addListener(handleMediaQueryChange);
+// 		handleMediaQueryChange(mediaQuery);
 
-//     return () => {
-//       mediaQuery.removeListener(handleMediaQueryChange);
-//     };
-//   }, []);
+// 		return () => {
+// 			mediaQuery.removeListener(handleMediaQueryChange);
+// 		};
+// 	}, []);
 
-//   const handleMediaQueryChange = (mediaQuery) => {
-//     if (mediaQuery.matches) {
-//       setIsSmallScreen(true);
-//     } else {
-//       setIsSmallScreen(false);
-//     }
-//   };
-//   // if (typeof window !== "undefined") {
-//   // 	mediaQuery = window?.innerWidth;
-//   // }
+// 	const handleMediaQueryChange = mediaQuery => {
+// 		if (mediaQuery.matches) {
+// 			setIsSmallScreen(true);
+// 		} else {
+// 			setIsSmallScreen(false);
+// 		}
+// 	};
+// 	if (typeof window !== "undefined") {
+// 		mediaQuery = window?.innerWidth;
+// 	}
 
-//   return (
-//     <>
-//       <footer className="site-footer">
-//         {/* <div className="container">
-//           <div className="store-locator">
-//             <div className="company-logo mr-4">
-//               <img src={footer.c_matalan_footer_logo.url} alt="logo" />
-//             </div>
-//             {footer.c_store_finder.map((storfinder: any) => {
-//               console.log(storfinder);
-//               return (
-//                 <>
-//                   <div className="store-inner">
-//                     <img src={storfinder.icon.url} alt="store-finder" />
-//                     <Link props={storfinder.cTA} />
-//                   </div>
-//                 </>
-//               );
-//             })}
+// 	return (
+// 		<>
 
-//             <div className="store-inner flex flex-raw">
-//               <div>
-//                 <img src={footer.c_fAQs.icon.url} alt="faq-icon" />
+// 			<footer className="site-footer">
 
-//                 <Link props={footer.c_fAQs.cTA} />
-//               </div>
-//               <div>
-//                 <img src={footer.c_getAQuate.icon.url} alt="faq-icon" />
+// 				<div className="container">
 
-//                 <Link props={footer.c_getAQuate.cTA} />
-//               </div>
-//             </div>
-//           </div>
+// 					<div className="store-locator">
+// 					<div className="company-logo mr-4">
+// 							<img src={footer.c_matalan_footer_logo.url} alt="logo"/>
+// 							</div>
+// 						{footer.c_store_finder.map((storfinder: any) => {
+// 							console.log(storfinder)
+// 							return (
+// 								<>
+// 									<div className="store-inner">
+// 										<img src={storfinder.icon.url} alt="store-finder" />
+// 										<Link props={storfinder.cTA}/>
 
-//           <div className="link-sec-footer ">
-//             {footer.c_customer_services ? (
-//               <div className="footer-block">
-//                 <h4 className="footer-block-title">
-//                   {footer.c_customer_services.headerLinksHeading}
-//                 </h4>
-//                 <ul className="list-none">
-//                   {footer.c_customer_services.headerLinks.map(
-//                     (customerService: any) => {
-//                       return (
-//                         <li>
-//                           <Link props={customerService} />
-//                         </li>
-//                       );
-//                     }
-//                   )}
-//                 </ul>
-//               </div>
-//             ) : (
-//               ""
-//             )}
-//             {footer.c_about_matalan ? (
-//               <div className="footer-block">
-//                 <h4 className="footer-block-title">
-//                   {footer.c_about_matalan.headerLinksHeading}
-//                 </h4>
-//                 <ul className="list-none">
-//                   <li>{footer.c_about_matalan.headerLinksHeading}</li>
-//                   {footer.c_about_matalan.headerLinks.map(
-//                     (aboutMatalan: any) => {
-//                       return (
-//                         <li>
-//                           <Link props={aboutMatalan} />
-//                         </li>
-//                       );
-//                     }
-//                   )}
-//                 </ul>
-//               </div>
-//             ) : (
-//               ""
-//             )}
-//             {footer.c_our_website ? (
-//               <div className="footer-block">
-//                 <h4 className="footer-block-title">
-//                   {footer.c_our_website.headerLinksHeading}
-//                 </h4>
-//                 <ul className="list-none">
-//                   {footer.c_our_website.headerLinks.map((ourWebsite: any) => {
-//                     return (
-//                       <li>
-//                         <Link props={ourWebsite} />
-//                       </li>
-//                     );
-//                   })}
-//                 </ul>
-//               </div>
-//             ) : (
-//               ""
-//             )} */}
-//             <div className="footer-block">
-//               <ul className="social-media-bx">
-//                 {props.c_socialIcons.map((icon: any) => {
-//                   return (
-//                     <>
-//                       <li className="">
-//                         {" "}
-//                         <a href={icon.cTA.link} target="_blank">
-//                           <img
-//                             src={icon.icon.url}
-//                             height="20"
-//                             alt="social"
-//                             width="21"
-//                             className="inline-block w-5 h-auto"
-//                           />{" "}
-//                         </a>{" "}
-//                       </li>
-//                     </>
-//                   );
-//                 })}
-//               </ul>
-//             </div>
-//           {/* </div> */}
-//           <div className="copyright-bx">
-//             <span className="text-xs flex-wrap" data-copyright="">
-//               {/* {footer.c_footerDescription} */}
-//             </span>
-//           </div>
-//         {/* </div> */}
-//       </footer>
+// 									</div>
+// 								</>
+// 							)
+// 						})}
 
-//       <CookieConsent
-//         buttonText={"Accept"}
-//         buttonStyle={{
-//           marginLeft: "100px",
-//         }}
-//       >
-//         <p>
-//           {cookieText}
-//           <a className="text-cookies-link" href={cookiesUrl}>
-//             {StaticData.cookie}
-//           </a>
-//           .
-//         </p>
-//       </CookieConsent>
-//     </>
-//   );
+// 						<div className="store-inner flex flex-raw">
+// 							<div>
+// 							<img src={footer.c_fAQs.icon.url} alt="faq-icon" />
+
+// 							<Link props={footer.c_fAQs.cTA} />
+// 							</div>
+// 							<div>
+
+// 							<img src={footer.c_getAQuate.icon.url} alt="faq-icon" />
+
+// 							<Link props={footer.c_getAQuate.cTA} />
+// 							</div>
+// 						</div>
+
+// 					</div>
+
+// 					<div className="link-sec-footer ">
+// 					{footer.c_customer_services?
+// 						<div className="footer-block">
+// 							<h4 className="footer-block-title">{footer.c_customer_services.headerLinksHeading}</h4>
+// 							<ul className="list-none">
+// 								{footer.c_customer_services.headerLinks.map((customerService: any) => {
+// 									return (<li>
+// 											<Link props={customerService}/>
+// 										</li>)
+// 								})}
+// 							</ul>
+// 						</div>:''}
+// 						{footer.c_about_matalan?
+// 						<div className="footer-block">
+// 							<h4 className="footer-block-title">{footer.c_about_matalan.headerLinksHeading}</h4>
+// 							<ul className="list-none"><li>{footer.c_about_matalan.headerLinksHeading}</li>
+// 								{footer.c_about_matalan.headerLinks.map((aboutMatalan: any) => {
+// 									return (<li>
+// 										<Link props={aboutMatalan}/>
+// 										</li>)
+// 								})}
+// 							</ul>
+// 						</div>:''}
+// 						{footer.c_our_website?
+// 						<div className="footer-block">
+// 							<h4 className="footer-block-title">{footer.c_our_website.headerLinksHeading}</h4>
+// 							<ul className="list-none">
+// 								{footer.c_our_website.headerLinks.map((ourWebsite: any) => {
+// 									return (<li>
+// 										<Link props={ourWebsite}/>
+// 									</li>)
+// 								})}
+// 							</ul>
+// 						</div>:''}
+// 						<div className="footer-block">
+// 						<ul className="social-media-bx">
+// 							{footer.c_socialIcons.map((icon: any) => {
+// 								return (
+
+// 									<>
+// 										<li className=""> <a href={icon.cTA.link} target="_blank"><img src={icon.icon.url} height="20" alt="social" width="21" className="inline-block w-5 h-auto" /> </a> </li>
+// 									</>
+// 								)
+// 							})}
+// 						</ul>
+// 						</div>
+
+// 					</div>
+// 					<div className="copyright-bx">
+// 						<span className="text-xs flex-wrap" data-copyright="">
+// 							{footer.c_footerDescription}</span>
+
+// 					</div>
+
+// 				</div>
+
+// 			</footer>
+
+// 			<CookieConsent
+// 				buttonText={"Accept"}
+// 				buttonStyle={{
+// 					marginLeft: "100px",
+// 				}}
+// 			>
+// 				<p>
+// 					{cookieText}
+// 					<a className="text-cookies-link" href={cookiesUrl}>
+// 						{StaticData.cookie}
+// 					</a>
+// 					.
+// 				</p>
+// 			</CookieConsent>
+// 		</>
+// 	);
 // };
 
 // export default Footer;
 // function handleMediaQueryChange(mediaQuery: MediaQueryList) {
-//   throw new Error("Function not implemented.");
+// 	throw new Error("Function not implemented.");
 // }
-
-
 
 import * as React from "react";
 import SubscribeForm from "../commons/Newsletter";
@@ -208,7 +179,7 @@ const Footer = (props: any) => {
   );
    const countact = props?._site?.c_countact?.map((link: any) => (
      <a  className="navbar-item" href="#" >
-       <span>{link.label}</span><br />
+       <span>{link.label}</span><br/>
      </a>
    ));
   return (
@@ -220,7 +191,7 @@ const Footer = (props: any) => {
         <div className="container">
           <div className="store-locator">
             <div className="company-logo">
-              <img src={props?._site?.c_mgmTimberLogo?.url} alt="logo" />
+              <img src={props._site.c_mgmTimberLogo.url} alt="logo" />
             </div>
             <div className="countact">{countact}</div>
           </div>
@@ -235,9 +206,9 @@ const Footer = (props: any) => {
             </ul>
           </div>
           <div className="column">
-            <h2 style={{color:"white"}}>{props?._site?.c_aboutMgm?.headerLinkHeading}</h2>
+            <h2>{props._site.c_aboutMgm.headerLinkHeading}</h2>
             <ul className="f_abouts pt-4">
-              <li style={{ paddingTop: "15px",color:"white" }}>
+              <li style={{ paddingTop: "15px" }}>
                 <a href="#" title="">
                   {Aboutm}
                 </a>
@@ -245,23 +216,23 @@ const Footer = (props: any) => {
             </ul>
           </div>
           
-          <div style={{marginRight:"15%"}} className="otherLinks">
-          <h2 style={{color:"white", font:"bold"}}>{props?._site?.c_newsletterHeading}</h2>
-          {/* <h6>{props._site.c_newsletter}</h6> */}
+          <div style={{marginRight:"10%"}} className="otherLinks">
+          <h2 style={{color:"white", font:"bold"}}>{props._site.c_newsletterHeading}</h2>
+          <div  style={{width:"360px"}}><h6>{props._site.c_newsletter}</h6></div>
                {/* <div style={{marginRight:"180px"}}> */}
                   <div className="subscribe pt-4"><SubscribeForm/></div>
             {/* </div> */}
             <div className="socialmediaData">
               <h5 style={{ color: "white" }} className="socialmedias">
-                {props?._site?.headline}
+                {props._site.headline}
               </h5>
               <ul className="socialmedia grid grid-cols-6 gap-x-4 gap-y-4">
-                {props?._site?.c_socialIcons?.map((res: any) => {
+                {props._site.c_socialIcons.map((res: any) => {
                   return (
                     <>
                       <a href="#">
                         <img
-                          style={{ width: "35px", height: "35px" }}
+                          style={{ width: "50px", height: "35px" }}
                           src={res.icon.url}
                         />
                       </a>
@@ -272,16 +243,16 @@ const Footer = (props: any) => {
             </div>
           </div>
           
-          <div style={{paddingTop:"50px"}}><img src={props?._site?.c_jdGroups?.url} width="260px" alt="logo" /></div>
+          <div style={{paddingTop:"50px"}}><img src={props._site.c_jdGroups.url} width="260px" alt="logo" /></div>
           <div style={{ color: "#7b7b7b" }}>
             <div
               style={{ width: "1150px", color: "#e9e9e9" }}
               className="policy grid grid-cols-2"
             >
                <div className="termcondition">
-              <a href="#">{props?._site?.c_cookiePolicy?.label}</a>
-              <a href="#">{props?._site?.c_privacyPolicy?.label}</a>
-              <a href="#">{props?._site?.c_termAndConditioon?.label}</a>
+              <a href="#">{props._site.c_cookiePolicy.label}</a>
+              <a href="#">{props._site.c_privacyPolicy.label}</a>
+              <a href="#">{props._site.c_termAndConditioon.label}</a>
               </div>
               <div className="paymentImg">
                 <img src={props._site.c_payment.url} alt="logo" />

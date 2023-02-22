@@ -15,7 +15,7 @@ import Mapicon2 from "../../images/MGMpin.svg";
 import clustericon from "../../images/cluster.png";
 import mapimage from "../../images/map.svg";
 import timesvg from "../../images/watch-icn.svg";
-import Hovermap from "../../images/MGMhover1.svg"
+import Hovermap from "../../images/MGMhover1.svg";
 import Hours from "../commons/hours";
 import reactElementToJSXString from "react-element-to-jsx-string";
 import Nav from "../layouts/Nav";
@@ -102,7 +102,7 @@ function UnwrappedGoogleMaps({
   const [downinfo, setDownInfo] = useState(true);
   const [hover, setHover] = useState(true);
   const loading = useSearchState((s) => s.searchStatus.isLoading);
- 
+
   let isHover = true;
   const searchZoom: number | number | null | undefined = null;
   let currentMapZoom: number | undefined = 0;
@@ -119,7 +119,7 @@ function UnwrappedGoogleMaps({
 
   const refLocationResults = useRef({});
 
-  const locationResults = useFetchResults() || [];
+  const locationResults =useFetchResults() || [];
   refLocationResults.current = locationResults;
 
   locationResults.length > 0
@@ -160,7 +160,7 @@ function UnwrappedGoogleMaps({
 
   const marker_icon = {
     // default google pin path
-    /*path: "M18.942,56.14C2.965,32.568,0,30.149,0,21.486A21.3,21.3,0,0,1,21.111,0,21.3,21.3,0,0,1,42.222,21.486c0,8.663-2.965,11.082-18.942,34.654a2.614,2.614,0,0,1-4.339,0Zm2.17-25.7a8.954,8.954,0,1,0-8.8-8.953A8.875,8.875,0,0,0,21.111,30.439Z",*/
+    path: "M18.942,56.14C2.965,32.568,0,30.149,0,21.486A21.3,21.3,0,0,1,21.111,0,21.3,21.3,0,0,1,42.222,21.486c0,8.663-2.965,11.082-18.942,34.654a2.614,2.614,0,0,1-4.339,0Zm2.17-25.7a8.954,8.954,0,1,0-8.8-8.953A8.875,8.875,0,0,0,21.111,30.439Z",
     url: Mapicon2,
     fillColor: pinStyles.fill,
     scale: 1,
@@ -209,7 +209,7 @@ function UnwrappedGoogleMaps({
   const Usermarker1 = new google.maps.Marker({
     position,
     map,
-    icon: UserMarker
+    icon: UserMarker,
   });
   usermarker.current.push(Usermarker1);
 
@@ -276,7 +276,6 @@ function UnwrappedGoogleMaps({
         })
       );
     } else if (markers1.current.length > 0 && map && check && hover) {
-
       setTimeout(function () {
         const bounds = new google.maps.LatLngBounds();
 
@@ -477,20 +476,26 @@ function UnwrappedGoogleMaps({
     info = true;
     let url = "";
 
-    // const name: any = result.rawData.name?.toLowerCase();
-    // const region: any = result.rawData.address.region?.toLowerCase();
-    // const initialregion: any = region.toString();
-    // const finalregion: any = initialregion.replaceAll(" ", "-");
-    // const city: any = result.rawData.address.city?.toLowerCase();
-    // const initialrcity: any = city.toString();
-    // const finalcity: any = initialrcity.replaceAll(" ", "-");
-    // const string1: any = name.toString();
-    // const result1: any = string1.replaceAll(" ", "-");
-    // if (!result.rawData.slug) {
-    //   url = `${result.rawData.id}-${result1}.html`;
-    // } else {
-    //   url = `${result.rawData.slug.toString()}.html`;
-    // }
+    const name: any = result.rawData.name?.toLowerCase();
+    var country: any = result.rawData.address.countryCode?.toLowerCase();
+    var initialcountry: any = country.toString();
+    var finalcountry: any = initialcountry.replaceAll(" ", "-");
+    const region: any = result.rawData.address.region?.toLowerCase();
+    const initialregion: any = region.toString();
+    const finalregion: any = initialregion.replaceAll(" ", "-");
+    const city: any = result.rawData.address.city?.toLowerCase();
+    const initialrcity: any = city.toString();
+    const finalcity: any = initialrcity.replaceAll(" ", "-");
+    const string1: any = name.toString();
+    const result1: any = string1.replaceAll(" ", "-");
+    let main_result:any=finalcountry+"/"+finalregion+"/"+finalcity+"/"+result.rawData.slug+".html";
+    if (!result.rawData.slug) {
+      url = `${result.rawData.id}-${result1}.html`;
+    } else {
+      url = `/${main_result}`;
+      // console.log(url,"url")
+    }
+    
 
     const MarkerContent = (
       <>
@@ -500,7 +505,10 @@ function UnwrappedGoogleMaps({
             {/* <div className="icon"> <img className=" " src={mapimage} width="20" height="20"
         alt="" /></div> */}
             <h2>
-              <a className="inline-block notHighlight" href={`/${result.rawData.id}`}>
+              <a
+                className="inline-block notHighlight"
+                href={`/${result.rawData.id}`}
+              >
                 {result.rawData.name}
               </a>
             </h2>
@@ -516,16 +524,63 @@ function UnwrappedGoogleMaps({
               ""
             )}
           </div>
-          {/* {result.rawData.mainPhone?
-    <div className="icon-row">
-      <div className="icon"> <img className=" " src={Phonesvg} width="20" height="20" alt="" />
-      </div>
-      <div className="content-col">
-        <h6>Telephone</h6>
-        <a id="address" className="notHighlight" href={`tel:${result.rawData.mainPhone}`}>
-          {result.rawData.mainPhone}</a>
-      </div>
-    </div>:''} */}
+          <div className="icon-row pt-4">
+            {result.rawData.displayCoordinate ? (
+              <a
+                data-listener="false"
+                data-latitude={result.rawData.displayCoordinate.latitude}
+                data-longitude={result.rawData.displayCoordinate.longitude}
+                className="cursor-pointer  getdirection btn"
+                rel="noopener noreferrer"
+                data-city={result.rawData.address.city}
+                data-country={result.rawData.address.countryCode}
+                data-region={result.rawData.address.region}
+              >
+                {/* <div dangerouslySetInnerHTML={{ __html: Directionsvg }} /> */}
+                {StaticData.getDirection}
+              </a>
+            ) : (
+              <a
+                data-listener="false"
+                data-latitude={result.rawData.yextDisplayCoordinate.latitude}
+                data-longitude={result.rawData.yextDisplayCoordinate.longitude}
+                data-city={result.rawData.address.city}
+                data-country={result.rawData.address.countryCode}
+                data-region={result.rawData.address.region}
+                className="cursor-pointer getdirection1 btn"
+                rel="noopener noreferrer"
+              >
+                <div dangerouslySetInnerHTML={{ __html: Directionsvg }} className="icon pt-4"/>
+                {StaticData.getDirection}
+              </a>
+            )}
+          </div>
+
+          {result.rawData.mainPhone ? (
+            <div className="icon-row pt-2">
+              <div className="icon pt-2">
+                {" "}
+                <img
+                  className=" "
+                  src={Phonesvg}
+                  width="20"
+                  height="20"
+                  alt=""
+                />
+              </div>
+              <div className="content-col">
+                <a
+                  id="address"
+                  className="notHighlight"
+                  href={`tel:${result.rawData.mainPhone}`}
+                >
+                  {result.rawData.mainPhone}
+                </a>
+              </div>
+            </div>
+          ) : (
+            ""
+          )}
 
           {result.rawData.hours && result.rawData.hours.reopenDate ? (
             ""
@@ -560,40 +615,11 @@ function UnwrappedGoogleMaps({
             </div>
           )}
         </div>
-        <div className="button-bx !ml-4 !mb-0">
-          <a type="button" href={`/${result.rawData.id}`} className="btn">
-            {/* <div dangerouslySetInnerHTML={{__html: View_Store}}/> */}
+        <div className="moreinfo button-bx !ml-4 !mb-0 pt-4">
+          <a type="button" href={`${url}`} className="btn">
+            {/* <div dangerouslySetInnerHTML={{ __html: View_Store }} /> */}
             {StaticData.StoreDetailbtn}
           </a>
-          {result.rawData.displayCoordinate ? (
-            <a
-              data-listener="false"
-              data-latitude={result.rawData.displayCoordinate.latitude}
-              data-longitude={result.rawData.displayCoordinate.longitude}
-              className="cursor-pointer  getdirection btn"
-              rel="noopener noreferrer"
-              data-city={result.rawData.address.city}
-              data-country={result.rawData.address.countryCode}
-              data-region={result.rawData.address.region}
-            >
-              {/* <div dangerouslySetInnerHTML={{__html: Directionsvg}}/> */}
-              {StaticData.getDirection}
-            </a>
-          ) : (
-            <a
-              data-listener="false"
-              data-latitude={result.rawData.yextDisplayCoordinate.latitude}
-              data-longitude={result.rawData.yextDisplayCoordinate.longitude}
-              data-city={result.rawData.address.city}
-              data-country={result.rawData.address.countryCode}
-              data-region={result.rawData.address.region}
-              className="cursor-pointer getdirection1 btn"
-              rel="noopener noreferrer"
-            >
-              {/* <div dangerouslySetInnerHTML={{__html: Directionsvg}}/> */}
-              {StaticData.getDirection}
-            </a>
-          )}
 
           {/* <GetDirection buttonText="Direction" latitude={result.rawData.displayCoordinate?.latitude} longitude={result.rawData.displayCoordinate?.longitude}/> */}
         </div>

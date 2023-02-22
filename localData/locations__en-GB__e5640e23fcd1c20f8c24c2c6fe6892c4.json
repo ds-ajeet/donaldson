@@ -38,6 +38,10 @@
 				}
 			]
 		},
+		"c_bannerLink": {
+			"label": "Read more",
+			"linkType": "URL"
+		},
 		"c_cookiePolicy": {
 			"label": "Cookie Policy"
 		},
@@ -102,17 +106,14 @@
 		"c_headerFirst": [
 			{
 				"label": "Job List",
-				"link": "https://www.mgmtimber.co.uk/customer/account/login/referer/aHR0cHM6Ly93d3cubWdtdGltYmVyLmNvLnVrL213aXNobGlzdC93aXNobGlzdC9pbmRleC8%2C/",
 				"linkType": "URL"
 			},
 			{
 				"label": "Branch Locator",
-				"link": "https://www.mgmtimber.co.uk/branch-locator",
 				"linkType": "URL"
 			},
 			{
 				"label": "My Account",
-				"link": "https://www.mgmtimber.co.uk/customer/account/login/",
 				"linkType": "URL"
 			},
 			{
@@ -264,6 +265,35 @@
 			"locale": "en-GB"
 		},
 		"name": "Globle Data",
+		"photoGallery": [
+			{
+				"description": "Find a branch near you",
+				"details": "MGM now have 14 branches spread geographically throughout Scotland where we have the ability to service .......",
+				"image": {
+					"height": 338,
+					"url": "https://a.mktgcdn.com/p-sandbox/dCWwO8dxKL8A-1tM4eQDYYms0XvTnu0ni9d8I5_kqEk/1000x338.jpg",
+					"width": 1000
+				}
+			},
+			{
+				"description": "DELIVERY INFORMATION",
+				"details": "MGM Timber operate a delivery service out of all their branches........",
+				"image": {
+					"height": 905,
+					"url": "https://a.mktgcdn.com/p-sandbox/pZJD_WUrWuQUX5SF-UutNOksgLG-pwOyraddi1yw6hA/1920x905.png",
+					"width": 1920
+				}
+			},
+			{
+				"description": "Join Our Team",
+				"details": "Our people are our biggest asset. They are our competitive advantage and what set us apart from our competition.........",
+				"image": {
+					"height": 1200,
+					"url": "https://a.mktgcdn.com/p-sandbox/VJOm5p8rLFc9YDs9IyvSf-aV5X5rFaAZEysi1u4idxk/1487x1200.png",
+					"width": 1487
+				}
+			}
+		],
 		"uid": 32278947
 	},
 	"address": {
@@ -277,10 +307,121 @@
 		"sublocality": "Tayside"
 	},
 	"businessId": 3191782,
-	"cityCoordinate": {
-		"latitude": 56.5137374,
-		"longitude": -3.0227595
+	"c_about": {
+		"cTA": {
+			"label": "dundee",
+			"link": "https://www.mgmtimber.co.uk/environmental",
+			"linkType": "URL"
+		},
+		"description": "MGM Timber (Scotland) Ltd was established in 1991 and has grown to become Scotland's local merchant of choice for both trade and retail customers. Over the last 29 years we have built a reputation for offering quality products at competitive rates, backed up with an unrivalled level of service to our customers.\n\n\nWe pride ourselves on having local knowledge in each of our branches across Scotland, with staff who are well known and respected in their communities. We believe this makes MGM your local timber merchant of choice.",
+		"img": {
+			"height": 450,
+			"url": "https://a.mktgcdn.com/p-sandbox/ADz60QTmIDDj-SyeVBqqQV0JRWf_GJHPO5IRlFG6Jzo/841x450.jpg",
+			"width": 841
+		}
 	},
+	"c_banner": [
+		{
+			"height": 905,
+			"url": "https://a.mktgcdn.com/p-sandbox/pZJD_WUrWuQUX5SF-UutNOksgLG-pwOyraddi1yw6hA/1920x905.png",
+			"width": 1920
+		},
+		{
+			"height": 338,
+			"url": "https://a.mktgcdn.com/p-sandbox/dCWwO8dxKL8A-1tM4eQDYYms0XvTnu0ni9d8I5_kqEk/1000x338.jpg",
+			"width": 1000
+		}
+	],
+	"c_faq": [
+		{
+			"answer": "No, unfortunately this is not possible.",
+			"question": "Can I place a collection order over two or more branches?"
+		},
+		{
+			"answer": "MGM Timber has been granted certification by CATG, a leading certification body accredited by UKAS (United Kingdom Accreditation Service). This covers the Program for the Endorsement of Forest Certification (PEFC) and the Forest Stewardship Council® (FSC)® chain of custody scheme. View and download our certificates [here](https://www.mgmtimber.co.uk/environmental).",
+			"question": "Do you sell sustainable building materials?"
+		},
+		{
+			"answer": "Stock is shown for all products on the individual product page. Make sure you choose the branch you would like to collect from, or delivery postcode and stock levels will be shown.",
+			"question": "How can I check product stock availability?"
+		},
+		{
+			"answer": "You can find some technical specifications within our individual product pages. If you have more questions, please contact our expert staff members at your [local branch](https://www.mgmtimber.co.uk/branch\\-locator) who will be more than happy to help. Alternatively use our [contact us](https://www.mgmtimber.co.uk/contact\\-us) form and someone will get back to you",
+			"question": "How can I get additional information about a product featured on your website?"
+		},
+		{
+			"answer": "Our website currently only shows a small proportion of the products we supply. We have lots more in our branches. Find your nearest branch using our [branch locator](https://www.mgmtimber.co.uk/branch\\-locator) and come see what we have to offer or Contact Us for a quote.",
+			"question": "I can’t find the product I want online, are all your products listed?"
+		},
+		{
+			"answer": "No, we do not provide this service in branch.",
+			"question": "Is it possible to order for products to be cut to length?"
+		}
+	],
+	"c_service": [
+		{
+			"label": "Kitchen",
+			"link": "https://www.mgmtimber.co.uk/media/Burger_Carla166.jpg",
+			"linkType": "URL"
+		},
+		{
+			"label": "Door",
+			"link": "https://www.mgmtimber.co.uk/media/catalog/category/Salerno_Pre-finished_Internal_Oak_Door.JPG",
+			"linkType": "URL"
+		},
+		{
+			"label": "Timber",
+			"link": "https://www.mgmtimber.co.uk/media/catalog/category/Timber_Engineering_Menu.jpg",
+			"linkType": "URL"
+		},
+		{
+			"label": "Flooring",
+			"link": "https://www.mgmtimber.co.uk/media/catalog/category/Solid_timber_flooring_-_woodpecker_1_1_.jpg",
+			"linkType": "URL"
+		}
+	],
+	"dm_directoryParents": [
+		{
+			"meta": {
+				"entityType": {
+					"id": "ce_root",
+					"uid": 108844
+				}
+			},
+			"name": "stores Directory",
+			"slug": "stores"
+		},
+		{
+			"meta": {
+				"entityType": {
+					"id": "ce_country",
+					"uid": 108842
+				}
+			},
+			"name": "GB",
+			"slug": "gb"
+		},
+		{
+			"meta": {
+				"entityType": {
+					"id": "ce_region",
+					"uid": 108843
+				}
+			},
+			"name": "Scotland",
+			"slug": "scotland"
+		},
+		{
+			"meta": {
+				"entityType": {
+					"id": "ce_city",
+					"uid": 108841
+				}
+			},
+			"name": "Dundee",
+			"slug": "dundee"
+		}
+	],
 	"emails": [
 		"mgmDundee@mgmtimber.com"
 	],

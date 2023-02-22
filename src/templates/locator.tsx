@@ -18,12 +18,13 @@ import {stagingBaseurl, favicon, AnalyticsEnableDebugging, AnalyticsEnableTracki
 import Newsletter from "../components/locatorPage/Newsletter";
 import { JsonLd } from "react-schemaorg";
 import { StaticData } from "../../sites-global/staticData";
+import Header from "../components/layouts/header";
+import Footer from "../components/layouts/footer";
 import {
   AnalyticsProvider,
   AnalyticsScopeProvider,
 } from "@yext/pages/components";
 import { AnswerExperienceConfig } from "../config/answersHeadlessConfig";
-import Footer from "../components/layouts/footer";
 
 export const config: TemplateConfig = {
   stream: {
@@ -32,6 +33,12 @@ export const config: TemplateConfig = {
     // directly as props to the default exported function.
     fields: [
       "name",
+      "c_mgmTimberLogo",
+      "c_headerLinks",
+      "c_footerDescription",
+      "c_socialIcons",
+      "c_customer_Services",
+      "c_aboutMgm"
      
     ],
     // Defines the scope of entities that qualify for this stream.
@@ -90,16 +97,16 @@ export const getHeadConfig: GetHeadConfig<TemplateRenderProps> = ({
       },
     },
 
-    //  {
-    //    type: "link",
-    //    attributes: {
-    //      rel: "canonical",
-    //      href: `${
-    //        document._site.c_canonical?document.c_canonical:stagingBaseurl
+     {
+       type: "link",
+       attributes: {
+         rel: "canonical",
+         href: `${
+           document._site.c_canonical?document.c_canonical:stagingBaseurl
             
-    //      }`,
-    //    },
-    //  },
+         }`,
+       },
+     },
  
      {
        type: "meta",
@@ -178,6 +185,7 @@ const Locator: Template<TemplateRenderProps>= ({
   var Api="AIzaSyDZNQlSlEIkFAct5VzUtsP4dSbvOr2bE18";  
   return (
     <>
+    
     <JsonLd<locator>
         item={{
           "@context": "https://schema.org",
@@ -194,7 +202,8 @@ const Locator: Template<TemplateRenderProps>= ({
       >
         {" "}
         <AnalyticsScopeProvider name={""}>
-      <PageLayout global={_site}>
+      {/* <PageLayout global={_site}> */}
+      <Header _site={_site}/>
         <SearchHeadlessProvider
           experienceKey={AnswerExperienceConfig.experienceKey}
           locale={AnswerExperienceConfig.locale}
@@ -209,11 +218,10 @@ const Locator: Template<TemplateRenderProps>= ({
      
         </SearchHeadlessProvider>
       
-   
-      </PageLayout>
-      {/* <Footer/> */}
+      <Footer _site={_site}/>
       </AnalyticsScopeProvider>
       </AnalyticsProvider>
+      
     </>
   );
 };

@@ -147,7 +147,7 @@ const loading = useSearchState(s=>s.searchStatus.isLoading);
     if(searchKey[0].value!=""){
     getCoordinates(Search);
     }
-    console.log(locationinbuit.length,"fisttimedispaly")
+    // console.log(locationinbuit.length,"fisttimedispaly")
     if(locationinbuit.length==0){
       setDisplaymsg(true)
     }else { 
@@ -159,7 +159,7 @@ const loading = useSearchState(s=>s.searchStatus.isLoading);
     setInputValue('');
   }
   const handleSetUserShareLocation = (value:any, userShareStatus:boolean) => {
-    console.log(value,center_latitude,center_longitude,"value");
+    // console.log(value,center_latitude,center_longitude,"value");
     setInputValue(value);
     if(userShareStatus){
       setCenterLatitude(center_latitude);
@@ -201,7 +201,7 @@ const loading = useSearchState(s=>s.searchStatus.isLoading);
     }
     },[locationinbuit])
     useEffect(()=>{
-      console.log("yes rerender")
+      // console.log("yes rerender")
       locationResults.map((result:any, index:number) => {
         const resultelement = document.querySelectorAll(
           `.result-list-inner-${index + 1}`
@@ -308,7 +308,7 @@ const loading = useSearchState(s=>s.searchStatus.isLoading);
           <button className="useMyLocation" title="Search using your current location!" id="useLocation" onClick={onClick}>
               <span className="icon" dangerouslySetInnerHTML={{ __html: UseMylocationsvg }} />
 
-             <span className="underline hover:no-underline"> {StaticData.Usemylocation}</span>
+             <span className="underline hover:no-underline ml-4"> {StaticData.Usemylocation}</span>
             </button>
 
           <ResultsCount
@@ -344,14 +344,13 @@ const loading = useSearchState(s=>s.searchStatus.isLoading);
             <div>
              
                 <VerticalResults
-                  displayAllOnNoResults={false}                
+                   displayAllOnNoResults={false}                
                   CardComponent={LocationCard}
                   locationResults={locationResults}
                   customCssClasses={{
                     container:
                       "result-list flex flex-col scroll-smooth  overflow-auto",
 
-                  
                   }}
                   // CardComponent={LocationCard}
                 />

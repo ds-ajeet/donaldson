@@ -9,6 +9,22 @@
       }
     },
     {
+      "name": "city",
+      "streamId": "matlan-city",
+      "templateType": "JS",
+      "entityPageSet": {
+        "plugin": {}
+      }
+    },
+    {
+      "name": "country",
+      "streamId": "matlan-country",
+      "templateType": "JS",
+      "entityPageSet": {
+        "plugin": {}
+      }
+    },
+    {
       "name": "location",
       "streamId": "locations",
       "templateType": "JS",
@@ -30,6 +46,14 @@
       "staticPage": {
         "plugin": {}
       }
+    },
+    {
+      "name": "State",
+      "streamId": "region",
+      "templateType": "JS",
+      "entityPageSet": {
+        "plugin": {}
+      }
     }
   ],
   "streams": [
@@ -41,6 +65,72 @@
       "filter": {
         "entityIds": [
           "global-data"
+        ]
+      },
+      "localization": {
+        "locales": [
+          "en_GB"
+        ],
+        "primary": false
+      }
+    },
+    {
+      "$id": "matlan-city",
+      "filter": {
+        "entityTypes": [
+          "ce_city"
+        ]
+      },
+      "fields": [
+        "id",
+        "uid",
+        "meta",
+        "name",
+        "slug",
+        "dm_directoryParents.name",
+        "dm_directoryParents.slug",
+        "dm_directoryParents.meta.entityType",
+        "dm_directoryChildren.mainPhone",
+        "dm_directoryChildren.slug",
+        "dm_directoryChildren.name",
+        "dm_directoryChildren.id",
+        "dm_directoryChildren.dm_directoryChildrenCount",
+        "dm_directoryChildren.address",
+        "dm_directoryChildren.hours",
+        "dm_directoryChildren.yextDisplayCoordinate"
+      ],
+      "localization": {
+        "locales": [
+          "en_GB"
+        ],
+        "primary": false
+      }
+    },
+    {
+      "$id": "matlan-country",
+      "fields": [
+        "id",
+        "uid",
+        "meta",
+        "name",
+        "address",
+        "mainPhone",
+        "slug",
+        "dm_directoryParents.name",
+        "dm_directoryParents.slug",
+        "dm_directoryParents.meta.entityType",
+        "dm_directoryChildren.name",
+        "dm_directoryChildren.address",
+        "dm_directoryChildren.slug",
+        "dm_directoryChildren.dm_directoryChildren.name",
+        "dm_directoryChildren.dm_directoryChildrenCount",
+        "dm_directoryChildren.dm_directoryChildren.slug",
+        "dm_directoryChildren.dm_directoryChildren.dm_directoryChildren.name",
+        "dm_directoryChildren.dm_directoryChildren.dm_directoryChildren.slug"
+      ],
+      "filter": {
+        "entityTypes": [
+          "ce_country"
         ]
       },
       "localization": {
@@ -65,7 +155,15 @@
         "timezone",
         "yextDisplayCoordinate",
         "displayCoordinate",
-        "cityCoordinate"
+        "c_about",
+        "c_banner",
+        "c_faq.question",
+        "c_faq.answer",
+        "c_service",
+        "dm_directoryParents.name",
+        "dm_directoryParents.slug",
+        "dm_directoryParents.meta.entityType",
+        "dm_directoryChildren.dm_directoryChildrenCount"
       ],
       "filter": {
         "entityTypes": [
@@ -82,11 +180,51 @@
     {
       "$id": "Locator",
       "fields": [
-        "name"
+        "name",
+        "c_mgmTimberLogo",
+        "c_headerLinks",
+        "c_footerDescription",
+        "c_socialIcons",
+        "c_customer_Services",
+        "c_aboutMgm"
       ],
       "filter": {
         "entityIds": [
           "globleData"
+        ]
+      },
+      "localization": {
+        "locales": [
+          "en_GB"
+        ],
+        "primary": false
+      }
+    },
+    {
+      "$id": "region",
+      "fields": [
+        "id",
+        "uid",
+        "meta",
+        "name",
+        "address",
+        "slug",
+        "dm_directoryParents.name",
+        "dm_directoryParents.slug",
+        "dm_directoryParents.dm_directoryChildrenCount",
+        "dm_directoryParents.meta.entityType",
+        "dm_directoryChildren.name",
+        "dm_directoryChildren.address",
+        "dm_directoryChildren.slug",
+        "dm_directoryChildren.dm_directoryChildrenCount",
+        "dm_directoryChildren.dm_directoryChildren.name",
+        "dm_directoryChildren.dm_directoryChildren.id",
+        "dm_directoryChildren.dm_directoryChildren.slug",
+        "dm_directoryChildren.dm_directoryChildren.address"
+      ],
+      "filter": {
+        "entityTypes": [
+          "ce_region"
         ]
       },
       "localization": {

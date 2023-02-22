@@ -21,7 +21,9 @@
     "c_payment",
     "c_countact",
     "c_newsletter",
-    "c_newsletterHeading"
+    "c_newsletterHeading",
+    "photoGallery",
+    "c_bannerLink"
 
   ],
   "localization": {

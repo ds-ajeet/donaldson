@@ -8,12 +8,14 @@ import { CustomFieldDebuggerReactProvider } from "@yext/custom-field-debugger";
 import { JsonLd } from "react-schemaorg";
 import Opening from "../components/commons/openClose";
 import { nearByLocation } from "../types/nearByLocation";
-import Logo from "../images/logo-header.svg";
-import offerBanner from "../images/offer-banner.jpg";
+// import Logo from "../images/logo-header.svg"
+// import offerBanner from "../images/offer-banner.jpg"
 import IframeMap from "../components/locationDetail/IframeMap";
-import mapimage from "../images/map.svg";
+import Header from "../components/layouts/header";
+import SearchBar from "../components/locationDetail/search";
+import { Link } from "@yext/pages/components";
 import "../index.css";
-import Model from "../components/locationDetail/Model";
+import Services from "../components/commons/services";
 import {
   Template,
   GetPath,
@@ -57,10 +59,6 @@ import FeaturesBrand from "../components/locationDetail/FeaturesBrand";
 import { Fade, Slide } from "react-awesome-reveal";
 import MgmTimber from "../components/locationDetail/MgmTimber";
 import { AnswerExperienceConfig } from "../config/answersHeadlessConfig";
-import GetDirection from "../components/commons/GetDirection";
-import Hours from "../components/commons/hours";
-import StaticMap from "../components/locationDetail/StaticMap";
-import Header from "../components/layouts/header";
 
 /**
  * Required when Knowledge Graph data is used for a template.
@@ -83,7 +81,16 @@ export const config: TemplateConfig = {
       "timezone",
       "yextDisplayCoordinate",
       "displayCoordinate",
-      "cityCoordinate",
+      "c_about",
+      "c_banner",
+      "c_faq.question",
+      "c_faq.answer",
+      "c_service",
+      "dm_directoryParents.name",
+      "dm_directoryParents.slug",
+      "dm_directoryParents.meta.entityType",
+      "dm_directoryChildren.dm_directoryChildrenCount",
+      //"cityCoordinate"
     ],
     // Defines the scope of entities that qualify for this stream.
     filter: {
@@ -104,22 +111,37 @@ export const config: TemplateConfig = {
  * take on the form: featureName/entityId
  */
 export const getPath: GetPath<TemplateProps> = ({ document }) => {
-  // var url = "";
-  // var name: any = document.name.toLowerCase();
-  // var string: any = name.toString();;
-  // let result: any = string.replaceAll(" ", "-");
-  // document.dm_directoryParents.map((result: any, i: Number) => {
-  //   if (i > 0) {
-  //     url += result.slug + "/"
+  var url = "";
+  var name: any = document.name.toLowerCase();
+  var string: any = name.toString();;
+  let result: any = string.replaceAll(" ", "-");
+  document.dm_directoryParents?.map((result: any, i: number) => {
+    if (i > 0) {
+      url += result.slug + "/"
+    }
+  })
+  if (!document.slug) {
+    url += `${result}.html`;
+  } else {
+    url += `${document.slug.toString()}.html`;
+  }
+ return url;
+
+
+  // var url: any = ""
+  // document.dm_directoryParents?.map((i: any) => {
+  //   if (i.meta.entityType.id == 'ce_country') {
+  //     url = `${i.slug}`
+  //   }
+  //   else if (i.meta.entityType.id == 'ce_region') {
+  //     url = `${url}/${i.slug}`
+  //   }
+  //   else if (i.meta.entityType.id == "ce_city"){
+  //     url = `${url}/${i.slug}/${document.slug}`
   //   }
   // })
-  // if (!document.slug) {
-  //   url += `${result}.html`;
-  // } else {
-  //   url += `${document.slug.toString()}.html`;
-  // }
-
-  return document.id;
+  // return url;
+  // return `${document.id}.html`;
 };
 /**
  * Defines a list of paths which will redirect to the path created by getPath.
@@ -128,7 +150,7 @@ export const getPath: GetPath<TemplateProps> = ({ document }) => {
  * a new deploy.
  */
 export const getRedirects: GetRedirects<TemplateProps> = ({ document }) => {
-  return [`index-old/${document.id}`];
+  return [`index-old/${document.id.toString()}`];
 };
 
 /**
@@ -177,15 +199,17 @@ export const getHeadConfig: GetHeadConfig<TemplateRenderProps> = ({
         },
       },
 
-      // {
-      //   type: "link",
-      //   attributes: {
-      //     rel: "canonical",
-      //     href: `${document._site.c_canonical?document.c_canonical:stagingBaseurl
-
-      //       }${document.slug?document.slug:`${document.name.toLowerCase()}`}.html`,
-      //   },
-      // },
+      {
+        type: "link",
+        attributes: {
+          rel: "canonical",
+          href: `${
+            document._site.c_canonical ? document.c_canonical : stagingBaseurl
+          }${
+            document.slug ? document.slug : `${document.name.toLowerCase()}`
+          }.html`,
+        },
+      },
 
       {
         type: "meta",
@@ -264,27 +288,21 @@ export const transformProps: TransformProps<ExternalApiData> = async (
       : data.document.displayCoordinate.longitude
   }`;
 
-//   const url = `${AnswerExperienceConfig.endpoints.verticalSearch}?experienceKey=${AnswerExperienceConfig.experienceKey}&api_key=${AnswerExperienceConfig.apiKey}&v=20220511&version=${AnswerExperienceConfig.experienceVersion}&locale=${AnswerExperienceConfig.locale}&location=${location}&locationRadius=${AnswerExperienceConfig.locationRadius}&verticalKey=${AnswerExperienceConfig.verticalKey}&limit=4&retrieveFacets=true&skipSpellCheck=false&sessionTrackingEnabled=true&source=STANDARD`;
-//   console.log(url);
+    const url = `${AnswerExperienceConfig.endpoints.verticalSearch}?experienceKey=${AnswerExperienceConfig.experienceKey}&api_key=${AnswerExperienceConfig.apiKey}&v=20220511&version=${AnswerExperienceConfig.experienceVersion}&locale=${AnswerExperienceConfig.locale}&location=${location}&locationRadius=${AnswerExperienceConfig.locationRadius}&verticalKey=${AnswerExperienceConfig.verticalKey}&limit=4&retrieveFacets=true&skipSpellCheck=false&sessionTrackingEnabled=true&source=STANDARD`;
+    // console.log(url);
+    const externalApiData = (await fetch(url).then((res: any) =>
+      res.json()
+    )) as nearByLocation;
+    return { ...data, externalApiData };
+  };
 
-  
-
+//   const url = `https://liveapi-sandbox.yext.com/v2/accounts/me/entities/geosearch?radius=2500&location=${data.document.yextDisplayCoordinate.latitude},${data.document.yextDisplayCoordinate.longitude}&api_key=6956f7fbd94335e6e56d02e4e44f1f9a&v=20181201&resolvePlaceholders=true&entityTypes=location&limit=4`;
+//  console.log(url)
 //   const externalApiData = (await fetch(url).then((res: any) =>
 //     res.json()
 //   )) as nearByLocation;
 //   return { ...data, externalApiData };
 // };
-
-
-
-const url = `https://liveapi-sandbox.yext.com/v2/accounts/me/entities/geosearch?radius=2500&location=${data.document.yextDisplayCoordinate.latitude},${data.document.yextDisplayCoordinate.longitude}&api_key=6956f7fbd94335e6e56d02e4e44f1f9a&v=20181201&resolvePlaceholders=true&entityTypes=location&limit=3`
-// console.log(url,"geosearchApi");
-const externalApiData = (await fetch(url).then((res: any) =>
-    res.json()
-  )) as nearByLocation;
-  return { ...data, externalApiData };
-};
-
 
 type ExternalApiRenderData = TemplateRenderProps & {
   externalApiData: nearByLocation;
@@ -298,28 +316,34 @@ const Location: Template<ExternalApiRenderData> = ({
   externalApiData,
 }) => {
   const {
+    id,
     _site,
     address,
     slug,
     hours,
     mainPhone,
-    emails,
     photoGallery,
     c_banner_image,
-    c_canonical,
+    //c_canonical,
     description,
     additionalHoursText,
     timezone,
     yextDisplayCoordinate,
     displayCoordinate,
     cityCoordinate,
-    latitude,
-    longitude,
-    c_getDirectionsCTAText,
-    c_specific_day,
+    c_about,
+    c_banner,
+    c_faq,
+    c_service,
     name,
+    emails,
+    dm_directoryParents,
   } = document;
-
+  // const services = c_service?.map((link: any) => (
+  //   <a className="navbar-item" href={link.link}>
+  //     <span>{link.label}</span>
+  //   </a>
+  // ));
   let templateData = { document: document, __meta: __meta };
   let hoursSchema = [];
   let breadcrumbScheme = [];
@@ -463,9 +487,7 @@ const Location: Template<ExternalApiRenderData> = ({
           description: description,
           image: imageurl,
           telephone: mainPhone,
-          url: `${c_canonical ? c_canonical : stagingBaseurl}${
-            slug ? slug : `${name}`
-          }.html`,
+          // url: `${c_canonical?c_canonical:stagingBaseurl}${slug?slug:`${name}`}.html`
         }}
       />
       <JsonLd<BreadcrumbList>
@@ -484,149 +506,127 @@ const Location: Template<ExternalApiRenderData> = ({
       >
         {" "}
         <AnalyticsScopeProvider name={""}>
-        <Banner  />
-          <PageLayout global={_site}>
+          {/* <PageLayout global={_site}> */}
+          <Header _site={_site} />
+          {/* <Banner/> */}
+
+          <PhotoSlider _site={_site} />
+          <BreadCrumbs
+            name={name}
+            parents={dm_directoryParents}
+            baseUrl={relativePrefixToRoot}
+            address={address}
+          ></BreadCrumbs>
+
+          <div className="container">
+            <div className="banner-text banner-dark-bg justify-center text-center">
+              <h1 className="">{name}</h1>
+              <div className="openClosestatus detail-page closeing-div">
+                <OpenClose timezone={timezone} hours={hours} />
+              </div>
+            </div>
+          </div>
+          <div className="location-information">
+            <Contact
+              address={address}
+              phone={mainPhone}
+              latitude={
+                yextDisplayCoordinate
+                  ? yextDisplayCoordinate?.latitude
+                  : displayCoordinate?.latitude
+              }
+              yextDisplayCoordinate={yextDisplayCoordinate}
+              longitude={
+                yextDisplayCoordinate
+                  ? yextDisplayCoordinate?.longitude
+                  : displayCoordinate?.longitude
+              }
+              hours={hours}
+              additionalHoursText={additionalHoursText}
+            ></Contact>
+            {hours ? (
+              <div className="map-sec" id="map_canvas">
+                <CustomMap
+                  prop={
+                    yextDisplayCoordinate
+                      ? yextDisplayCoordinate
+                      : displayCoordinate
+                  }
+                />
+              </div>
+            ) : (
+              <div className="map-sec without-hours" id="map_canvas">
+                <CustomMap
+                  prop={
+                    yextDisplayCoordinate
+                      ? yextDisplayCoordinate
+                      : displayCoordinate
+                  }
+                />
+              </div>
+            )}
+          </div>
+          <div style={{ textAlign: "center", marginTop: "50px" }}>
+          <h1 style={{color:"rgb(2 166 219 / var(--tw-text-opacity))"}}>SERVICES</h1>
+          {c_service ? <Services c_service={c_service} /> : ""}
+        </div>
+          <div className="py-10">
+            <div className="container mx-auto ab-secmain flex flex-wrap items-center">
+              <div className="w-full md:w-1/2 px-5">
+                <div className="containerr">
+                  <img src={c_about?.img?.url} />
+                </div>
+              </div>
+              <div className="w-full md:w-1/2 about-sec px-5">
+                <h3 className="font-bold text-2xl ">
+                  MGM Timber {c_about?.cTA?.label} About
+                </h3>
+                <p className="mt-2">{c_about.description}</p>
+
+                <div className="visitButton mt-6">
+                  <button>Read More</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div>
+       
+       {c_faq ? <div className="w-full  pt-4">
+           <h4 className="sec_heading  text-[30px] text-center pt-4">How can we help ?</h4>
+           { <Faq prop={c_faq} c_fAQsCta={document.c_fAQsCta}/> }
+         </div> : <></>}
+
+         </div>
+
+          <div className="nearby-sec pt-4">
             <div className="container">
-              <div className="banner-text banner-dark-bg">
-                <h1 style={{ color: "black" }} className="">
-                  {name}
-                </h1>
-                <div className="openClosestatus detail-page closeing-div">
-                  <div className="address-main-sec">
-                    <h4 className="box-title">Address</h4>
+              <div className="sec-title">
+                <h2 className="">{StaticData.NearStoretext}</h2>
+              </div>
+              <div className="nearby-sec-inner">
+                {yextDisplayCoordinate ||
+                cityCoordinate ||
+                displayCoordinate ? (
+                  <Nearby externalApiData={externalApiData} currentId={id} />
+                ) : (
+                  ""
+                )}
+                <Cta
+                buttonText="View More Location"/>
 
-                    <div className="icon-row content-col">
-                      <div className="icon">
-                        {" "}
-                        <img
-                          className=" "
-                          src={mapimage}
-                          width="25"
-                          height="25"
-                          alt="mapimage"
-                        />
-                      </div>
-                      <div className="  address-text notHighlight">
-                        {address.line1}&nbsp;
-                        {address.line2}&nbsp;
-                        {address.city}
-                        <div>
-                          {address.postalCode}&nbsp;
-                          {address.city}
-                          {address.region}
-                        </div>
-                      </div>
-                      <div className="pt-4">
-                        <button className="DirectionButton">
-                          <GetDirection
-                            buttonText={
-                              c_getDirectionsCTAText
-                                ? c_getDirectionsCTAText
-                                : StaticData.getDirection
-                            }
-                            address={address}
-                            latitude={
-                              yextDisplayCoordinate
-                                ? yextDisplayCoordinate.latitude
-                                : displayCoordinate?.latitude
-                            }
-                            longitude={
-                              yextDisplayCoordinate
-                                ? yextDisplayCoordinate.longitude
-                                : displayCoordinate?.longitude
-                            }
-                            yextDisplayCoordinate={yextDisplayCoordinate}
-                            hours={hours}
-                            additionalHoursText={additionalHoursText}
-                          />
-                        </button>
-                      </div>
-                    </div>
-                  </div>
-
-                  {/* <StaticMap/> */}
-
-                  <div className="hello">
-                    <h3>Contact</h3>
-                    Tel:
-                    <a
-                      id="address"
-                      className="location-phn"
-                      href={`tel:${mainPhone}`}
-                    >
-                      &nbsp;{mainPhone}
-                    </a>
-                    Email:
-                    <a
-                      id="address"
-                      className="location-phn"
-                      href={`tel:${emails}`}
-                    >
-                      &nbsp;{emails}
-                    </a>
-                  </div>
-                  <div style={{height:"700px",width:"700px",marginLeft:"100px"}}>
-                  <CustomMap prop={yextDisplayCoordinate} /></div>
-                  {hours && typeof hours.monday != "undefined" ? (
-                    <div className="hours">
-                      <div className="hours-sec">
-                        <div className="title-with-link-1">
-                          <h4 className="box-title">{"Opening Hours:"}</h4>
-                        </div>
-                        <div className="hours-div mb-5 md:mb-1 flex flex-col">
-                          {hours.holidayHours &&
-                          typeof hours.reopenDate == "undefined" ? (
-                            <>
-                              <Model
-                                name={StaticData.Holdiay}
-                                holidayHours={hours.holidayHours}
-                                c_specific_day={c_specific_day}
-                              />
-                            </>
-                          ) : (
-                            ""
-                          )}
-                          {hours && (
-                            <Hours
-                              // title={"Opening Hours:"}
-                              // additionalHoursText={additionalHoursText}
-                              hours={hours}
-                              // c_specific_day={c_specific_day}
-                            />
-                          )}
-                        </div>
-                      </div>
-                    </div>
-                  ) : (
-                    ""
-                  )}
-                </div>
-
-               
-              
+                
               </div>
             </div>
-          
-            <div className="nearby-sec">
-              <div className="container">
-                <div className="sec-title">
-                  <h2 className="">{StaticData.NearStoretext}</h2>
-                </div>
-                <div className="nearby-sec-inner">
-                  {yextDisplayCoordinate ||
-                  cityCoordinate ||
-                  displayCoordinate ? (
-                    <Nearby externalApiData={externalApiData} />
-                  ) : (
-                    ""
-                  )}
-                </div>
-              </div>
-            </div>
-            <Footer _site={_site} />
-          </PageLayout>
+          </div>
+
+          {/* </PageLayout> */}
         </AnalyticsScopeProvider>
       </AnalyticsProvider>
+      
+       
+       
+      <Footer _site={_site} />
     </>
   );
 };

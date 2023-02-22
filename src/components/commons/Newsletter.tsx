@@ -49,7 +49,7 @@ import { useState } from "react";
       <div>
         {status === "SUCCESS" && (
             <><p>
-                    Welcome aboard{name ? `, ${name}` : ""}{" "}
+                    {/* Welcome aboard{name ? `, ${name}` : ""}{" "} */}
                     <span role="img" aria-label="Ship">
                         🚢
                     </span>
@@ -62,7 +62,7 @@ import { useState } from "react";
                 </p></>
         )}
         {status === null && (
-            <form onSubmit={handleSubmit}>
+            <form onSubmit={handleSubmit} >
               {/* <input
                 aria-label="Your first name"
                 name="fields[first_name]"
@@ -72,15 +72,18 @@ import { useState } from "react";
                 value={name}
               /> */}
               <input
+                className="inputfrom"
                 aria-label="Your email address"
                 name="email_address"
-                placeholder="Your email address"
+                placeholder="Enter your email address"
                 required
                 type="email"
                 onChange={handleEmailChange}
                 value={email}
               />
-              <button>SUBSCRIBE</button>
+              
+              <button className="subscribButton">SUBSCRIBE</button>
+              
             </form>
         )}
       </div>
