@@ -13,7 +13,6 @@ const useFetchResults = () => {
   if(offset == 0){
     mapLocations = [];
   }
-
   if(locationResults.length > 0){
     for (let i = 0; i < locationResults.length; i++) {
       const location = locationResults[i];

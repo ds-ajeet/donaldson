@@ -15,6 +15,7 @@ import Header from "../components/layouts/header";
 import SearchBar from "../components/locationDetail/search";
 import { Link } from "@yext/pages/components";
 import "../index.css";
+import Content from "../components/locationDetail/contact";
 import Services from "../components/commons/services";
 import {
   Template,
@@ -42,6 +43,7 @@ import StoreHighlight from "../components/locationDetail/SoreHighlight";
 import OpenClose from "../components/commons/openClose";
 import Faq from "../components/locationDetail/Faqs";
 import { StaticData } from "../../sites-global/staticData";
+// import Contentt from "../components/locationDetail/ReadMore";
 
 import {
   apikey_for_entity,
@@ -59,6 +61,7 @@ import FeaturesBrand from "../components/locationDetail/FeaturesBrand";
 import { Fade, Slide } from "react-awesome-reveal";
 import MgmTimber from "../components/locationDetail/MgmTimber";
 import { AnswerExperienceConfig } from "../config/answersHeadlessConfig";
+import Hours from "../components/commons/hours";
 
 /**
  * Required when Knowledge Graph data is used for a template.
@@ -86,6 +89,10 @@ export const config: TemplateConfig = {
       "c_faq.question",
       "c_faq.answer",
       "c_service",
+      "c_readMore",
+      "c_readDesc",
+      "c_branchDetails",
+      "c_branchdetailss",
       "dm_directoryParents.name",
       "dm_directoryParents.slug",
       "dm_directoryParents.meta.entityType",
@@ -113,20 +120,19 @@ export const config: TemplateConfig = {
 export const getPath: GetPath<TemplateProps> = ({ document }) => {
   var url = "";
   var name: any = document.name.toLowerCase();
-  var string: any = name.toString();;
+  var string: any = name.toString();
   let result: any = string.replaceAll(" ", "-");
   document.dm_directoryParents?.map((result: any, i: number) => {
     if (i > 0) {
-      url += result.slug + "/"
+      url += result.slug + "/";
     }
-  })
+  });
   if (!document.slug) {
     url += `${result}.html`;
   } else {
     url += `${document.slug.toString()}.html`;
   }
- return url;
-
+  return url;
 
   // var url: any = ""
   // document.dm_directoryParents?.map((i: any) => {
@@ -288,13 +294,13 @@ export const transformProps: TransformProps<ExternalApiData> = async (
       : data.document.displayCoordinate.longitude
   }`;
 
-    const url = `${AnswerExperienceConfig.endpoints.verticalSearch}?experienceKey=${AnswerExperienceConfig.experienceKey}&api_key=${AnswerExperienceConfig.apiKey}&v=20220511&version=${AnswerExperienceConfig.experienceVersion}&locale=${AnswerExperienceConfig.locale}&location=${location}&locationRadius=${AnswerExperienceConfig.locationRadius}&verticalKey=${AnswerExperienceConfig.verticalKey}&limit=4&retrieveFacets=true&skipSpellCheck=false&sessionTrackingEnabled=true&source=STANDARD`;
-    // console.log(url);
-    const externalApiData = (await fetch(url).then((res: any) =>
-      res.json()
-    )) as nearByLocation;
-    return { ...data, externalApiData };
-  };
+  const url = `${AnswerExperienceConfig.endpoints.verticalSearch}?experienceKey=${AnswerExperienceConfig.experienceKey}&api_key=${AnswerExperienceConfig.apiKey}&v=20220511&version=${AnswerExperienceConfig.experienceVersion}&locale=${AnswerExperienceConfig.locale}&location=${location}&locationRadius=${AnswerExperienceConfig.locationRadius}&verticalKey=${AnswerExperienceConfig.verticalKey}&limit=4&retrieveFacets=true&skipSpellCheck=false&sessionTrackingEnabled=true&source=STANDARD`;
+  // console.log(url);
+  const externalApiData = (await fetch(url).then((res: any) =>
+    res.json()
+  )) as nearByLocation;
+  return { ...data, externalApiData };
+};
 
 //   const url = `https://liveapi-sandbox.yext.com/v2/accounts/me/entities/geosearch?radius=2500&location=${data.document.yextDisplayCoordinate.latitude},${data.document.yextDisplayCoordinate.longitude}&api_key=6956f7fbd94335e6e56d02e4e44f1f9a&v=20181201&resolvePlaceholders=true&entityTypes=location&limit=4`;
 //  console.log(url)
@@ -324,7 +330,10 @@ const Location: Template<ExternalApiRenderData> = ({
     mainPhone,
     photoGallery,
     c_banner_image,
-    //c_canonical,
+    c_readMore,
+    c_readDesc,
+    c_branchDetails,
+    c_branchdetailss,
     description,
     additionalHoursText,
     timezone,
@@ -468,6 +477,24 @@ const Location: Template<ExternalApiRenderData> = ({
   console.log(document);
   let bannerimage = c_banner_image && c_banner_image.image.url;
 
+  const Read = () => {
+    // alert("im less function");
+    let dots = document.getElementById("dots");
+    let moreText = document.getElementByClassName("contentExpand");
+    let btnText = document.getElementById("myBtn");
+
+    if (dots.style.display === "none") {
+      dots.style.display = "inline";
+      btnText.innerHTML = "Read more";
+      moreText.style.display = "none";
+    } else {
+      dots.style.display = "none";
+      btnText.innerHTML = "Read less";
+      moreText.style.display = "inline";
+    }
+  };
+  const details = "";
+
   return (
     <>
       <JsonLd<Store>
@@ -506,9 +533,7 @@ const Location: Template<ExternalApiRenderData> = ({
       >
         {" "}
         <AnalyticsScopeProvider name={""}>
-          {/* <PageLayout global={_site}> */}
           <Header _site={_site} />
-          {/* <Banner/> */}
 
           <PhotoSlider _site={_site} />
           <BreadCrumbs
@@ -519,10 +544,10 @@ const Location: Template<ExternalApiRenderData> = ({
           ></BreadCrumbs>
 
           <div className="container">
-            <div className="banner-text banner-dark-bg justify-center text-center">
+            <div className="banner-text banner-dark-bg justify-center ">
               <h1 className="">{name}</h1>
               <div className="openClosestatus detail-page closeing-div">
-                <OpenClose timezone={timezone} hours={hours} />
+                {/* <OpenClose timezone={timezone} hours={hours} /> */}
               </div>
             </div>
           </div>
@@ -530,6 +555,8 @@ const Location: Template<ExternalApiRenderData> = ({
             <Contact
               address={address}
               phone={mainPhone}
+              email={emails}
+              // hours={hours}
               latitude={
                 yextDisplayCoordinate
                   ? yextDisplayCoordinate?.latitude
@@ -541,9 +568,9 @@ const Location: Template<ExternalApiRenderData> = ({
                   ? yextDisplayCoordinate?.longitude
                   : displayCoordinate?.longitude
               }
-              hours={hours}
               additionalHoursText={additionalHoursText}
             ></Contact>
+
             {hours ? (
               <div className="map-sec" id="map_canvas">
                 <CustomMap
@@ -566,10 +593,36 @@ const Location: Template<ExternalApiRenderData> = ({
               </div>
             )}
           </div>
-          <div style={{ textAlign: "center", marginTop: "50px" }}>
-          <h1 style={{color:"rgb(2 166 219 / var(--tw-text-opacity))"}}>SERVICES</h1>
-          {c_service ? <Services c_service={c_service} /> : ""}
-        </div>
+          <div style={{ width: "300px", height: "270px", marginLeft: "100px" }}>
+            <h4 className="box-title font-bold">{"Opening Hours :"}</h4>
+            <Hours hours={hours} />
+          </div>
+
+          {/* <div className="branch-content">
+            <h6 className="title">Branch Details</h6>
+            <p>MGM Timber is Scotland’s leading timber supplier. We bring all areas of Scotland, Grangemouth included, a wide variety of different timber-based products for all kinds of projects. If you want premium quality and live in the Grangemouth area, we have you covered<span id="dots">.</span></p>
+            
+            <div className="contentExpand">
+              <p>Our showrooms are open to all. We supply to both retail customers and trade customers, so that you can choose from our exceptional selection in person.</p>
+              <p>And with a focus on providing our customers with a service that’s second to none, we are determined to ensure you walk away satisfied and happy with your MGM Timber experience.</p>
+              <p>&nbsp;</p>
+              <h2><strong>Why MGM Timber?</strong></h2>
+              <p>MGM Timber is a part of the Donaldson group. We use over 160 years of experience in trading within the timber industry to our advantage to make our products and policies the best that they can be.</p>
+              <p>When it comes to getting what you want, you can trust our timber experts to advise you if advice is needed. We’ve been serving Scotland with a smile since 1991!</p>
+              <p><a href="https://www.mgmtimber.co.uk/contact-us">Reach out</a>&nbsp;to us now if you require assistance.</p>
+
+            </div>
+            
+            <button onClick={Read} id="myBtn">Read more</button>
+                   </div> */}
+
+          <div className="Branchdetails">
+            <div className="title">Branch Details</div>
+            {document.c_branchDetails}
+            <div className="labelDetils">{document.c_readMore}</div>
+            <div className="pt-4">{document.c_readDesc}</div>
+          </div>
+
           <div className="py-10">
             <div className="container mx-auto ab-secmain flex flex-wrap items-center">
               <div className="w-full md:w-1/2 px-5">
@@ -591,13 +644,17 @@ const Location: Template<ExternalApiRenderData> = ({
           </div>
 
           <div>
-       
-       {c_faq ? <div className="w-full  pt-4">
-           <h4 className="sec_heading  text-[30px] text-center pt-4">How can we help ?</h4>
-           { <Faq prop={c_faq} c_fAQsCta={document.c_fAQsCta}/> }
-         </div> : <></>}
-
-         </div>
+            {c_faq ? (
+              <div className="w-full  pt-4">
+                <h4 className="sec_heading  text-[30px] text-center pt-4">
+                  How can we help ?
+                </h4>
+                {<Faq prop={c_faq} c_fAQsCta={document.c_fAQsCta} />}
+              </div>
+            ) : (
+              <></>
+            )}
+          </div>
 
           <div className="nearby-sec pt-4">
             <div className="container">
@@ -612,10 +669,6 @@ const Location: Template<ExternalApiRenderData> = ({
                 ) : (
                   ""
                 )}
-                <Cta
-                buttonText="View More Location"/>
-
-                
               </div>
             </div>
           </div>
@@ -623,9 +676,7 @@ const Location: Template<ExternalApiRenderData> = ({
           {/* </PageLayout> */}
         </AnalyticsScopeProvider>
       </AnalyticsProvider>
-      
-       
-       
+
       <Footer _site={_site} />
     </>
   );

@@ -116,7 +116,7 @@ const Faq = (faqData: Faq) => {
     setLeftFaqLen(left);
     setRightFaqLen(right);
   });
-console.log(faqData.c_fAQsCta,"hellollo")
+// console.log(faqData.c_fAQsCta,"hellollo")
   return (
     <>
       <div className="faq-sec bg-light">

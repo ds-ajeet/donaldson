@@ -85,7 +85,7 @@ const LocationCard: CardComponent<Location> = ({ result }) => {
     //  url= `/${result.rawData.slug.toString()}.html`;
     url = `/${main_result}`;
   }
-  //  console.log(url,"url");
+  //  console.log(result.rawData.slug,"url");
   // const services = c_service?.map((link: any) => (
   //   <a className="navbar-item" href="#">
   //     <span>{link.label}</span>

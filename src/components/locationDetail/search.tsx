@@ -1,17 +1,18 @@
 import * as React from "react";
 const SearchBar = () => (
-    <form action="#" method="get">
-        <label htmlFor="header-search">
-            <span className="visually-hidden"></span>
-        </label>
-        <input
-            type="text"
-            id="header-search"
-            placeholder="Search..."
-            name="s" 
-        />
-        <button type="submit">Search</button>
-    </form>
+<div className="cover">
+  <form method="get" action="" className="searchfrom">
+    <div className="tb">
+      <div className="td"><input type="text" placeholder="Search entire store here..." required/></div>
+      <div className="td" id="s-cover">
+        <button  type="submit" className="buttonsearch">
+          <div className="s-circle"></div>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </form>
+</div>
 );
 
 export default SearchBar;

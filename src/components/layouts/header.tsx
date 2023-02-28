@@ -1,72 +1,8 @@
-// import * as React from "react";
-// import Cta from "../commons/cta";
-
-//   type Link = {
-//     label: string;
-//     url: string;
-//   };
-
-//   const links: Link[] = [
-//     {
-//       label: "Home",
-//       url: "/",
-//     },
-//     {
-//       label: "About",
-//       url: "/about",
-//     },
-//     {
-//       label: "Menu",
-//       url: "/menu.html",
-//     },
-//     {
-//       label: "Locator",
-//       url: "/locator",
-//     }
-//   ];
-
-//   const Header = (props:any) => {
-//       console.log(props)
-//         React.useEffect(()=>{
-//           document.body.setAttribute("id","body");
-//         })
-//       const linkDoms = props._site.c_headerlinks.map((link:any) => (
-//           <a className="navbar-item" href={link.link} >
-//             <span>{link.label}</span>
-//           </a>
-//       ));
-
-//   return (
-//     <>
-{
-  /* <div className="centered-container">
-        <nav className="py-3 flex items-center justify-between">
-          <img
-              src="https://a.mktgcdn.com/p/8esDUBrhKJnkaVztLihLsC3quv_5BjLFG9L6MJ0adcs/150x150.png">
-            <div className="flex gap-x-10 text-lg font-semibold">{linkDoms}</div>
-          <div className="hidden space-x-5 sm:block">
-            <Cta buttonText="Order Pickup" url="#" style="primary-cta"></Cta>
-            <Cta buttonText="Order Delivery" url="#" style="secondary-cta"></Cta>
-          </div>
-        </nav>
-      </div> */
-}
-// import { SearchBar } from "@yext/search-ui-react";
-//       <div className="container">
-//           <nav className="navbar" style={{color:"#F9DDDD"}}>
-//              {linkDoms}
-//            </nav>
-//          </div>
-//     </>
-//   );
-// };
-
-// export default Header;
-
 import * as React from "react";
 import logo from "../../images/mgmlogo.jpg";
 import SearchBar from "../locationDetail/search";
 import FilterSearch from "../locatorPage/FilterSearch";
+import { StaticData } from "../../../sites-global/staticData";
 
 const Header = (props: any) => {
   // console.log(props)
@@ -85,11 +21,17 @@ const Header = (props: any) => {
     </a>
   ));
 
-  const Headercountact = props?._site?.c_headerFirst?.map((link: any) => (
-    <a  className="navbar-item px-4" href="#" >
-      <span>{link.label}</span><br />
+  const Headercountact = props?._site?.c_headerMenus?.map((link: any) => (
+    <div className="flex">
+      <img src={link.headermenu.url} width="30" />  
+    <a  className="navbar-item" href={link?.headermenus?.link} style={{marginTop:"5px"}}>
+      
+      <span style={{marginLeft:"5px",marginRight:"20px"}}>{link?.headermenus?.label}</span>
+      
     </a>
+    </div>
   ));
+
 
   return (
     <>    
@@ -98,23 +40,32 @@ const Header = (props: any) => {
         id="header"
         className="header-nav"
       >
+        {/* <div style={{marginLeft:"1200px"}}>
+        <span >{StaticData.Vat}</span>
+        <span className="ml-4">{StaticData.Inc}</span>
+        <label className="switch"><input type="checkbox" className="ml-2"/>
+        <div className="sliderr"></div>
+        </label>
         
+        <span className="ml-2">{StaticData.Ex}</span>
+        </div> */}
         <div
           style={{ marginLeft: "25px" }}
           className="container header-content flex items-center justify-between"
         >
           
           
-          <div className="logo pt-4 w-auto">
+          
+          <div className="logo pt-2 w-auto">
             
               <a href="#"><img src={props._site.c_mgmTimberLogo.url} width="150" alt="logo"/></a>
               
           </div>
           <div>
-          {/* <SearchBar/> */}
-          {/* <FilterSearch /> */}
+          <SearchBar/>
+        
           </div>
-          <div className="flex items-center font-bold text-lg">{Headercountact}</div>
+          <div className="flex items-center font-bold text-sm">{Headercountact}</div>
         
           
         </div>

@@ -34,4 +34,7 @@ export const StaticData = {
     Address:"Address",
     Telephone:"Telephone",
     Holdiay:"Holdiday Hours",
+    Vat:"VAT :",
+    Inc:"INC",
+    Ex:"EX",
     }

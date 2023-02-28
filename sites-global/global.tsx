@@ -126,3 +126,28 @@ export const humburgerIcon =`<svg class="humburger-i" viewBox="0 0 24 24" versio
 </svg>`
 
 export const search_icn = `<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 30.938 30.579"><g id="Icon_feather-search" data-name="Icon feather-search" transform="translate(-3 -3)"><path id="Path_39" data-name="Path 39" d="M24.691,14.6A10.1,10.1,0,1,1,14.6,4.5,10.1,10.1,0,0,1,24.691,14.6Z" transform="translate(0 0)" fill="none" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"></path><path id="Path_40" data-name="Path 40" d="M35.066,34.707,24.975,24.975" transform="translate(-3.249 -3.249)" fill="none" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"></path></g></svg>`;
+export const emails_icn = `<svg version="1.0" xmlns="http://www.w3.org/2000/svg"
+width="45" height="45" viewBox="0 0 2400.000000 1714.000000"
+preserveAspectRatio="xMidYMid meet">
+<metadata>
+Created by potrace 1.16, written by Peter Selinger 2001-2019
+</metadata>
+<g transform="translate(0.000000,1714.000000) scale(0.100000,-0.100000)"
+fill="white" stroke="none">
+<path d="M2245 17125 c-297 -39 -542 -114 -820 -250 -746 -366 -1270 -1082
+-1400 -1910 -15 -90 -17 -732 -21 -6340 -3 -4271 -1 -6270 6 -6335 46 -422
+207 -851 443 -1185 141 -199 351 -420 527 -557 312 -241 674 -409 1050 -488
+259 -53 -439 -49 9955 -56 7550 -6 9653 -4 9735 5 783 91 1474 527 1895 1196
+138 219 272 548 329 805 60 274 56 -228 56 6706 l0 6342 -36 143 c-258 1030
+-1116 1789 -2172 1923 -112 14 -1075 16 -9785 15 -7876 -1 -9680 -4 -9762 -14z
+m14675 -5959 c-2991 -2989 -4631 -4622 -4660 -4639 -118 -66 -260 -75 -380
+-22 -76 33 200 -241 -5653 5603 l-3678 3672 9493 0 9493 0 -4615 -4614z m5780
+-8711 c-49 -574 -280 -921 -715 -1072 l-70 -24 -3237 3243 -3237 3243 3632
+3633 3632 3632 3 -6262 c2 -4502 0 -6300 -8 -6393z m-17382 2188 c-3132 -3132
+-3272 -3271 -3297 -3262 -67 25 -172 84 -235 131 -160 120 -256 288 -319 560
+l-22 93 -2 6450 -3 6450 3575 -3575 3575 -3575 -3272 -3272z m5337 1212 c1102
+-1107 1142 -1146 1210 -1177 125 -57 283 -50 405 20 28 16 458 437 1148 1126
+l1102 1101 2818 -2818 2817 -2817 -8180 0 -8180 0 2855 2855 c1570 1570 2857
+2855 2860 2855 3 1 518 -515 1145 -1145z"/>
+</g>
+</svg>`;

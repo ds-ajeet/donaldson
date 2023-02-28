@@ -102,6 +102,44 @@
 				}
 			]
 		},
+		"c_footerCta": [
+			{
+				"headermenu": {
+					"height": 28,
+					"url": "https://a.mktgcdn.com/p-sandbox/M0Lva0v9bl2ICO76fzQdu5bRKbaqPM0xaFXpF5JIfJ0/28x28.png",
+					"width": 28
+				},
+				"headermenus": {
+					"label": "Contact Us",
+					"link": "#",
+					"linkType": "OTHER"
+				}
+			},
+			{
+				"headermenu": {
+					"height": 28,
+					"url": "https://a.mktgcdn.com/p-sandbox/t05VRl09ME82DwTw4Mog9OfCQ-6UsXmrmB9YuMfM2Mk/28x28.png",
+					"width": 28
+				},
+				"headermenus": {
+					"label": "Get a Quote",
+					"link": "#",
+					"linkType": "OTHER"
+				}
+			},
+			{
+				"headermenu": {
+					"height": 28,
+					"url": "https://a.mktgcdn.com/p-sandbox/MUuOXRKPpu_5wPLG-tHptDvSefCGoLF70Nci7b7AGkU/28x28.png",
+					"width": 28
+				},
+				"headermenus": {
+					"label": "Location",
+					"link": "#",
+					"linkType": "OTHER"
+				}
+			}
+		],
 		"c_footerDescription": "MGM Timber\\-Copyright © 2023. All Rights Reserved, all 3rd party trademarks acknowledged.",
 		"c_headerFirst": [
 			{
@@ -168,6 +206,56 @@
 				"linkType": "URL"
 			}
 		],
+		"c_headerMenus": [
+			{
+				"headermenu": {
+					"height": 512,
+					"url": "https://a.mktgcdn.com/p-sandbox/hrLpZeWO40vJ3T-m78lrxYhHMYCQVZKPk4xPmHC7GzQ/512x512.png",
+					"width": 512
+				},
+				"headermenus": {
+					"label": "Job List",
+					"link": "#",
+					"linkType": "OTHER"
+				}
+			},
+			{
+				"headermenu": {
+					"height": 225,
+					"url": "https://a.mktgcdn.com/p-sandbox/vr60nFDROWp6WoJHG1GPAkTYU-g2FQr7iui_7u_amL0/225x225.png",
+					"width": 225
+				},
+				"headermenus": {
+					"label": "Branch Locator",
+					"link": "#",
+					"linkType": "OTHER"
+				}
+			},
+			{
+				"headermenu": {
+					"height": 227,
+					"url": "https://a.mktgcdn.com/p-sandbox/DJlyF74nrDkdx5oLxMjX1i2gnOFW1MCqmnnktV6gLF8/222x227.png",
+					"width": 222
+				},
+				"headermenus": {
+					"label": "My Account",
+					"link": "#",
+					"linkType": "OTHER"
+				}
+			},
+			{
+				"headermenu": {
+					"height": 512,
+					"url": "https://a.mktgcdn.com/p-sandbox/1--tYENx4JWjPRa-pncZo3Erpqp_EZc9P2oge9AgPqk/512x512.png",
+					"width": 512
+				},
+				"headermenus": {
+					"label": "My Basket",
+					"link": "#",
+					"linkType": "OTHER"
+				}
+			}
+		],
 		"c_jdGroups": {
 			"height": 36,
 			"url": "https://a.mktgcdn.com/p-sandbox/nogfz58irpjgqky543uFAOpl4gbkPObut-DwB5KIAt8/480x36.png",
@@ -193,7 +281,9 @@
 		"c_socialIcons": [
 			{
 				"cTA": {
-					"label": "Facebook"
+					"label": "Facebook",
+					"link": "#",
+					"linkType": "OTHER"
 				},
 				"icon": {
 					"height": 512,
@@ -203,7 +293,9 @@
 			},
 			{
 				"cTA": {
-					"label": "Twitter"
+					"label": "Twitter",
+					"link": "#",
+					"linkType": "OTHER"
 				},
 				"icon": {
 					"height": 1600,
@@ -213,27 +305,33 @@
 			},
 			{
 				"cTA": {
-					"label": "Linkdin"
+					"label": "Linkdin",
+					"link": "#",
+					"linkType": "OTHER"
 				},
 				"icon": {
-					"height": 512,
-					"url": "https://a.mktgcdn.com/p-sandbox/jXQ_D8HmptTAx-YRS5HoTTQj5naKdgKVV6vZVZ3s34s/512x512.png",
-					"width": 512
+					"height": 218,
+					"url": "https://a.mktgcdn.com/p-sandbox/kTgMDPR9cAoVwtAMay2V0kxJ_ZVdgGnmB5RT1tESp3Q/217x218.jpg",
+					"width": 217
 				}
 			},
 			{
 				"cTA": {
-					"label": "Youtube"
+					"label": "Youtube",
+					"link": "#",
+					"linkType": "OTHER"
 				},
 				"icon": {
-					"height": 631,
-					"url": "https://a.mktgcdn.com/p-sandbox/Z_2AcaUOPqFIdMw2N1RL3VYceZgJmRff-HYCEtSF2sA/840x631.jpg",
-					"width": 840
+					"height": 190,
+					"url": "https://a.mktgcdn.com/p-sandbox/iLz9neZYN8rq3CivZm6QqGPQS0QNbf405T27jxpJL-I/293x190.jpg",
+					"width": 293
 				}
 			},
 			{
 				"cTA": {
-					"label": "Instagram"
+					"label": "Instagram",
+					"link": "#",
+					"linkType": "OTHER"
 				},
 				"icon": {
 					"height": 1600,
@@ -243,17 +341,29 @@
 			},
 			{
 				"cTA": {
-					"label": "Pinterest"
+					"label": "Pinterest",
+					"link": "#",
+					"linkType": "OTHER"
 				},
 				"icon": {
-					"height": 728,
-					"url": "https://a.mktgcdn.com/p-sandbox/CvXkvlKaLXGmyUgvW3zFVtXCc3n1_TbZsVoUNYRGuHo/980x728.jpg",
+					"height": 980,
+					"url": "https://a.mktgcdn.com/p-sandbox/IsVUT0hpqgtURG6N-KlivPqVbM6yqzN2EYoYKgZl98E/980x980.png",
 					"width": 980
 				}
 			}
 		],
 		"c_termAndConditioon": {
 			"label": "Terms \u0026 Conditions"
+		},
+		"c_trust": {
+			"height": 337,
+			"url": "https://a.mktgcdn.com/p-sandbox/3YMzQE289i7dQWeowwZr_U0xnbc0-UQDIDWVLxGqFGo/1284x337.png",
+			"width": 1284
+		},
+		"c_trustpilot": {
+			"label": "Excellent",
+			"link": "https://www.blindsbypost.co.uk/bbp/img/trustpilot_stars.png",
+			"linkType": "URL"
 		},
 		"headline": "Follow Us",
 		"id": "globleData",
@@ -333,6 +443,13 @@
 			"width": 1000
 		}
 	],
+	"c_branchDetails": "At MGM Timber, we are Scotland's leading supplier of Timber supplies. We bring high\\-quality, exceptional timber products to projects all across Scotland, and this includes the Perth and Perthshire area. We endeavour to stock a very wide variety of timber products to ensure that your project has everything it could need. Better yet, we offer this huge selection of timber products at competitive prices. Our trade rooms are open to everyone – both trade and retail customers, so stop by and see our excellent choice first\\-hand! When you choose MGM Timber, you are choosing a timber merchant that takes a great amount of pride in all the products we offer, and we offer them with a customer service focus that's second to none.",
+	"c_branchdetailss": {
+		"description": [
+			"Need to get your order delivered? Well, thanks to our  all across the nation (not just in Perth), we can get what you need to you in a timely fashion.  Our will get your products to your kerbside anywhere in mainland Scotland. And if your order is £300 or over, then delivery is completely free!"
+		],
+		"label": "OUR DELIVERY OPTIONS"
+	},
 	"c_faq": [
 		{
 			"answer": "No, unfortunately this is not possible.",
@@ -359,6 +476,8 @@
 			"question": "Is it possible to order for products to be cut to length?"
 		}
 	],
+	"c_readDesc": "MGM Timber is a part of the Donaldson group. We use over 160 years of experience in trading within the timber industry to our advantage to make our products and policies the best that they can be.\n\nWhen it comes to getting what you want, you can trust our timber experts to advise you if advice is needed. We’ve been serving Scotland with a smile since 1991!\n\nReach out to us now if you require assistance.",
+	"c_readMore": "Why MGM Timber?",
 	"c_service": [
 		{
 			"label": "Kitchen",

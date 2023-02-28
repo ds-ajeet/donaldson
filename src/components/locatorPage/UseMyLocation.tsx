@@ -16,7 +16,7 @@ export default function UseMyLocation(){
         Geocode.fromLatLng(position.coords.latitude,position.coords.longitude).then(
           (response:any) => {
             if (response.results[0]) {
-              console.log(response.results[0].formatted_address);
+              // console.log(response.results[0].formatted_address,"fhbdfkjkfdkj");
               setquery(response.results[0].formatted_address)
 
           }

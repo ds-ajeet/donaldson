@@ -62,7 +62,7 @@ export const config: TemplateConfig = {
 
 export const getPath: GetPath<TemplateProps> = ({ document }) => {
   var url: any = ""
-  document.dm_directoryParents?.map((i: any) => {
+  document?.dm_directoryParents?.map((i: any) => {
     if (i.meta.entityType.id == 'ce_country') {
       url = `${i.slug}`
     }
@@ -80,7 +80,7 @@ export const getHeadConfig: GetHeadConfig<TemplateRenderProps> = ({
   document,
 }): HeadConfig => {
   var canonical="";
-   document.dm_directoryChildren.map((entity: any) => {
+   document?.dm_directoryChildren?.map((entity: any) => {
       canonical=  entity.address.countryCode.toLowerCase().replaceAll(" ", "-") + '/' +  entity.address.region.toLowerCase().replaceAll(" ", "-");
           })
 
@@ -241,7 +241,7 @@ const City: Template<TemplateRenderProps> = ({
     slugString += e.slug + "/";
   });
 
-  const childrenDivs = dm_directoryChildren.map((entity: any) => {
+  const childrenDivs = dm_directoryChildren?.map((entity: any) => {
     console.log(entity,"entityslug")
     var origin: any = null;
     if (entity.address.city) {
@@ -404,7 +404,7 @@ const City: Template<TemplateRenderProps> = ({
 
   var url: any = ""
 
-  document.dm_directoryParents.map((i: any) => {
+  document?.dm_directoryParents?.map((i: any) => {
     if (i.meta.entityType.id == 'ce_country') {
       url = `${i.slug}`
     }
@@ -416,7 +416,7 @@ const City: Template<TemplateRenderProps> = ({
   let breadcrumbScheme: any = [];
   let currentIndex: any = 0;
   dm_directoryParents &&
-    dm_directoryParents.map((i: any, index: any) => {
+    dm_directoryParents?.map((i: any, index: any) => {
       currentIndex = index;
       if (index != 0) {
         breadcrumbScheme.push({

@@ -12,7 +12,7 @@ import {
   useComposedCssClasses,
 } from "../../hooks/useComposedCssClasses";
 import Mapicon2 from "../../images/MGMpin.svg";
-import clustericon from "../../images/cluster.png";
+import clustericon from "../../images/cluster-blue.svg";
 import mapimage from "../../images/map.svg";
 import timesvg from "../../images/watch-icn.svg";
 import Hovermap from "../../images/MGMhover1.svg";
@@ -120,6 +120,7 @@ function UnwrappedGoogleMaps({
   const refLocationResults = useRef({});
 
   const locationResults =useFetchResults() || [];
+  console.log(locationResults,"location result");
   refLocationResults.current = locationResults;
 
   locationResults.length > 0
@@ -143,6 +144,7 @@ function UnwrappedGoogleMaps({
   let info = false;
   const cssClasses = useComposedCssClasses(builtInCssClasses, customCssClasses);
   const noResults = !locationResults.length;
+  console.log(noResults,"noresult");
   let containerCssClass = cssClasses.googleMapsContainer;
 
   if (noResults && !showEmptyMap) {
@@ -200,7 +202,9 @@ function UnwrappedGoogleMaps({
   // function getCoordinates(address:String){
 
   const userlat = useSearchState((s) => s.location.locationBias) || [];
+  // console.log(userlat,"userlat")   user ki loction 
   const iplat = userlat.latitude;
+  // console.log(,"useredrete") 
   const iplong = userlat.longitude;
   const position = {
     lat: iplat,
@@ -222,6 +226,7 @@ function UnwrappedGoogleMaps({
   for (const result of locationResults) {
     i++;
     const position = getPosition(result);
+    // console.log("positionjsad",)
     const marker = new google.maps.Marker({
       position,
       map,
@@ -254,7 +259,8 @@ function UnwrappedGoogleMaps({
             icon: clustericon,
             label: {
               text: String(markers?.length),
-              color: "white",
+              color: "black",
+              fontWeight:"bold",
             },
             //  animation: google.maps.Animation.DROP,
           });

@@ -9,6 +9,8 @@
     "c_mgmTimberLogo",
     "c_headerLinks",
     "c_headerFirst",
+    "c_trustpilot",
+    "c_trust",
     "c_footerDescription",
     "c_socialIcons",
     "c_customer_Services",
@@ -23,7 +25,9 @@
     "c_newsletter",
     "c_newsletterHeading",
     "photoGallery",
-    "c_bannerLink"
+    "c_bannerLink",
+    "c_headerMenus",
+    "c_footerCta"
 
   ],
   "localization": {
