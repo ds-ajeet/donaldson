@@ -138,7 +138,7 @@ const LocationCard: CardComponent<Location> = ({ result }) => {
               <div className="pt-4">
                 <label>
                   Telephone&nbsp;&nbsp;
-                  <a href="#" style={{ color: "#0067c8" }}>
+                  <a href={`tel:${mainPhone}`} style={{ color: "#0067c8" }}>
                     {result.rawData.mainPhone}
                   </a>
                 </label>
