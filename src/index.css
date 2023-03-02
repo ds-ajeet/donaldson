@@ -104,7 +104,7 @@ body.menu-opened{ @apply overflow-hidden lg:overflow-auto;}
 /* .locator-main{ @apply  mt-10  align-bottom w-full max-w-[87.5rem] mx-auto px-0 md:px-4 lg:px-6 xl:px-0} */
 .locator-main {
   position: absolute;
-  top:304px;
+  top:375px;
   bottom: 0;
   width: 33.6875rem;
   left: 80px;
@@ -822,19 +822,19 @@ nav[aria-label="Pagination"] button:disabled{@apply cursor-not-allowed text-opac
   
 }
 .headerLink{
-  margin-left: 15px;
-  /* padding-top: 10px; */
+  margin: 20px;
 }
 .headerLink a {
   color: inherit;
   text-decoration: inherit;
   height: 70px;
-  width: auto;
-  padding-top: 25px;
+  width: 135px;
+  padding-top: 15px;
+  text-align: center;
 }
 
 .headerLink a:hover{
-  /* background-color: #000; */
+  background-color: #000;
   color: #fff;
 }
 .visitButton:hover{

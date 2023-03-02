@@ -184,7 +184,7 @@ const Header = (props: any) => {
           className="text-black w-full font-bold"
         >
           <div
-            className="flex gap-x-16 text-ml headerLink"
+            className="flex gap-x-4 text-ml headerLink"
           >
             {linkDoms}
           </div>
