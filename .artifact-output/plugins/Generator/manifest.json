@@ -1,12 +1,12 @@
 {
   "bundlePaths": {
-    "404": "assets/server/404.50873b43.js",
-    "city": "assets/server/city.96aae309.js",
-    "country": "assets/server/country.98119b47.js",
-    "location": "assets/server/location.d318f1eb.js",
-    "locator": "assets/server/locator.859f4bf7.js",
-    "robots": "assets/server/robots.22d0f567.js",
-    "State": "assets/server/State.438111a0.js"
+    "404": "assets/server/404.d3350a44.js",
+    "city": "assets/server/city.66e3ddb0.js",
+    "country": "assets/server/country.95e3bcd6.js",
+    "location": "assets/server/location.0affd272.js",
+    "locator": "assets/server/locator.eab736b9.js",
+    "robots": "assets/server/robots.8481fa9d.js",
+    "State": "assets/server/State.0b20802a.js"
   },
   "projectFilepaths": {
     "templatesRoot": "src/templates",
@@ -25,16 +25,20 @@
         "_server.browser-1d0d65a5.js"
       ]
     },
-    "src/images/map.svg": {
-      "file": "assets/static/map-05379a2e.svg",
-      "src": "src/images/map.svg"
+    "src/images/mgmtimber_logo_footer.svg": {
+      "file": "assets/static/mgmtimber_logo_footer-e9f6cd78.svg",
+      "src": "src/images/mgmtimber_logo_footer.svg"
     },
     "src/images/MGM_About_Us_Image.webp": {
       "file": "assets/static/MGM_About_Us_Image-a59243fd.webp",
       "src": "src/images/MGM_About_Us_Image.webp"
     },
+    "src/images/map.svg": {
+      "file": "assets/static/map-05379a2e.svg",
+      "src": "src/images/map.svg"
+    },
     "src/images/MGMpin.svg": {
-      "file": "assets/static/MGMpin-d888cd18.svg",
+      "file": "assets/static/MGMpin-fff7d423.svg",
       "src": "src/images/MGMpin.svg"
     },
     "src/images/red-map.svg": {
@@ -46,7 +50,7 @@
       "src": "src/images/cluster-blue.svg"
     },
     "src/images/MGMhover1.svg": {
-      "file": "assets/static/MGMhover1-97fb55c3.svg",
+      "file": "assets/static/MGMhover1-465b3219.svg",
       "src": "src/images/MGMhover1.svg"
     },
     "src/images/map-center.svg": {
@@ -69,20 +73,20 @@
       "file": "assets/static/minus-sym-f0f517fd.svg",
       "src": "src/images/minus-sym.svg"
     },
-    "src/images/shape-t.svg": {
-      "file": "assets/static/shape-t-4e865b2a.svg",
-      "src": "src/images/shape-t.svg"
-    },
     "src/images/shape-b.svg": {
       "file": "assets/static/shape-b-bdecdd2a.svg",
       "src": "src/images/shape-b.svg"
+    },
+    "src/images/shape-t.svg": {
+      "file": "assets/static/shape-t-4e865b2a.svg",
+      "src": "src/images/shape-t.svg"
     },
     "src/images/newsletter-bg.png": {
       "file": "assets/static/newsletter-bg-6b390772.png",
       "src": "src/images/newsletter-bg.png"
     },
     "dist/hydration_templates/404.tsx": {
-      "file": "assets/hydrate/404.1d4a4804.js",
+      "file": "assets/hydrate/404.10a70a5f.js",
       "src": "dist/hydration_templates/404.tsx",
       "isEntry": true,
       "imports": [
@@ -90,23 +94,23 @@
         "src/templates/404.tsx",
         "_jsx-runtime-620c699d.js",
         "_index-9e58000d.js",
-        "_global-35740a6e.js",
+        "_global-00d79aac.js",
         "_PageLayout-6dcae102.js"
       ]
     },
     "src/templates/404.tsx": {
-      "file": "assets/server/404.50873b43.js",
+      "file": "assets/server/404.d3350a44.js",
       "src": "src/templates/404.tsx",
       "isEntry": true,
       "imports": [
-        "_global-35740a6e.js",
+        "_global-00d79aac.js",
         "_jsx-runtime-620c699d.js",
         "_PageLayout-6dcae102.js",
         "_index-9e58000d.js"
       ]
     },
     "dist/hydration_templates/city.tsx": {
-      "file": "assets/hydrate/city.4413bf84.js",
+      "file": "assets/hydrate/city.e1fee23e.js",
       "src": "dist/hydration_templates/city.tsx",
       "isEntry": true,
       "imports": [
@@ -114,31 +118,31 @@
         "src/templates/city.tsx",
         "_jsx-runtime-620c699d.js",
         "_index-9e58000d.js",
-        "_Address-a11a71bb.js",
-        "_openClose-a47a62df.js",
-        "_global-35740a6e.js",
-        "_Breadcrumb-81376cf7.js",
-        "_banner-6b8353e5.js",
+        "_Address-1c790bec.js",
+        "_openClose-644bafcb.js",
+        "_global-00d79aac.js",
+        "_Breadcrumb-42b673a3.js",
+        "_banner-2ff6731d.js",
         "_PageLayout-6dcae102.js"
       ]
     },
     "src/templates/city.tsx": {
-      "file": "assets/server/city.96aae309.js",
+      "file": "assets/server/city.66e3ddb0.js",
       "src": "src/templates/city.tsx",
       "isEntry": true,
       "imports": [
-        "_Address-a11a71bb.js",
-        "_openClose-a47a62df.js",
-        "_Breadcrumb-81376cf7.js",
-        "_banner-6b8353e5.js",
+        "_Address-1c790bec.js",
+        "_openClose-644bafcb.js",
+        "_Breadcrumb-42b673a3.js",
+        "_banner-2ff6731d.js",
         "_jsx-runtime-620c699d.js",
-        "_global-35740a6e.js",
+        "_global-00d79aac.js",
         "_PageLayout-6dcae102.js",
         "_index-9e58000d.js"
       ]
     },
     "dist/hydration_templates/country.tsx": {
-      "file": "assets/hydrate/country.2628e38e.js",
+      "file": "assets/hydrate/country.23d9438b.js",
       "src": "dist/hydration_templates/country.tsx",
       "isEntry": true,
       "imports": [
@@ -146,29 +150,29 @@
         "src/templates/country.tsx",
         "_jsx-runtime-620c699d.js",
         "_index-9e58000d.js",
-        "_openClose-a47a62df.js",
-        "_Breadcrumb-81376cf7.js",
-        "_global-35740a6e.js",
-        "_banner-6b8353e5.js",
+        "_openClose-644bafcb.js",
+        "_global-00d79aac.js",
+        "_Breadcrumb-42b673a3.js",
+        "_banner-2ff6731d.js",
         "_PageLayout-6dcae102.js"
       ]
     },
     "src/templates/country.tsx": {
-      "file": "assets/server/country.98119b47.js",
+      "file": "assets/server/country.95e3bcd6.js",
       "src": "src/templates/country.tsx",
       "isEntry": true,
       "imports": [
-        "_openClose-a47a62df.js",
-        "_Breadcrumb-81376cf7.js",
-        "_banner-6b8353e5.js",
+        "_openClose-644bafcb.js",
+        "_Breadcrumb-42b673a3.js",
+        "_banner-2ff6731d.js",
         "_jsx-runtime-620c699d.js",
         "_PageLayout-6dcae102.js",
-        "_global-35740a6e.js",
+        "_global-00d79aac.js",
         "_index-9e58000d.js"
       ]
     },
     "dist/hydration_templates/location.tsx": {
-      "file": "assets/hydrate/location.c58203a9.js",
+      "file": "assets/hydrate/location.bf6e6474.js",
       "src": "dist/hydration_templates/location.tsx",
       "isEntry": true,
       "imports": [
@@ -176,41 +180,38 @@
         "src/templates/location.tsx",
         "_jsx-runtime-620c699d.js",
         "_index-9e58000d.js",
-        "_answersHeadlessConfig-6f57b793.js",
-        "_openClose-a47a62df.js",
-        "_Address-a11a71bb.js",
-        "_global-35740a6e.js",
+        "_answersHeadlessConfig-6d6462c1.js",
+        "_openClose-644bafcb.js",
+        "_global-00d79aac.js",
+        "_Address-1c790bec.js",
         "_preload-helper-094304c8.js",
-        "_Breadcrumb-81376cf7.js"
+        "_Breadcrumb-42b673a3.js"
       ]
     },
     "src/templates/location.tsx": {
-      "file": "assets/server/location.d318f1eb.js",
+      "file": "assets/server/location.0affd272.js",
       "src": "src/templates/location.tsx",
       "isEntry": true,
       "imports": [
-        "_answersHeadlessConfig-6f57b793.js",
-        "_Address-a11a71bb.js",
+        "_answersHeadlessConfig-6d6462c1.js",
+        "_Address-1c790bec.js",
         "_jsx-runtime-620c699d.js",
         "_index-9e58000d.js",
         "_index-4fb48dc0.js",
-        "_global-35740a6e.js",
-        "_openClose-a47a62df.js",
+        "_global-00d79aac.js",
+        "_openClose-644bafcb.js",
         "_preload-helper-094304c8.js",
-        "_Breadcrumb-81376cf7.js"
+        "_Breadcrumb-42b673a3.js"
       ],
       "dynamicImports": [
-        "_openClose-a47a62df.js"
+        "_openClose-644bafcb.js"
       ],
       "css": [
         "assets/static/location-55d13414.css"
-      ],
-      "assets": [
-        "assets/static/map-05379a2e.svg"
       ]
     },
     "dist/hydration_templates/locator.tsx": {
-      "file": "assets/hydrate/locator.6a3f5e9e.js",
+      "file": "assets/hydrate/locator.39f947d7.js",
       "src": "dist/hydration_templates/locator.tsx",
       "isEntry": true,
       "imports": [
@@ -218,25 +219,25 @@
         "src/templates/locator.tsx",
         "_jsx-runtime-620c699d.js",
         "_index-9e58000d.js",
-        "_openClose-a47a62df.js",
-        "_Address-a11a71bb.js",
-        "_global-35740a6e.js",
-        "_answersHeadlessConfig-6f57b793.js",
+        "_openClose-644bafcb.js",
+        "_global-00d79aac.js",
+        "_Address-1c790bec.js",
+        "_answersHeadlessConfig-6d6462c1.js",
         "_server.browser-1d0d65a5.js"
       ]
     },
     "src/templates/locator.tsx": {
-      "file": "assets/server/locator.859f4bf7.js",
+      "file": "assets/server/locator.eab736b9.js",
       "src": "src/templates/locator.tsx",
       "isEntry": true,
       "imports": [
-        "_openClose-a47a62df.js",
+        "_openClose-644bafcb.js",
         "_index-9e58000d.js",
         "_jsx-runtime-620c699d.js",
-        "_Address-a11a71bb.js",
-        "_answersHeadlessConfig-6f57b793.js",
+        "_Address-1c790bec.js",
+        "_answersHeadlessConfig-6d6462c1.js",
         "_server.browser-1d0d65a5.js",
-        "_global-35740a6e.js"
+        "_global-00d79aac.js"
       ],
       "css": [
         "assets/static/locator-7e1d7cb8.css"
@@ -244,21 +245,21 @@
       "assets": [
         "assets/static/red-map-55834b8a.svg",
         "assets/static/cluster-blue-2b8ee0ea.svg",
-        "assets/static/MGMhover1-97fb55c3.svg",
+        "assets/static/MGMhover1-465b3219.svg",
         "assets/static/map-center-262cd830.svg",
         "assets/static/phone-057118a0.svg"
       ]
     },
     "src/templates/robots.ts": {
-      "file": "assets/server/robots.22d0f567.js",
+      "file": "assets/server/robots.8481fa9d.js",
       "src": "src/templates/robots.ts",
       "isEntry": true,
       "imports": [
-        "_global-35740a6e.js"
+        "_global-00d79aac.js"
       ]
     },
     "dist/hydration_templates/State.tsx": {
-      "file": "assets/hydrate/State.d7fabec4.js",
+      "file": "assets/hydrate/State.cad8b803.js",
       "src": "dist/hydration_templates/State.tsx",
       "isEntry": true,
       "imports": [
@@ -266,21 +267,21 @@
         "src/templates/State.tsx",
         "_jsx-runtime-620c699d.js",
         "_index-9e58000d.js",
-        "_openClose-a47a62df.js",
-        "_Breadcrumb-81376cf7.js",
-        "_global-35740a6e.js",
-        "_banner-6b8353e5.js"
+        "_openClose-644bafcb.js",
+        "_global-00d79aac.js",
+        "_Breadcrumb-42b673a3.js",
+        "_banner-2ff6731d.js"
       ]
     },
     "src/templates/State.tsx": {
-      "file": "assets/server/State.438111a0.js",
+      "file": "assets/server/State.0b20802a.js",
       "src": "src/templates/State.tsx",
       "isEntry": true,
       "imports": [
-        "_openClose-a47a62df.js",
-        "_Breadcrumb-81376cf7.js",
-        "_banner-6b8353e5.js",
-        "_global-35740a6e.js",
+        "_openClose-644bafcb.js",
+        "_Breadcrumb-42b673a3.js",
+        "_banner-2ff6731d.js",
+        "_global-00d79aac.js",
         "_jsx-runtime-620c699d.js",
         "_index-9e58000d.js"
       ]
@@ -309,8 +310,8 @@
         "_index-9e58000d.js"
       ]
     },
-    "_global-35740a6e.js": {
-      "file": "assets/static/global-35740a6e.js"
+    "_global-00d79aac.js": {
+      "file": "assets/static/global-00d79aac.js"
     },
     "_PageLayout-6dcae102.js": {
       "file": "assets/static/PageLayout-6dcae102.js",
@@ -318,26 +319,28 @@
         "_jsx-runtime-620c699d.js"
       ]
     },
-    "_Address-a11a71bb.js": {
-      "file": "assets/static/Address-a11a71bb.js",
+    "_Address-1c790bec.js": {
+      "file": "assets/static/Address-1c790bec.js",
       "imports": [
         "_index-9e58000d.js",
         "_jsx-runtime-620c699d.js",
-        "_openClose-a47a62df.js",
-        "_global-35740a6e.js"
+        "_openClose-644bafcb.js",
+        "_global-00d79aac.js"
       ]
     },
-    "_openClose-a47a62df.js": {
-      "file": "assets/static/openClose-a47a62df.js",
+    "_openClose-644bafcb.js": {
+      "file": "assets/static/openClose-644bafcb.js",
       "isDynamicEntry": true,
       "imports": [
         "_index-9e58000d.js",
-        "_jsx-runtime-620c699d.js"
+        "_jsx-runtime-620c699d.js",
+        "_global-00d79aac.js"
       ],
       "css": [
-        "assets/static/openClose-882a075e.css"
+        "assets/static/openClose-413f52fc.css"
       ],
       "assets": [
+        "assets/static/mgmtimber_logo_footer-e9f6cd78.svg",
         "assets/static/dots-c532748f.svg",
         "assets/static/plus-sym-e2bf518e.svg",
         "assets/static/minus-sym-f0f517fd.svg",
@@ -346,46 +349,47 @@
         "assets/static/shape-b-bdecdd2a.svg"
       ]
     },
-    "_Breadcrumb-81376cf7.js": {
-      "file": "assets/static/Breadcrumb-81376cf7.js",
+    "_Breadcrumb-42b673a3.js": {
+      "file": "assets/static/Breadcrumb-42b673a3.js",
       "imports": [
         "_index-9e58000d.js",
-        "_global-35740a6e.js",
+        "_global-00d79aac.js",
         "_jsx-runtime-620c699d.js",
-        "_openClose-a47a62df.js"
+        "_openClose-644bafcb.js"
       ]
     },
-    "_banner-6b8353e5.js": {
-      "file": "assets/static/banner-6b8353e5.js",
+    "_banner-2ff6731d.js": {
+      "file": "assets/static/banner-2ff6731d.js",
       "imports": [
-        "_openClose-a47a62df.js",
+        "_openClose-644bafcb.js",
         "_jsx-runtime-620c699d.js"
       ],
       "assets": [
         "assets/static/MGM_About_Us_Image-a59243fd.webp"
       ]
     },
-    "_answersHeadlessConfig-6f57b793.js": {
-      "file": "assets/static/answersHeadlessConfig-6f57b793.js",
+    "_answersHeadlessConfig-6d6462c1.js": {
+      "file": "assets/static/answersHeadlessConfig-6d6462c1.js",
       "imports": [
         "_index-9e58000d.js",
-        "_openClose-a47a62df.js",
+        "_openClose-644bafcb.js",
         "_jsx-runtime-620c699d.js"
       ],
       "assets": [
-        "assets/static/MGMpin-d888cd18.svg"
+        "assets/static/map-05379a2e.svg",
+        "assets/static/MGMpin-fff7d423.svg"
       ]
-    },
-    "src/templates/location.css": {
-      "file": "assets/static/location-55d13414.css",
-      "src": "src/templates/location.css"
     },
     "src/templates/locator.css": {
       "file": "assets/static/locator-7e1d7cb8.css",
       "src": "src/templates/locator.css"
     },
+    "src/templates/location.css": {
+      "file": "assets/static/location-55d13414.css",
+      "src": "src/templates/location.css"
+    },
     "openClose.css": {
-      "file": "assets/static/openClose-882a075e.css",
+      "file": "assets/static/openClose-413f52fc.css",
       "src": "openClose.css"
     }
   }

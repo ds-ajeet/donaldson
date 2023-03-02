@@ -15,7 +15,6 @@ import Header from "../components/layouts/header";
 import SearchBar from "../components/locationDetail/search";
 import { Link } from "@yext/pages/components";
 import "../index.css";
-import Content from "../components/locationDetail/contact";
 import Services from "../components/commons/services";
 import {
   Template,
@@ -43,7 +42,6 @@ import StoreHighlight from "../components/locationDetail/SoreHighlight";
 import OpenClose from "../components/commons/openClose";
 import Faq from "../components/locationDetail/Faqs";
 import { StaticData } from "../../sites-global/staticData";
-// import Contentt from "../components/locationDetail/ReadMore";
 
 import {
   apikey_for_entity,
@@ -598,30 +596,13 @@ const Location: Template<ExternalApiRenderData> = ({
             <Hours hours={hours} />
           </div>
 
-          {/* <div className="branch-content">
-            <h6 className="title">Branch Details</h6>
-            <p>MGM Timber is Scotland’s leading timber supplier. We bring all areas of Scotland, Grangemouth included, a wide variety of different timber-based products for all kinds of projects. If you want premium quality and live in the Grangemouth area, we have you covered<span id="dots">.</span></p>
-            
-            <div className="contentExpand">
-              <p>Our showrooms are open to all. We supply to both retail customers and trade customers, so that you can choose from our exceptional selection in person.</p>
-              <p>And with a focus on providing our customers with a service that’s second to none, we are determined to ensure you walk away satisfied and happy with your MGM Timber experience.</p>
-              <p>&nbsp;</p>
-              <h2><strong>Why MGM Timber?</strong></h2>
-              <p>MGM Timber is a part of the Donaldson group. We use over 160 years of experience in trading within the timber industry to our advantage to make our products and policies the best that they can be.</p>
-              <p>When it comes to getting what you want, you can trust our timber experts to advise you if advice is needed. We’ve been serving Scotland with a smile since 1991!</p>
-              <p><a href="https://www.mgmtimber.co.uk/contact-us">Reach out</a>&nbsp;to us now if you require assistance.</p>
-
-            </div>
-            
-            <button onClick={Read} id="myBtn">Read more</button>
-                   </div> */}
-
           <div className="Branchdetails">
             <div className="title">Branch Details</div>
             {document.c_branchDetails}
             <div className="labelDetils">{document.c_readMore}</div>
             <div className="pt-4">{document.c_readDesc}</div>
           </div>
+
 
           <div className="py-10">
             <div className="container mx-auto ab-secmain flex flex-wrap items-center">

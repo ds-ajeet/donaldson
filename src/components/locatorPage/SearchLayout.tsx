@@ -40,7 +40,6 @@ const SearchLayout = (props: any): JSX.Element => {
   const alternateresult = useSearchState(state => state.vertical?.results?.length) || 0;
   const [displaymsg, setDisplaymsg] = useState(false);
   const [inputvalue, setInputValue] = React.useState('');
-  // const [inputvalue, setInputValue] = React.useState('');
   const [allowlocation, setallowLocation] = React.useState('');
   const [newparam, SetNewparam] = React.useState({
     latitude: 0,
@@ -105,8 +104,6 @@ const SearchLayout = (props: any): JSX.Element => {
 
         }
       };
-
-
       navigator.geolocation.getCurrentPosition(function (position) {
         Geocode.setApiKey(googleApikey);
         var inputformat = '';
@@ -128,7 +125,7 @@ const SearchLayout = (props: any): JSX.Element => {
           longitude: position.coords.longitude
         };
 
-        mapzoom = 3;
+        // mapzoom = 3;
         searchActions.setVertical('locations');
         searchActions.setUserLocation(params);
         searchActions.setOffset(0);
@@ -149,7 +146,7 @@ const SearchLayout = (props: any): JSX.Element => {
     if (searchKey[0].value != "") {
       getCoordinates(Search);
     }
-    console.log(locationinbuit.length, "fisttimedispaly")
+    // console.log(locationinbuit.length, "fisttimedispaly")
     if (locationinbuit.length == 0) {
       setDisplaymsg(true)
     } else {
@@ -186,8 +183,8 @@ const SearchLayout = (props: any): JSX.Element => {
   let bannerimage = props._site.c_locatorBannerImage != undefined ? props._site.c_locatorBannerImage.image.url : '';
 
 
-  // const loader =
-  //   isLoading ? <LoadingSpinner /> : '';
+  const loader =
+    isLoading ? <LoadingSpinner /> : '';
 
   const addClass = () => {
 
@@ -218,7 +215,7 @@ const SearchLayout = (props: any): JSX.Element => {
   useEffect(() => {
     if (firstTimeRunners) {
       firstTimeRunners = false;
-      // searchActions.resetFacets();
+      searchActions.resetFacets();
       FirstLoad();
     }
   }, [])
@@ -226,7 +223,7 @@ const SearchLayout = (props: any): JSX.Element => {
   return (
     <>
 
-      {/* {/ {loader} /} */}
+      {loader} 
       <div className="breadcrumb">
         <div className="container-custom">
           <ul>
@@ -238,9 +235,6 @@ const SearchLayout = (props: any): JSX.Element => {
 
         </div>
       </div>
-      {/* <div className="location-with-filter">
-        <h1 className="">{StaticData.FindLocationtext}</h1>
-      </div> */}
       <div className="map-data">
         <div className=" map-section ">
           <GoogleMaps
@@ -261,7 +255,7 @@ const SearchLayout = (props: any): JSX.Element => {
             <h1 className="">{StaticData.FindLocationtext}</h1>
           </div>
 
-              <div className="search-field" >
+              <div className="search-field" style={{width:"440px",marginLeft:"10px"}}>
                 <FilterSearch
                   ref={filterRef}
                   displaymsg={displaymsg}

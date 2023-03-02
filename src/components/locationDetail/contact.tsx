@@ -85,11 +85,11 @@ const Contact = (props: any) => {
             <span style={{fontWeight:"bold",color:"#1e293e",fontSize:"16px"}}>Contact</span>
             <div className="content-col pt-2">
               <a id="address" className=" location-phn" href={`tel:${phone}`}>
-                Tel:&nbsp;{phone}
+                Tel:<span style={{color:"#0067c8",marginLeft:"7px"}}>{phone}</span>
               </a>
               
               <a id="address" className=" location-phn" href={`tel:${email}`} style={{marginLeft:"40px"}}>
-               Email:&nbsp;{email}
+               Email:&nbsp;<span style={{color:"#0067c8",marginLeft:"5px"}}>{email}</span>
               </a>
             </div>
           </div>

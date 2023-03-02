@@ -508,8 +508,7 @@ function UnwrappedGoogleMaps({
         {" "}
         <div className="flex w-full flex-col max-w-[24rem] pl-4  md:w-[22.5rem] font-main-font text-xs sm:text-sm lg:text-base">
           <div className="location-name-miles">
-            {/* <div className="icon"> <img className=" " src={mapimage} width="20" height="20"
-        alt="" /></div> */}
+            
             <h2>
               <a
                 className="inline-block notHighlight"
@@ -520,6 +519,8 @@ function UnwrappedGoogleMaps({
             </h2>
           </div>
           <div className="content-col info-window-content">
+          <div className="icon"> <img className=" " src={mapimage} width="20" height="20"
+        alt="" /></div>
             <Address address={result.rawData.address} />
             {result.distance ? (
               <div className="distance">
