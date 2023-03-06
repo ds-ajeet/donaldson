@@ -554,7 +554,7 @@ const Location: Template<ExternalApiRenderData> = ({
               address={address}
               phone={mainPhone}
               email={emails}
-              // hours={hours}
+              hours={hours}
               latitude={
                 yextDisplayCoordinate
                   ? yextDisplayCoordinate?.latitude
@@ -592,8 +592,7 @@ const Location: Template<ExternalApiRenderData> = ({
             )}
           </div>
           <div style={{ width: "300px", height: "270px", marginLeft: "100px" }}>
-            <h4 className="box-title font-bold">{"Opening Hours :"}</h4>
-            <Hours hours={hours} />
+           
           </div>
 
           <div className="Branchdetails">

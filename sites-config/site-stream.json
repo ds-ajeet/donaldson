@@ -27,7 +27,13 @@
     "photoGallery",
     "c_bannerLink",
     "c_headerMenus",
-    "c_footerCta"
+    "c_footerCta",
+      "c_submenu",
+      "c_submenutwo",
+      "c_submenuthree",
+      "c_submenufour",
+      "c_submenufive",
+      "c_submenussix"
 
   ],
   "localization": {

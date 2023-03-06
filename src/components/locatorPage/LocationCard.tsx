@@ -11,6 +11,7 @@ import { StaticData } from "../../../sites-global/staticData";
 import { Link } from "@yext/pages/components";
 import Hours from "../commons/hours";
 import { Openclose, mobilesvg } from "../../../sites-global/global";
+import Model from "../locationDetail/Model";
 
 const metersToMiles = (meters: number) => {
   const miles = meters * 0.000621371;
@@ -151,7 +152,10 @@ const LocationCard: CardComponent<Location> = ({ result }) => {
                 </label>
               </div>
               <div className="open-close ">
-                <h5>Open Hours</h5>
+              <div className="openHourse">
+              <Model name={StaticData.Holdiay}
+                    holidayHours={hours.holidayHours}
+                   /></div>
           <div className="hours-sec onhighLight">
             <div className="OpenCloseStatus ">
               <div className="hours-labels">
@@ -169,6 +173,7 @@ const LocationCard: CardComponent<Location> = ({ result }) => {
 
               </div>
               <div className={timeStatus + " daylist"} >
+
                 <Hours key={result.rawData.id}  hours={hours} additionalHoursText={additionalHoursText} /></div>
             </div>
 

@@ -36,7 +36,7 @@ const Header = (props: any) => {
   return (
     <>
       <div
-        style={{ height: "37px", width: "300px", marginLeft: "900px" }}
+        style={{ height: "37px", width: "300px", marginLeft: "890px" }}
         className="grid grid-cols-3 pt-4"
       >
         <a href="#">
@@ -47,11 +47,14 @@ const Header = (props: any) => {
         <a href="#">
           <img src={props._site.c_trustpilot.link} width="130" />
         </a>
-
+      
         <a href="#">
           <img src={props._site.c_trust.url} width="100" alt="logo" />{" "}
         </a>
+        
+
       </div>
+      
 
       <div
         style={{ background: "white", height: "70px" }}
@@ -70,6 +73,7 @@ const Header = (props: any) => {
                 alt="logo"
               />
             </a>
+            
           </div>
 
           <div>
@@ -82,12 +86,142 @@ const Header = (props: any) => {
       </div>
       <div className="">
         <div
-          style={{ background: "#02a6db", height: "70px" }}
+          style={{ background: "#02a6db"}}
           className="text-black w-full font-bold"
         >
-          <div className="flex gap-x-4 text-ml headerLink">{linkDoms}</div>
+          <div className="flex text-ml headerLink">
+            {props?._site?.c_headerLinks?.map((link: any, index: number) => (
+              <a className="navbar-item" href="#">
+                {/* <span style={{ fontWeight: "bold" }}></span> */}
+                <div className="navbar">
+                  <div className="dropdown">
+                    <button className="dropbtn">{link.label}
+                      <i className="fa fa-caret-down"></i>
+                    </button>
+                    <div className="dropdown-content">
+
+
+                      <div className="rows">
+                        <div className="columns">
+                          <div>
+                              {props?._site?.c_submenu?.map((item: any, indexes: number) => (
+                                <>
+                                  {index == indexes ? (
+                                    <>
+                                      <h3 className="text-black">{item.heading}</h3>
+                                      {item?.cta?.map((data: any) => (
+                                        <>
+                                          <a href="#">{data.label}</a>
+
+                                        </>
+                                      ))}
+                                    </>
+                                  ) : ("")}
+                                </>
+                              ))}
+                           </div>
+                           <div>
+                           {props?._site?.c_submenutwo?.map((item: any, indexes: number) => (
+                                <>
+                                  {index == indexes ? (
+                                    <>
+                                      <h3 className="text-black">{item.heading}</h3>
+                                      {item?.cta?.map((data: any) => (
+                                        <>
+                                          <a href="#">{data.label}</a>
+
+                                        </>
+                                      ))}
+                                    </>
+                                  ) : ("")}
+                                </>
+                              ))}
+                           </div>
+                           <div>
+                            {props?._site?.c_submenuthree?.map((item: any, indexes: number) => (
+                                <>
+                                  {index == indexes ? (
+                                    <>
+                                      <h3 className="text-black">{item.heading}</h3>
+                                      {item?.cta?.map((data: any) => (
+                                        <>
+                                          <a href="#">{data.label}</a>
+
+                                        </>
+                                      ))}
+                                    </>
+                                  ) : ("")}
+                                </>
+                              ))}
+                              </div>
+                           <div>
+                           {props?._site?.c_submenufour?.map((item: any, indexes: number) => (
+                                <>
+                                  {index == indexes ? (
+                                    <>
+                                      <h3 className="text-black">{item.heading}</h3>
+                                      {item?.cta?.map((data: any) => (
+                                        <>
+                                          <a href="#">{data.label}</a>
+
+                                        </>
+                                      ))}
+                                    </>
+                                  ) : ("")}
+                                </>
+                              ))}
+                           </div>
+                           <div>
+                           {props?._site?.c_submenufive?.map((item: any, indexes: number) => (
+                                <>
+                                  {index == indexes ? (
+                                    <>
+                                      <h3 className="text-black">{item.heading}</h3>
+                                      {item?.cta?.map((data: any) => (
+                                        <>
+                                          <a href="#">{data.label}</a>
+
+                                        </>
+                                      ))}
+                                    </>
+                                  ) : ("")}
+                                </>
+                              ))}
+                           </div>
+                           <div>
+                           {props?._site?.c_submenussix?.map((item: any, indexes: number) => (
+                                <>
+                                  {index == indexes ? (
+                                    <>
+                                      <h3 className="text-black">{item.heading}</h3>
+                                      {item?.cta?.map((data: any) => (
+                                        <>
+                                          <a href="#">{data.label}</a>
+
+                                        </>
+                                      ))}
+                                    </>
+                                  ) : ("")}
+                                </>
+                              ))}
+                           </div>
+
+                    
+                        </div>
+                        
+
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            ))}
+            {/* {linkDoms} */}
+          </div>
         </div>
       </div>
+
+
     </>
   );
 };

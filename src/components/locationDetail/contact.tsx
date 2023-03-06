@@ -88,7 +88,7 @@ const Contact = (props: any) => {
                 Tel:<span style={{color:"#0067c8",marginLeft:"7px"}}>{phone}</span>
               </a>
               
-              <a id="address" className=" location-phn" href={`tel:${email}`} style={{marginLeft:"40px"}}>
+              <a id="address" className=" location-phn" href={`tel:${email}`} style={{marginLeft:"15px"}}>
                Email:&nbsp;<span style={{color:"#0067c8",marginLeft:"5px"}}>{email}</span>
               </a>
             </div>
