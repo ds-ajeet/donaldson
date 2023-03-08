@@ -836,7 +836,7 @@ nav[aria-label="Pagination"] button:disabled{@apply cursor-not-allowed text-opac
 
 .headerLink a:hover{
   /* background-color: #000; */
-  color: #fff;
+  /* color: #fff; */
 }
 .visitButton:hover{
   background-color: rgb(1 113 149 / var(--tw-bg-opacity));
@@ -1231,6 +1231,7 @@ transition: 0.5s ease all;
 
 .navbar a:hover, .dropdown:hover .dropbtn {
   background-color: black;
+  color: #fff;
 }
 
 .dropdown-content {
@@ -1291,9 +1292,7 @@ padding: 5px 10px;
   display: table;
   clear: both;
 }
-.text-black{
-  font-weight: bolder;
-}
+
 
 .headerLink .dropbtn {
   padding: 15px 10px;
@@ -1303,7 +1302,7 @@ padding: 5px 10px;
 .switch {
   position: relative;
   display: inline-block;
-  width: 69px;
+  width: 55px;
   height: 14px;
 }
 
@@ -1316,10 +1315,10 @@ padding: 5px 10px;
 .slide {
   position: absolute;
   cursor: pointer;
-  top: 0;
-  left: 15px;
+  top: 10px;
+  left: 0;
   right: 0;
-  bottom: 0;
+  bottom: -10px;
   background-color: #02a6db;
   -webkit-transition: .4s;
   transition: .4s;
