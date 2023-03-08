@@ -195,11 +195,11 @@ table.day-hrs td{ @apply   text-right  }
 table.day-hrs tr:last-child td{  @apply border-b-0}
 table.day-hrs .dayName{ @apply text-lg md:text-lg capitalize pl-0 py-0 text-left}
 table.day-hrs .currentDay .dayName{  @apply relative  py-1}
-table.day-hrs .currentDay{  @apply font-bold}
+table.day-hrs .currentDay{  @apply font-bold bg-Dark-red}
 
-/* table.day-hrs .currentDay .dayName .checked{  @apply absolute top-1/2 -mt-2 left-0 bg-red rounded-sm w-4 h-4 z-0}
-table.day-hrs .currentDay .dayName .checked:after{  @apply content-[''] border-b-2 border-l-2 border-white transform -rotate-45 z-0 w-2.5 h-1.5 absolute top-1/2 left-1/2 transform -translate-x-1/2 -mt-1} */
-table.day-hrs .time-group{ @apply inline-flex items-center lowercase}
+table.day-hrs .currentDay .dayName .checked{  @apply absolute top-1/2 -mt-2 -left-8 bg-red rounded-sm w-4 h-4 z-0}
+table.day-hrs .currentDay .dayName .checked:after{  @apply content-[''] border-b-2 border-l-2 border-white transform -rotate-45 z-0 w-2.5 h-1.5 absolute top-1/2 left-1/2 transform -translate-x-1/2 -mt-1}
+table.day-hrs .time-group{ @apply inline-flex items-center lowercase ml-6}
 table.day-hrs .time-group .dash{ @apply w-2.5 h-0.5 bg-nav-link mx-1.5}
 table.day-hrs .dayName span{ @apply block text-nav-link font-normal}
 table.day-hrs .time-b{  @apply text-lg md:text-lg  w-auto leading-[1.875rem] rounded-sm inline-block align-bottom text-center my-0.5}
@@ -1241,6 +1241,7 @@ transition: 0.5s ease all;
   left: 0;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
+  height: 280px;
 }
 
 .dropdown-content .header {
@@ -1262,6 +1263,7 @@ transition: 0.5s ease all;
   display: flex;
   gap: 50px;
   text-align: left;
+  height: 280px;
 }
 
 .columns a {
@@ -1297,3 +1299,66 @@ padding: 5px 10px;
   padding: 15px 10px;
 }
 
+/* tongel start  */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 69px;
+  height: 14px;
+}
+
+.switch input { 
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slide {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 15px;
+  right: 0;
+  bottom: 0;
+  background-color: #02a6db;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slide:before {
+  position: absolute;
+  content: "";
+  height: 18px;
+  width: 18px;
+  left: -8px;
+  bottom: -2px;
+  background-color: #0068a5;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slide {
+  background-color: #2196F3;
+}
+
+input:focus + .slide {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slide:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slide.round {
+  border-radius: 34px;
+}
+
+.slide.round:before {
+  border-radius: 50%;
+}
+.iconn{
+  margin-left: -25px;
+}

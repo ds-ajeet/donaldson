@@ -12,6 +12,8 @@ import { Link } from "@yext/pages/components";
 import Hours from "../commons/hours";
 import { Openclose, mobilesvg } from "../../../sites-global/global";
 import Model from "../locationDetail/Model";
+import Phonesvg from "../../images/phone.svg";
+import email from "../../images/email.png";
 
 const metersToMiles = (meters: number) => {
   const miles = meters * 0.000621371;
@@ -136,23 +138,28 @@ const LocationCard: CardComponent<Location> = ({ result }) => {
 
             <div className="icon-row content-col address-with-availablity notHighlight">
               <Address address={address} />
-              <div className="pt-4">
-                <label>
-                  Telephone&nbsp;&nbsp;
-                  <a href={`tel:${mainPhone}`} style={{ color: "#0067c8" }}>
-                    {result.rawData.mainPhone}
-                  </a>
-                </label>
-                <br />
-                <label>
-                  Email &nbsp;
-                  <a href="#" style={{ color: "#0067c8" }}>
-                    {result.rawData.emails}
-                  </a>
-                </label>
+              <div className="pt-4  flex flex-row">
+              <img src={Phonesvg} className="iconn" />
+              <span style={{color:"#0067c8",marginLeft:"9px"}}>
+                <Link href={`tel:${result.rawData.mainPhone}`}>
+
+                  {result.rawData.mainPhone}
+                </Link>
+                </span> 
+              </div>
+
+
+
+              <div className="flex flex-row pt-4">
+              <img src={email} className="iconn" width="25"/>
+              <span style={{color:"#0067c8",marginLeft:"9px"}}>
+              <Link href="#">{result.rawData.emails}</Link>
+              </span>
+                
+
               </div>
               <div className="open-close ">
-              <div className="openHourse">
+              <div className="openHourse pt-4">
               <Model name={StaticData.Holdiay}
                     holidayHours={hours.holidayHours}
                    /></div>

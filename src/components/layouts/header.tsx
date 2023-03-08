@@ -36,24 +36,33 @@ const Header = (props: any) => {
   return (
     <>
       <div
-        style={{ height: "37px", width: "300px", marginLeft: "890px" }}
-        className="grid grid-cols-3 pt-4"
+        style={{ height: "37px", width: "400px", marginLeft: "890px" }}
+        className="flex pt-4"
       >
         <a href="#">
           <h3 style={{ fontWeight: "bold", fontSize: "17px" }}>
             {props._site.c_trustpilot.label}
           </h3>
         </a>
-        <a href="#">
+        <a href="#" className="ml-2">
           <img src={props._site.c_trustpilot.link} width="130" />
         </a>
       
         <a href="#">
           <img src={props._site.c_trust.url} width="100" alt="logo" />{" "}
         </a>
+       
+        <span className="ml-4">{StaticData.Vat}</span>
+        <span className="ml-2">{StaticData.Inc}</span>
+        <label className="switch ml-2">
+          <input type="checkbox" />
+          <span className="slide round"></span>
+        </label>
+        <span className="ml-4">{StaticData.Ex}</span>
+        </div>
         
 
-      </div>
+  
       
 
       <div
