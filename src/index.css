@@ -109,7 +109,7 @@ body.menu-opened{ @apply overflow-hidden lg:overflow-auto;}
   width: 33.6875rem;
   left: 80px;
   background: #fff;
-  z-index: 99999999999999999999;
+  z-index: 99;
 }
 .left-listing{ @apply w-full md:w-[30rem] lg:w-[33.6875rem] float-left }
 /* .map-section{@apply w-full md:w-[calc(100%_-_30rem)] lg:w-[calc(100%_-_33.6875rem)]  md:pl-8 float-right} */
