@@ -81,8 +81,8 @@ const SearchLayout = (props: any): JSX.Element => {
       );
     }
     params1 = {
-      latitude: 54.9191,
-      longitude: -1.3692,
+      latitude:  center_latitude,
+      longitude: center_longitude,
     };
     SetNewparam(params1);
     // mapzoom=8;
@@ -339,7 +339,6 @@ const SearchLayout = (props: any): JSX.Element => {
                           "result-list flex flex-col scroll-smooth  overflow-auto",
 
                       }}
-                    // CardComponent={LocationCard}
                     />
 
 

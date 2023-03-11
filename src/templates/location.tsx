@@ -60,6 +60,7 @@ import { Fade, Slide } from "react-awesome-reveal";
 import MgmTimber from "../components/locationDetail/MgmTimber";
 import { AnswerExperienceConfig } from "../config/answersHeadlessConfig";
 import Hours from "../components/commons/hours";
+import ReadMore from "../components/locationDetail/ReadMore";
 
 /**
  * Required when Knowledge Graph data is used for a template.
@@ -179,11 +180,10 @@ export const getHeadConfig: GetHeadConfig<TemplateRenderProps> = ({
         type: "meta",
         attributes: {
           name: "description",
-          content: `${
-            document.c_meta_description
+          content: `${document.c_meta_description
               ? document.c_meta_description
               : `Find the ${document.name} Timber Store in ${document.address.city}. We stock high-quality, robust products at competitive rates.`
-          }`,
+            }`,
         },
       },
 
@@ -207,11 +207,9 @@ export const getHeadConfig: GetHeadConfig<TemplateRenderProps> = ({
         type: "link",
         attributes: {
           rel: "canonical",
-          href: `${
-            document._site.c_canonical ? document.c_canonical : stagingBaseurl
-          }${
-            document.slug ? document.slug : `${document.name.toLowerCase()}`
-          }.html`,
+          href: `${document._site.c_canonical ? document.c_canonical : stagingBaseurl
+            }${document.slug ? document.slug : `${document.name.toLowerCase()}`
+            }.html`,
         },
       },
 
@@ -219,11 +217,10 @@ export const getHeadConfig: GetHeadConfig<TemplateRenderProps> = ({
         type: "meta",
         attributes: {
           property: "og:description",
-          content: `${
-            document.c_meta_description
+          content: `${document.c_meta_description
               ? document.c_meta_description
               : `Find the ${document.name} Timber Store in ${document.address.city}. We stock high-quality, robust products at competitive rates.`
-          }`,
+            }`,
         },
       },
       {
@@ -267,11 +264,10 @@ export const getHeadConfig: GetHeadConfig<TemplateRenderProps> = ({
         type: "meta",
         attributes: {
           name: "twitter:description",
-          content: `${
-            document.c_meta_description
+          content: `${document.c_meta_description
               ? document.c_meta_description
               : `Find the ${document.name} Timber Store in ${document.address.city}. We stock high-quality, robust products at competitive rates.`
-          }`,
+            }`,
         },
       },
       /// twitter tag
@@ -282,15 +278,13 @@ type ExternalApiData = TemplateProps & { externalApiData: nearByLocation };
 export const transformProps: TransformProps<ExternalApiData> = async (
   data: any
 ) => {
-  var location = `${
-    data.document.yextDisplayCoordinate
+  var location = `${data.document.yextDisplayCoordinate
       ? data.document.yextDisplayCoordinate.latitude
       : data.document.displayCoordinate.latitude
-  },${
-    data.document.yextDisplayCoordinate
+    },${data.document.yextDisplayCoordinate
       ? data.document.yextDisplayCoordinate.longitude
       : data.document.displayCoordinate.longitude
-  }`;
+    }`;
 
   const url = `${AnswerExperienceConfig.endpoints.verticalSearch}?experienceKey=${AnswerExperienceConfig.experienceKey}&api_key=${AnswerExperienceConfig.apiKey}&v=20220511&version=${AnswerExperienceConfig.experienceVersion}&locale=${AnswerExperienceConfig.locale}&location=${location}&locationRadius=${AnswerExperienceConfig.locationRadius}&verticalKey=${AnswerExperienceConfig.verticalKey}&limit=4&retrieveFacets=true&skipSpellCheck=false&sessionTrackingEnabled=true&source=STANDARD`;
   // console.log(url);
@@ -469,28 +463,14 @@ const Location: Template<ExternalApiRenderData> = ({
   });
   let imageurl = photoGallery
     ? photoGallery.map((element: any) => {
-        return element.image.url;
-      })
+      return element.image.url;
+    })
     : null;
   console.log(document);
   let bannerimage = c_banner_image && c_banner_image.image.url;
 
-  const Read = () => {
-    // alert("im less function");
-    let dots = document.getElementById("dots");
-    let moreText = document.getElementByClassName("contentExpand");
-    let btnText = document.getElementById("myBtn");
+  
 
-    if (dots.style.display === "none") {
-      dots.style.display = "inline";
-      btnText.innerHTML = "Read more";
-      moreText.style.display = "none";
-    } else {
-      dots.style.display = "none";
-      btnText.innerHTML = "Read less";
-      moreText.style.display = "inline";
-    }
-  };
   const details = "";
 
   return (
@@ -592,16 +572,9 @@ const Location: Template<ExternalApiRenderData> = ({
             )}
           </div>
           <div style={{ width: "300px", height: "270px", marginLeft: "100px" }}>
-           
-          </div>
 
-          <div className="Branchdetails">
-            <div className="title">Branch Details</div>
-            {document.c_branchDetails}
-            <div className="labelDetils">{document.c_readMore}</div>
-            <div className="pt-4">{document.c_readDesc}</div>
           </div>
-
+          <ReadMore c_branchDetails={c_branchDetails} c_readMore={c_readMore} c_readDesc={c_readDesc}/>
 
           <div className="py-10">
             <div className="container mx-auto ab-secmain flex flex-wrap items-center">
@@ -643,8 +616,8 @@ const Location: Template<ExternalApiRenderData> = ({
               </div>
               <div className="nearby-sec-inner">
                 {yextDisplayCoordinate ||
-                cityCoordinate ||
-                displayCoordinate ? (
+                  cityCoordinate ||
+                  displayCoordinate ? (
                   <Nearby externalApiData={externalApiData} currentId={id} />
                 ) : (
                   ""

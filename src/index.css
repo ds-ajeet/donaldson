@@ -214,7 +214,7 @@ table.day-hrs .time-b{  @apply text-lg md:text-lg  w-auto leading-[1.875rem] rou
   @apply max-w-[94%] md:max-w-3xl w-full max-h-[80%] !mr-0 !p-0 !pb-8 !border-none  !rounded-none
 }
 .ReactModal__Overlay{
-  @apply !bg-black bg-opacity-80 z-[999]
+  @apply !bg-black bg-opacity-50 z-[999]
 }
 .ReactModal__Content .closeButton {@apply absolute right-4 top-2 cursor-pointer}
 .pop-up-holyhrs{@apply flex flex-row border border-dark-gray mx-4  border-b-0 last:border-b}
@@ -223,7 +223,7 @@ table.day-hrs .time-b{  @apply text-lg md:text-lg  w-auto leading-[1.875rem] rou
 .holytime-sec{@apply w-48 flex justify-evenly}
 .spac-bx{@apply w-8 text-center}
 .op-time{@apply w-8  lowercase}
-.cl-time{@apply w-8 lowercase}
+.cl-time{@apply  lowercase}
 .days-sec{@apply w-8 lowercase}
 .closeButton{
   @apply bg-red flex items-center justify-center rounded-full hover:opacity-80
@@ -1360,4 +1360,12 @@ input:checked + .slide:before {
 }
 .iconn{
   margin-left: -25px;
+}
+.hideandshow-section{
+  visibility: hidden;
+  display: none;
+}
+#hide{
+  color: #02a6db;
+  font-weight: bolder;
 }

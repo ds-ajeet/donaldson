@@ -119,8 +119,8 @@ function UnwrappedGoogleMaps({
 
   const refLocationResults = useRef({});
 
-  const locationResults =useFetchResults() || [];
-  console.log(locationResults,"location result");
+  const locationResults = useFetchResults() || [];
+  // console.log(locationResults,"location result");
   refLocationResults.current = locationResults;
 
   locationResults.length > 0
@@ -144,7 +144,7 @@ function UnwrappedGoogleMaps({
   let info = false;
   const cssClasses = useComposedCssClasses(builtInCssClasses, customCssClasses);
   const noResults = !locationResults.length;
-  console.log(noResults,"noresult");
+  // console.log(noResults,"noresult");
   let containerCssClass = cssClasses.googleMapsContainer;
 
   if (noResults && !showEmptyMap) {
@@ -170,11 +170,14 @@ function UnwrappedGoogleMaps({
     strokeColor: pinStyles.stroke,
     strokeWeight: 1,
     labelOrigin: new google.maps.Point(21, 22),
+    
   };
-  function zoomMapTo(zoomTo, centerToSet = false) {
+
+  function zoomMapTo(zoomTo: number, centerToSet = false) {
     currentMapZoom = map.getZoom();
+
     const newZoom =
-      currentMapZoom > zoomTo ? currentMapZoom - 1 : currentMapZoom + 1;
+      currentMapZoom > zoomTo ? currentMapZoom - 1 : currentMapZoom + 8;
     map.setZoom(newZoom);
     if (newZoom != zoomTo && !stopAnimation)
       sleep(200).then(() => {
@@ -191,6 +194,7 @@ function UnwrappedGoogleMaps({
       }
     }
   }
+  console.log(zoomMapTo,"zoom")
 
   const bounds = new google.maps.LatLngBounds();
   const markers1 = useRef<google.maps.Marker[]>([]);
@@ -202,9 +206,9 @@ function UnwrappedGoogleMaps({
   // function getCoordinates(address:String){
 
   const userlat = useSearchState((s) => s.location.locationBias) || [];
-  // console.log(userlat,"userlat")   user ki loction 
+  // console.log(userlat,"userlat")   user ki loction
   const iplat = userlat.latitude;
-  // console.log(,"useredrete") 
+  // console.log(,"useredrete")
   const iplong = userlat.longitude;
   const position = {
     lat: iplat,
@@ -215,6 +219,7 @@ function UnwrappedGoogleMaps({
     map,
     icon: UserMarker,
   });
+  console.log(Usermarker1,"usermarker")
   usermarker.current.push(Usermarker1);
 
   try {
@@ -260,7 +265,7 @@ function UnwrappedGoogleMaps({
             label: {
               text: String(markers?.length),
               color: "black",
-              fontWeight:"bold",
+              fontWeight: "bold",
             },
             //  animation: google.maps.Animation.DROP,
           });
@@ -321,7 +326,7 @@ function UnwrappedGoogleMaps({
       if (!info) {
         markers1.current[i].setIcon(Hovermap);
       }
-      locationResults.map((result, index) => {
+      locationResults.map((result: any, index: number) => {
         if (i == index) {
           const resultelement = document.querySelectorAll(
             `.result-list-inner-${index + 1}`
@@ -363,7 +368,7 @@ function UnwrappedGoogleMaps({
       setHover(true);
       info = false;
       infoWindow.current.close();
-      locationResults.map((result, index) => {
+      locationResults.map((result: any, index: number) => {
         const resultelement = document.querySelectorAll(
           `.result-list-inner-${index + 1}`
         );
@@ -380,8 +385,9 @@ function UnwrappedGoogleMaps({
   }
 
   const hours = (result: any) => {
-    return <Hours hours={result} />;
+    return <Hours hours={result} />
   };
+  console.log(hours,"hours")
   function addActiveGrid(index: any) {
     const elements = document.querySelectorAll(".result");
     for (let index = 0; index < elements.length; index++) {
@@ -442,7 +448,7 @@ function UnwrappedGoogleMaps({
             }
             $(".result").removeClass("fixed-hover");
             // console.log('refLocationResults', refLocationResults);
-            refLocationResults.current.map((result, i) => {
+            refLocationResults.current.map((result: { rawData: { yextDisplayCoordinate: { latitude: any; longitude: any; }; displayCoordinate: { latitude: any; longitude: any; }; }; }, i: number) => {
               if (i == index) {
                 setHover(false);
                 isHover = false;
@@ -494,21 +500,27 @@ function UnwrappedGoogleMaps({
     const finalcity: any = initialrcity.replaceAll(" ", "-");
     const string1: any = name.toString();
     const result1: any = string1.replaceAll(" ", "-");
-    let main_result:any=finalcountry+"/"+finalregion+"/"+finalcity+"/"+result.rawData.slug+".html";
+    let main_result: any =
+      finalcountry +
+      "/" +
+      finalregion +
+      "/" +
+      finalcity +
+      "/" +
+      result.rawData.slug +
+      ".html";
     if (!result.rawData.slug) {
       url = `${result.rawData.id}-${result1}.html`;
     } else {
       url = `/${main_result}`;
       // console.log(url,"url")
     }
-    
 
     const MarkerContent = (
       <>
         {" "}
         <div className="flex w-full flex-col max-w-[24rem] pl-4  md:w-[22.5rem] font-main-font text-xs sm:text-sm lg:text-base">
           <div className="location-name-miles">
-            
             <h2>
               <a
                 className="inline-block notHighlight"
@@ -519,8 +531,10 @@ function UnwrappedGoogleMaps({
             </h2>
           </div>
           <div className="content-col info-window-content">
-          <div className="icon"> <img className=" " src={mapimage} width="20" height="20"
-        alt="" /></div>
+            <div className="icon">
+              {" "}
+              <img className=" " src={mapimage} width="20" height="20" alt="" />
+            </div>
             <Address address={result.rawData.address} />
             {result.distance ? (
               <div className="distance">
@@ -557,7 +571,10 @@ function UnwrappedGoogleMaps({
                 className="cursor-pointer getdirection1 btn"
                 rel="noopener noreferrer"
               >
-                <div dangerouslySetInnerHTML={{ __html: Directionsvg }} className="icon pt-4"/>
+                <div
+                  dangerouslySetInnerHTML={{ __html: Directionsvg }}
+                  className="icon pt-4"
+                />
                 {StaticData.getDirection}
               </a>
             )}
