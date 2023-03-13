@@ -104,10 +104,9 @@ body.menu-opened{ @apply overflow-hidden lg:overflow-auto;}
 /* .locator-main{ @apply  mt-10  align-bottom w-full max-w-[87.5rem] mx-auto px-0 md:px-4 lg:px-6 xl:px-0} */
 .locator-main {
   position: absolute;
-  top:375px;
-  bottom: 0;
+  top:300px;
   width: 33.6875rem;
-  left: 80px;
+  left: 70px;
   background: #fff;
   z-index: 99;
 }
@@ -176,9 +175,9 @@ body.mapView .mobile-btns .btn.mapBtn{  @apply text-Dark-red border-t-0 border-l
 .scrollbar-container{@apply md:pr-3 md:!h-[calc(100vh_-_11rem)]}
 .scrollbar-container.ps--active-y{ @apply pr-6 mt-7}
 body .ps:hover .ps__rail-y{@apply opacity-100}
-body .ps__rail-y{ @apply opacity-100 mt-4 !bg-gray-light w-4}
-body .ps__thumb-y{ @apply bg-Dark-red opacity-100 right-1 w-2}
-body .ps__rail-y:hover .ps__thumb-y{ @apply w-2 bg-gray-dark}
+body .ps__rail-y{ @apply opacity-100 mt-4 !bg-gray-light w-5}
+body .ps__thumb-y{ @apply opacity-100  w-4 rounded-none}
+body .ps__rail-y:hover .ps__thumb-y{ @apply w-4 bg-gray-dark}
 table.day-hrs{  @apply border-none w-full mb-4}
 table.day-hrs td{ @apply   text-right  }
 .storelocation-openCloseTime table.day-hrs{  @apply bg-white xl:max-w-md 2xl:max-w-lg border   mx-auto xl:right-3.5 relative}
@@ -1014,12 +1013,12 @@ nav[aria-label="Pagination"] button:disabled{@apply cursor-not-allowed text-opac
   margin-bottom: 16px;
   padding-top: 4%;
 }
-.map-section{
+/* .map-section{
   width: 100%;
   inline-size: auto;
-  padding-bottom: 3%;
+
   height: 50%;
-}
+} */
 @media (min-width: 768px){
 .locator-map-block {
     height: 140vh;

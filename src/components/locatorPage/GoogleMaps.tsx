@@ -175,6 +175,7 @@ function UnwrappedGoogleMaps({
 
   function zoomMapTo(zoomTo: number, centerToSet = false) {
     currentMapZoom = map.getZoom();
+   
 
     const newZoom =
       currentMapZoom > zoomTo ? currentMapZoom - 1 : currentMapZoom + 8;
@@ -194,7 +195,7 @@ function UnwrappedGoogleMaps({
       }
     }
   }
-  console.log(zoomMapTo,"zoom")
+  // console.log(currentMapZoom,"currentMapZoom")
 
   const bounds = new google.maps.LatLngBounds();
   const markers1 = useRef<google.maps.Marker[]>([]);
@@ -219,7 +220,7 @@ function UnwrappedGoogleMaps({
     map,
     icon: UserMarker,
   });
-  console.log(Usermarker1,"usermarker")
+  // console.log(Usermarker1,"usermarker")
   usermarker.current.push(Usermarker1);
 
   try {
@@ -247,6 +248,7 @@ function UnwrappedGoogleMaps({
     bounds.extend(location);
     markers1.current.push(marker);
   }
+  console.log(location,"location")
 
   if (markers1.current.length > 0) {
     const markers = markers1.current;
@@ -387,7 +389,6 @@ function UnwrappedGoogleMaps({
   const hours = (result: any) => {
     return <Hours hours={result} />
   };
-  console.log(hours,"hours")
   function addActiveGrid(index: any) {
     const elements = document.querySelectorAll(".result");
     for (let index = 0; index < elements.length; index++) {
@@ -702,13 +703,16 @@ function UnwrappedGoogleMaps({
             currentLongitude;
           window.open(getDirectionUrl, "_blank");
         },
+        
         error,
         {
           timeout: 10000,
         }
+        
       );
     }
   }
+  
 
   function deleteMarkers(): void {
     for (let i = 0; i < markers1.current.length; i++) {
@@ -740,6 +744,7 @@ function getPosition(result: Result) {
     : (result.rawData as any).displayCoordinate.longitude;
   return { lat, lng };
 }
+// console.log(getPosition,"getposition")
 
 function scrollToRow(index: any) {
   const result: any = [].slice.call(
