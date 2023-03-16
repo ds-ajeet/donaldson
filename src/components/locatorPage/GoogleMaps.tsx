@@ -123,6 +123,7 @@ function UnwrappedGoogleMaps({
   // console.log(locationResults,"location result");
   refLocationResults.current = locationResults;
 
+
   locationResults.length > 0
     ? locationResults.map((result: any, i: number) => {
         if (i == 0 && result) {
@@ -140,6 +141,7 @@ function UnwrappedGoogleMaps({
         lat: centerLatitude,
         lng: centerLongitude,
       });
+      // console.log(center.lat,"center")
 
   let info = false;
   const cssClasses = useComposedCssClasses(builtInCssClasses, customCssClasses);
@@ -176,9 +178,10 @@ function UnwrappedGoogleMaps({
   function zoomMapTo(zoomTo: number, centerToSet = false) {
     currentMapZoom = map.getZoom();
    
+   
 
     const newZoom =
-      currentMapZoom > zoomTo ? currentMapZoom - 1 : currentMapZoom + 8;
+      currentMapZoom > zoomTo ? currentMapZoom - 1 : currentMapZoom + 1;
     map.setZoom(newZoom);
     if (newZoom != zoomTo && !stopAnimation)
       sleep(200).then(() => {
@@ -195,8 +198,6 @@ function UnwrappedGoogleMaps({
       }
     }
   }
-  // console.log(currentMapZoom,"currentMapZoom")
-
   const bounds = new google.maps.LatLngBounds();
   const markers1 = useRef<google.maps.Marker[]>([]);
   const usermarker = useRef<google.maps.Marker[]>([]);
@@ -248,7 +249,7 @@ function UnwrappedGoogleMaps({
     bounds.extend(location);
     markers1.current.push(marker);
   }
-  console.log(location,"location")
+  
 
   if (markers1.current.length > 0) {
     const markers = markers1.current;

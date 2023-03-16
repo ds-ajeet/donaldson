@@ -200,7 +200,7 @@ const SearchLayout = (props: any): JSX.Element => {
     }
   }, [locationinbuit])
   useEffect(() => {
-    console.log("yes rerender")
+    // console.log("yes rerender")
     locationResults.map((result: any, index: number) => {
       const resultelement = document.querySelectorAll(
         `.result-list-inner-${index + 1}`
@@ -236,16 +236,18 @@ const SearchLayout = (props: any): JSX.Element => {
         </div>
       </div>
       <div className="map-data">
-        <div className=" map-section ">
+        <div className=" map-section">
           <GoogleMaps
             apiKey={googleApikey}
             centerLatitude={centerLatitude}
             centerLongitude={centerLongitude}
             check={true}
             defaultZoom={mapzoom}
+           
             showEmptyMap={true}
           />
-        </div>
+          </div>
+        
         <div className="locator-main ">
             {allowlocation.length > 0 ?
               <div className="for-allow">{allowlocation}</div>
@@ -295,11 +297,7 @@ const SearchLayout = (props: any): JSX.Element => {
                       fieldApiName: "address.region",
 
                     },
-                    // {
-                    //   entityType: "location",
-                    //   fieldApiName: "address.countryCode",
-
-                    // },
+                    
                   ]}
 
                   handleInputValue={handleInputValue}
@@ -344,7 +342,7 @@ const SearchLayout = (props: any): JSX.Element => {
 
                     {locationinbuit && locationinbuit.length <= 0 ?
                       <div className="browse-dir">
-                        {/* <a className="underline " href='/gb.html'>Use the search above or <span className="font-second-main-font"> browse our directory</span></a> */}
+                        
                       </div> : ''}
                     <div className="button-bx">
                     <ViewMore className={" btn notHighlight lg:!w-[132%] !mb-2 button view-more"} idName={"view-more-button"} buttonLabel={"View More"} />
@@ -365,7 +363,7 @@ const SearchLayout = (props: any): JSX.Element => {
             </div>
           </div>
       </div>
-
+      
 
     </>
   );

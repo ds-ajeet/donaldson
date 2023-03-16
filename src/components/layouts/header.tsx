@@ -102,7 +102,7 @@ const Header = (props: any) => {
             className="flex gap-x-6 text-ml headerLink"
           >
             {props?._site?.c_headerLinks?.map((link: any, index: number) => (
-              <div className="navbar-item">
+              <div className="navbar-item ml-4 mr-4">
                 {/* <a>this is pert of aker tag</a> */}
                 {/* <span style={{ fontWeight: "bold" }}></span> */}
                 <div className="navbar">

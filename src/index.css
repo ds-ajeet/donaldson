@@ -490,7 +490,7 @@ nav[aria-label="Pagination"] button:disabled{@apply cursor-not-allowed text-opac
 /* footer sec */
 /* footer sec */
 .site-footer{  @apply pt-8 lg:pt-0}
-.site-footer .container{@apply flex flex-col mx-auto flex-wrap justify-between lg:mt-10 lg:flex-row px-0 lg:px-5 }
+.site-footer .container{@apply flex flex-col mx-auto flex-wrap justify-between lg:mt-10 lg:flex-row px-0 lg:px-5 lg:mb-8}
 .store-locator{ @apply flex lg:block justify-center w-full lg:w-64 border-b border-border-light lg:border-none px-5 lg:px-0 }
 .link-sec-footer{ @apply w-full lg:w-[58%] pl-0 lg:pl-0 md:pr-0 lg:pr-5 xl:pr-7   flex flex-col flex-wrap  text-left  justify-between text-black	lg:flex-row}
 .copyright-bx{@apply   flex flex-col justify-center w-full lg:w-[20%] items-center mt-5 lg:mt-0 lg:items-start lg:ml-auto px-5 lg:px-0 text-center lg:text-left }
@@ -689,7 +689,6 @@ nav[aria-label="Pagination"] button:disabled{@apply cursor-not-allowed text-opac
   padding: 6px;
   line-height: 30px;
   border-radius: 4px;
-  text-align: center;
 }
 .subscribButton{
   background: #0078b8;
@@ -1367,4 +1366,7 @@ input:checked + .slide:before {
 #hide{
   color: #02a6db;
   font-weight: bolder;
+}
+.result.active{
+  background-color: aliceblue;
 }

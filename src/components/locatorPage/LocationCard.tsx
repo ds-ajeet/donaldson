@@ -22,6 +22,7 @@ const metersToMiles = (meters: number) => {
 let array = [];
 
 const LocationCard: CardComponent<Location> = ({ result }) => {
+  const { address, hours, additionalHoursText, mainPhone, timezone } = result.rawData;
   const [timeStatus, setTimeStatus] = useState("");
   const onOpenHide = () => {
     if (timeStatus == "") {
@@ -55,7 +56,7 @@ const LocationCard: CardComponent<Location> = ({ result }) => {
     }
   }
 
-  const { address, hours, additionalHoursText, mainPhone, timezone } = result.rawData;
+  
 
   var name: any = result.rawData.name?.toLowerCase();
   // let name1:any=country+"/"+finalregion+"/"+finalcity+"/"+result.rawData.slug+".html";
@@ -161,7 +162,7 @@ const LocationCard: CardComponent<Location> = ({ result }) => {
               <div className="open-close ">
               <div className="openHourse pt-4">
               <Model name={StaticData.Holdiay}
-                    holidayHours={hours.holidayHours}
+                    holidayHours={hours?.holidayHours}
                    /></div>
           <div className="hours-sec onhighLight">
             <div className="OpenCloseStatus ">

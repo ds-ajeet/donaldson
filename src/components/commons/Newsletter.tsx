@@ -61,8 +61,9 @@ import { useState } from "react";
                     <button onClick={() => setStatus(null)}>try again.</button>
                 </p></>
         )}
+        {/* onSubmit={handleSubmit} */}
         {status === null && (
-            <form onSubmit={handleSubmit}  action="https://mgmtimber.us15.list-manage.com/subscribe/post?u=385bafbd480f5865266cc45d9&amp;id=afed42f339" method="post" id="mc-embedded-subscribe-form" target="_blank" name="mc-embedded-subscribe-form">
+            <form action="https://mgmtimber.us15.list-manage.com/subscribe/post?u=385bafbd480f5865266cc45d9&amp;id=afed42f339" method="post" id="mc-embedded-subscribe-form" target="_blank" name="mc-embedded-subscribe-form">
               {/* <input
                 aria-label="Your first name"
                 name="fields[first_name]"

@@ -91,6 +91,7 @@ const Footer = (props: any) => {
 
             <div className="subscribe">
               <SubscribeForm />
+              
             </div>
             <div className="socialmediaData">
               <h4 style={{ color: "white" }} className="socialmedias">
