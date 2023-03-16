@@ -95,7 +95,7 @@ const Header = (props: any) => {
       </div>
       <div className="">
         <div
-          style={{ background: "#02a6db", height: "70px", fontSize: "initial" }}
+          style={{ background: "#02a6db", height: "71px", fontSize: "initial" }}
           className="text-black w-full font-bold"
         >
           <div
