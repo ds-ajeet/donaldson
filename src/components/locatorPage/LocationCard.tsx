@@ -141,7 +141,7 @@ const LocationCard: CardComponent<Location> = ({ result }) => {
               <Address address={address} />
               <div className="pt-4  flex flex-row">
               <img src={Phonesvg} className="iconn" />
-              <span style={{color:"#0067c8",marginLeft:"9px"}}>
+              <span className="text-[#0067c8] ml-4">
                 <Link href={`tel:${result.rawData.mainPhone}`}>
 
                   {result.rawData.mainPhone}

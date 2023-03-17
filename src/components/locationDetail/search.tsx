@@ -9,6 +9,7 @@ const SearchBar = () => (
           <div className="s-circle"></div>
           <span></span>
         </button>
+     
       </div>
     </div>
   </form>

@@ -199,7 +199,7 @@ export const OpenStausFunctions = {
           <div className={"opendot green-dot"}>
             <div className="hours-info ">
               {" "}
-              <span className="font-second-main-font "> Open now - </span>
+              <span className="font-second-main-font"> Open now - </span>
               <span className="lowercase">
                 {OpenStausFunctions.formatTime(currentInterval.start).replace(
                   ":00",
@@ -243,7 +243,7 @@ export const OpenStausFunctions = {
           <div className={"closeddot 3"}>
             <div className="red-dot">
               <div className="hours-info ">
-                <span className="font-second-main-font">Closed - </span>
+                <span className="font-second-main-font text-[#FF3342]">Closed - </span>
                 {"Opens at "}
                 <span className="lowercase">
                   {OpenStausFunctions.formatTime(nextInterval.start).replace(
@@ -406,7 +406,6 @@ export default function OpenClose(props: any) {
           </p>{" "}
         </>
       ) : props.hours ? (
-        //  <div class="closeing-div notHighlight" dangerouslySetInnerHTML={{__html: OpenStausFunctions.formatOpenNowString(props.hours, props.timezone)}} />
         <div className="closeing-div notHighlight">
           {OpenStausFunctions.formatOpenNowString(props.hours, props.timezone)}{" "}
           {/* s */}
