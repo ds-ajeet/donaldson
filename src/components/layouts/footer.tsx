@@ -22,7 +22,7 @@ const Footer = (props: any) => {
       <img src={link.headermenu.url} width="20" />  
     <a  className="navbar-item" href={link?.headermenus?.link} style={{marginTop:"5px"}}>
       
-      <span style={{marginLeft:"10px",marginRight:"20px"}}>{link?.headermenus?.label}</span>
+      <span style={{marginLeft:"6px"}}>{link?.headermenus?.label}</span>
       
     </a>
     </div>

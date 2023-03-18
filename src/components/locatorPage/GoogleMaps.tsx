@@ -460,6 +460,18 @@ function UnwrappedGoogleMaps({
                 document
                   .querySelectorAll(".result")
                   [index].classList.add("fixed-hover");
+                  if (infoWindow.current != null) {          // for remove class after close infowindow
+                    infoWindow.current.addListener("closeclick", () => {
+                      setHover(true);
+                      info = false;
+                      infoWindow.current.close();
+                      const resultelement = document.querySelectorAll(
+                        ".result"
+                      );
+                      resultelement[index].classList.remove("fixed-hover");
+                    });
+                    map?.setZoom(10);
+                  }
                 addActiveGrid(index);
                 const position = {
                   lat: result.rawData.yextDisplayCoordinate

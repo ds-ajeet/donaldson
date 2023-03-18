@@ -176,9 +176,24 @@ const FilterSearch = React.forwardRef<FilterHandle, FilterSearchProps>(
           count: section.results.length,
         });
       });
+     
       screenReaderText = screenReaderPhrases.join(" ");
     }
-
+    /* to get value of text from header search*/
+    useEffect (() => {
+      // if(localStorage.getItem('inputvalue')){
+        //       setInput(localStorage.getItem('inputvalue'));
+        
+        let params = (new URL(window.location.href)).searchParams;
+        let addresssearch = params.get("text");
+        if (addresssearch) {
+          setInput(addresssearch);
+       } else {
+          setInput("");
+        }
+     
+      },[inputvalue]);
+      /*to get value of text from header search*/
     return (
       <div className={cssClasses.container}>
         <InputDropdown

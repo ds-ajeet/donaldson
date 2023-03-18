@@ -218,6 +218,18 @@ const SearchLayout = (props: any): JSX.Element => {
       searchActions.resetFacets();
       FirstLoad();
     }
+    /*to active function of search on load*/
+    let params = (new URL(window.location.href)).searchParams;
+    let addresssearch = params.get("text");
+    
+    if (addresssearch) {
+      setInputValue(addresssearch);
+      getCoordinates(addresssearch);
+      //  localStorage.removeItem('inputvalue');
+      setInputValue("");
+    }
+   /* end of to active function of search on load */
+
   }, [])
 
   return (
