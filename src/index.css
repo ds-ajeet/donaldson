@@ -1368,8 +1368,8 @@ input:checked + .slide:before {
   font-weight: bolder;
 }
 .result.active{
-  background-color: rgb(67, 165, 250);
+  background-color: rgb(193, 219, 241);
 }
 .result.fixed-hover{
-  background-color: rgb(67, 165, 250);
+  background-color: rgb(193, 219, 241);
 }

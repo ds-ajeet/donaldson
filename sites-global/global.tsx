@@ -20,11 +20,11 @@ export const conversionDetailsPhone = {
   cv: "2",
 };
 // london marker
-// export const center_latitude=51.5095146286;
-// export const center_longitude=-0.1244828354;
+export const center_latitude=51.5095146286;
+export const center_longitude=-0.1244828354;
 //scotland marker
-export const center_latitude=57.104613252127315;
-export const center_longitude=-4.308806393983427;
+// export const center_latitude=57.104613252127315;
+// export const center_longitude=-4.308806393983427;
 // sundarland marker
 // export const center_latitude=54.9191;
 // export const center_longitude=-1.3692;
