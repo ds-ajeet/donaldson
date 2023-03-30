@@ -1142,12 +1142,6 @@
 				}
 			]
 		},
-		"holidayHours": [
-			{
-				"date": "2023-03-25",
-				"isClosed": true
-			}
-		],
 		"monday": {
 			"isClosed": false,
 			"openIntervals": [

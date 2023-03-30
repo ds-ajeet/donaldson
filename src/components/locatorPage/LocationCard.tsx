@@ -160,10 +160,11 @@ const LocationCard: CardComponent<Location> = ({ result }) => {
 
               </div>
               <div className="open-close ">
-              <div className="openHourse pt-4">
+              {/* <div className="openHourse pt-4">
               <Model name={StaticData.Holdiay}
                     holidayHours={hours?.holidayHours}
-                   /></div>
+                   />
+                   </div> */}
           <div className="hours-sec onhighLight">
             <div className="OpenCloseStatus ">
               <div className="hours-labels">

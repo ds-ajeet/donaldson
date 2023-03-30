@@ -4,7 +4,7 @@ import { useEffect } from "react";
 
     return(
      <>
-      {props.hours.map((res:any,index:Number)=>{
+      {props.hours.map((res:any,index:number)=>{
           console.log(res.isClosed)
        const weeks=[
          "Sunday",
